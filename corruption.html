@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="" name="keywords"/>
+<meta content="Overlooting wiki" name="description"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Corruption</title>
+<link rel="stylesheet" href="assets/style.css"/>
+<style>
+.corruption-hero {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+.corruption-hero-img {
+  width: 72px;
+  height: 72px;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+.corruption-hero-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.6rem;
+  color: #e8e4d8;
+}
+.corruption-hero-sub {
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 0.25rem;
+}
+.corruption-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.corruption-card {
+  padding: 1rem 1.25rem;
+  background: #13151e;
+  border: 2px solid #35384d;
+  border-left: 4px solid #7b3fbd;
+}
+.corruption-card:last-child {
+  border-left-color: #cf4040;
+}
+.corruption-header {
+  margin-bottom: 0.4rem;
+}
+.corruption-level {
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  color: #c9a8f0;
+}
+.corruption-effect {
+  font-size: 0.9rem;
+  color: #e0ddd8;
+  line-height: 1.5;
+  margin-bottom: 0.4rem;
+}
+.corruption-unlocks {
+  font-size: 0.82rem;
+  color: #7bbfd4;
+  line-height: 1.5;
+}
+.corruption-unlocks a {
+  color: #aad8ec;
+  text-decoration: none;
+}
+.corruption-unlocks a:hover { text-decoration: underline; }
+
+/* ── Tooltip ── */
+#wiki-tooltip {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  background: #0a0b10;
+  border: 3px solid #35384d;
+  padding: 10px 14px;
+  min-width: 200px;
+  max-width: 280px;
+  pointer-events: none;
+  font-family: monospace;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.9);
+}
+.wtt-header { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+#wtt-img { width: 28px; height: 28px; image-rendering: pixelated; }
+.wtt-name { font-size: 1rem; font-weight: bold; }
+.wtt-subtext { font-size: 0.8rem; color: #aaa; margin-top: 3px; }
+.wtt-desc { font-size: 0.82rem; color: #ddd; margin-top: 6px; line-height: 1.4; }
+.wtt-stats { margin-top: 6px; }
+.wtt-stat {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 0.82rem;
+  font-weight: bold;
+  color: #fff;
+  padding: 2px 0;
+}
+</style>
+</head>
+<body>
+<header class="header">
+<a href="index.html">overlooting.wiki</a>
+</header>
+<div class="container">
+<div id="breadcrumbs"></div>
+<main>
+<div class="corruption-hero">
+  <img class="corruption-hero-img" src="assets/corruption/corruption.png" alt="Corruption"/>
+  <div>
+    <div class="corruption-hero-title">Corruption</div>
+    <div class="corruption-hero-sub">Increasing difficulty — and rewards — across six levels.</div>
+  </div>
+</div>
+<div id="corruption-list" class="corruption-list"></div>
+</main>
+</div>
+<div class="spacer"></div>
+<footer class="footer">
+<p>This is a non-commercial fan wiki. All sprites are property of Posing Possums / Overlooting. No copyright infringement is intended.</p>
+</footer>
+<!-- Cloudflare Pages Analytics --><script data-cf-beacon='{"token": "c53fb89800e545a681eab9087f42f0e6"}' defer="" src="https://static.cloudflareinsights.com/beacon.min.js"></script><!-- Cloudflare Pages Analytics -->
+<div id="wiki-tooltip">
+  <div class="wtt-header">
+    <img id="wtt-img" src="" alt="" style="display:none"/>
+    <span class="wtt-name" id="wtt-name"></span>
+  </div>
+  <div id="wtt-body"></div>
+</div>
+<script src="assets/corruption-page.js"></script>
+</body>
+</html>

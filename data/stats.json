@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "bludgeoning",
+    "name": "Bludgeoning",
+    "description": "Chance of stunning an enemy when attacking."
+  },
+  {
+    "slug": "counterattack",
+    "name": "Counterattack",
+    "description": "Percentage of your damage dealt as an extra attack when dodging."
+  },
+  {
+    "slug": "critical-chance",
+    "name": "Critical Chance",
+    "description": "Chance of dealing a critical strike."
+  },
+  {
+    "slug": "critical-damage",
+    "name": "Critical Damage",
+    "description": "Multiplier for the physical damage dealt when striking."
+  },
+  {
+    "slug": "damage-amplification",
+    "name": "Damage Amplification",
+    "description": "Multiplies all your damage."
+  },
+  {
+    "slug": "dodge",
+    "name": "Dodge",
+    "description": "Chance of dodging attacks."
+  },
+  {
+    "slug": "enrage",
+    "name": "Enrage",
+    "description": "Gain Rage stacks when attacked."
+  },
+  {
+    "slug": "guard",
+    "name": "Guard",
+    "description": "Gain Barrier stacks when entering an Area."
+  },
+  {
+    "slug": "lifesteal",
+    "name": "Lifesteal",
+    "description": "Restore health for a percentage of the physical damage dealt when attacking."
+  },
+  {
+    "slug": "luck",
+    "name": "Luck",
+    "description": "Rarer items drop more often."
+  },
+  {
+    "slug": "mana-burst",
+    "name": "Mana Burst",
+    "description": "Percentage of your Magic Damage dealt to a random enemy after attacking."
+  },
+  {
+    "slug": "poisonous",
+    "name": "Poisonous",
+    "description": "Apply Poison stacks when attacking."
+  },
+  {
+    "slug": "regeneration",
+    "name": "Regeneration",
+    "description": "Restore health at the end of every round and the end of every combat."
+  },
+  {
+    "slug": "swiftness",
+    "name": "Swiftness",
+    "description": "Chance of getting an extra attack when attacking."
+  }
+]

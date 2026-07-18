@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "acid-potion",
+    "name": "Acid Potion",
+    "img": "assets/potions/acid_potion.png",
+    "description": "Drop on an enemy to deal 30 (+60 per boss fight victory) damage to it."
+  },
+  {
+    "slug": "basilisk-s-eye",
+    "name": "Basilisk's Eye",
+    "img": "assets/potions/basilisk_eye.png",
+    "description": "Drop on a non-boss enemy to instantly kill all non-boss enemies."
+  },
+  {
+    "slug": "berserk-potion",
+    "name": "Berserk Potion",
+    "img": "assets/potions/berserk_potion.png",
+    "description": "Drop on your character to gain 10 (+20 per boss fight victory) Rage."
+  },
+  {
+    "slug": "crystallized-soul",
+    "name": "Crystallized Soul",
+    "img": "assets/potions/crystallized_soul.png",
+    "description": "Drop on your character to gain Invulnerable and 30 Rage."
+  },
+  {
+    "slug": "debilitating-potion",
+    "name": "Debilitating Potion",
+    "img": "assets/potions/debilitating_potion.png",
+    "description": "Drop on an enemy to apply 10 Weakness to it."
+  },
+  {
+    "slug": "healing-potion",
+    "name": "Healing Potion",
+    "img": "assets/potions/healing_potion.png",
+    "description": "Drop on your character to restore 30% of your Max Health."
+  },
+  {
+    "slug": "paralyzing-potion",
+    "name": "Paralyzing Potion",
+    "img": "assets/potions/paralyzing_potion.png",
+    "description": "Drop on an enemy to stun it."
+  },
+  {
+    "slug": "philosopher-s-stone",
+    "name": "Philosopher's Stone",
+    "img": "assets/potions/philosophers_stone.png",
+    "description": "Drop on your character to restore all your health and remove all negative Statuses."
+  },
+  {
+    "slug": "protection-potion",
+    "name": "Protection Potion",
+    "img": "assets/potions/protection_potion.png",
+    "description": "Drop on your character to gain 1 Barrier."
+  },
+  {
+    "slug": "purifying-potion",
+    "name": "Purifying Potion",
+    "img": "assets/potions/purifying_potion.png",
+    "description": "Drop on your character to remove all stacks from a random negative Status."
+  },
+  {
+    "slug": "sickening-potion",
+    "name": "Sickening Potion",
+    "img": "assets/potions/sickening_potion.png",
+    "description": "Drop on an enemy to apply 10 Wound to it."
+  },
+  {
+    "slug": "stoneskin-potion",
+    "name": "Stoneskin Potion",
+    "img": "assets/potions/stoneskin_potion.png",
+    "description": "Drop on your character to gain 10 (+20 per boss fight victory) armor."
+  },
+  {
+    "slug": "toxic-potion",
+    "name": "Toxic Potion",
+    "img": "assets/potions/toxic_potion.png",
+    "description": "Drop on an enemy to apply 10 (+20 per boss fight victory) Poison to it."
+  }
+]

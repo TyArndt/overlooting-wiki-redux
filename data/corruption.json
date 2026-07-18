@@ -1,0 +1,62 @@
+[
+  {
+    "level": "0",
+    "name": "Corruption 0",
+    "effect": "No Effect."
+  },
+  {
+    "level": "1",
+    "name": "Corruption 1",
+    "effect": "Start the run damaged and heal less when entering a new region.",
+    "unlocks_label": "Added to the pool:",
+    "unlocks": [
+      { "name": "Protection Potion",  "slug": "protection-potion",  "type": "potions" },
+      { "name": "Paralyzing Potion",  "slug": "paralyzing-potion",  "type": "potions" },
+      { "name": "Acid Potion",        "slug": "acid-potion",        "type": "potions" },
+      { "name": "Purifying Potion",   "slug": "purifying-potion",   "type": "potions" },
+      { "name": "Stoneskin Potion",   "slug": "stoneskin-potion",   "type": "potions" }
+    ]
+  },
+  {
+    "level": "2",
+    "name": "Corruption 2",
+    "effect": "One column of the Skill Tree becomes corrupted. (You lose 50% health if selected)",
+    "unlocks_label": "Added to the pool:",
+    "unlocks": [
+      { "name": "Fae",       "slug": "fae",       "type": "sets" },
+      { "name": "Darkthorn", "slug": "darkthorn", "type": "sets" },
+      { "name": "Saltwater", "slug": "saltwater", "type": "sets" }
+    ]
+  },
+  {
+    "level": "3",
+    "name": "Corruption 3",
+    "effect": "Normal enemies become stronger.",
+    "unlocks": "Characters have unlocked their second passive ability!"
+  },
+  {
+    "level": "4",
+    "name": "Corruption 4",
+    "effect": "Bosses become stronger.",
+    "unlocks_label": "Added to the pool:",
+    "unlocks": [
+      { "name": "The Oldest Staff",     "slug": "the-oldest-staff",   "type": "items" },
+      { "name": "Dragon Scales",        "slug": "dragon-scales",      "type": "items" },
+      { "name": "Helm of Conquest",     "slug": "helm-of-conquest",   "type": "items" },
+      { "name": "Dancer's Treasure",    "slug": "dancer-s-treasure",  "type": "items" },
+      { "name": "Quicksilver Pendant",  "slug": "quicksilver-pendant","type": "items" }
+    ]
+  },
+  {
+    "level": "5",
+    "name": "Corruption 5",
+    "effect": "Is this the end?",
+    "unlocks": "Characters have unlocked their final passive ability."
+  },
+  {
+    "level": "Endless",
+    "name": "Endless",
+    "effect": "There is no end.",
+    "unlocks": "You can now play Endless Mode!"
+  }
+]

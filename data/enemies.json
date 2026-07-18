@@ -1,0 +1,763 @@
+[
+  {
+    "slug": "amalgam",
+    "name": "Amalgam",
+    "img": "assets/enemies/amalgam.png",
+    "room": "outer-forest",
+    "type": "regular",
+    "description": "When attacking, apply 2 Weakness and 2 Wound.",
+    "stats": {
+      "Max Health": 32,
+      "Min Physical Damage": 2
+    }
+  },
+  {
+    "slug": "avatar-of-the-corruption",
+    "name": "Avatar of The Corruption",
+    "img": "assets/enemies/corruptions_avatar.png",
+    "room": "path-to-the-core",
+    "type": "boss",
+    "description": "At the end of every even round, summon a Corrupted Hero (if able).\nAt the end of every odd round other than the first, devour all Corrupted Heroes and gain their damage.\nAt the end of every 10th round, its damage doubles.",
+    "stats": {
+      "Max Health": 5000,
+      "Min Physical Damage": 10
+    }
+  },
+  {
+    "slug": "beastly-mandrake",
+    "name": "Beastly Mandrake",
+    "img": "assets/enemies/beastly_mandrake.png",
+    "room": "corrupted-forest",
+    "type": "regular",
+    "description": "Deals double damage when not alone.\nAfter dying, apply 5 Wound.",
+    "stats": {
+      "Max Health": 60,
+      "Min Physical Damage": 5
+    }
+  },
+  {
+    "slug": "burning-faithful",
+    "name": "Burning Faithful",
+    "img": "assets/enemies/burning_faithful.png",
+    "room": "path-to-the-core",
+    "type": "minion",
+    "description": "After attacking, it explodes, dealing 20 damage to you.",
+    "stats": {
+      "Max Health": 100,
+      "Min Physical Damage": 5
+    }
+  },
+  {
+    "slug": "chimera",
+    "name": "Chimera",
+    "img": "assets/enemies/chimera.png",
+    "room": "outer-forest",
+    "type": "boss",
+    "description": "Multiattack 2.",
+    "stats": {
+      "Max Health": 150,
+      "Min Physical Damage": 3
+    }
+  },
+  {
+    "slug": "core-fragment",
+    "name": "Core Fragment",
+    "img": "assets/enemies/core_fragment.png",
+    "room": "path-to-the-core",
+    "type": "regular",
+    "description": "Fragment of something great, but with no special abilities.",
+    "stats": {
+      "Max Health": 80,
+      "Min Physical Damage": 6
+    }
+  },
+  {
+    "slug": "coreborn-arcanist",
+    "name": "Coreborn Arcanist",
+    "img": "assets/enemies/coreborn_arcanist.png",
+    "room": "path-to-the-core",
+    "type": "regular",
+    "description": "When attacking, gains 4 Damage and increases the Damage of other enemies by 4. This effect increases by 2 each time it triggers.",
+    "stats": {
+      "Max Health": 220,
+      "Min Physical Damage": 4
+    }
+  },
+  {
+    "slug": "coreborn-beast",
+    "name": "Coreborn Beast",
+    "img": "assets/enemies/coreborn_beast.png",
+    "room": "path-to-the-core",
+    "type": "regular",
+    "description": "Deals double damage when not alone.\nWhen attacking, gains 2 Damage.",
+    "stats": {
+      "Max Health": 150,
+      "Min Physical Damage": 8
+    }
+  },
+  {
+    "slug": "coreborn-homunculus",
+    "name": "Coreborn Homunculus",
+    "img": "assets/enemies/coreborn_homunculus.png",
+    "room": "path-to-the-core",
+    "type": "regular",
+    "description": "When attacking, applies Confusion.\nAfter dying, applies Confusion.",
+    "stats": {
+      "Max Health": 200,
+      "Min Physical Damage": 6
+    }
+  },
+  {
+    "slug": "corrupted-berserker",
+    "name": "Corrupted Berserker",
+    "img": "assets/enemies/corrupted_berserker.png",
+    "room": "path-to-the-core",
+    "type": "regular",
+    "description": "When attacked, gains 4 Damage.",
+    "stats": {
+      "Max Health": 170,
+      "Min Physical Damage": 4
+    }
+  },
+  {
+    "slug": "corrupted-flower",
+    "name": "Corrupted Flower",
+    "img": "assets/enemies/corrupted_flower.png",
+    "room": "corrupted-forest",
+    "type": "minion",
+    "description": "At the end of the round, gain 2 Damage.",
+    "stats": {
+      "Max Health": 80,
+      "Min Physical Damage": 4
+    }
+  },
+  {
+    "slug": "corrupted-hermit",
+    "name": "Corrupted Hermit",
+    "img": "assets/enemies/corrupted_hermit.png",
+    "room": "path-to-the-core",
+    "type": "regular",
+    "description": "When alone, receives half damage.\nWhen attacked, applies 4 Weakness.",
+    "stats": {
+      "Max Health": 250,
+      "Min Physical Damage": 12
+    }
+  },
+  {
+    "slug": "corrupted-hero",
+    "name": "Corrupted Hero",
+    "img": "assets/enemies/corrupted_hero.png",
+    "room": "path-to-the-core",
+    "type": "minion",
+    "description": "When attacked, it loses 2 damage.",
+    "stats": {
+      "Max Health": 200,
+      "Min Physical Damage": 10
+    }
+  },
+  {
+    "slug": "corrupted-priest",
+    "name": "Corrupted Priest",
+    "img": "assets/enemies/corrupted_priest.png",
+    "room": "path-to-the-core",
+    "type": "regular",
+    "description": "Poisonous.\nWhen attacked, applies 8 Poison to you.\nAfter dying, removes all your negative Statuses.",
+    "stats": {
+      "Max Health": 180,
+      "Min Physical Damage": 1,
+      "Poisonous": 8
+    }
+  },
+  {
+    "slug": "corrupted-warden",
+    "name": "Corrupted Warden",
+    "img": "assets/enemies/corrupted_warden.png",
+    "room": "path-to-the-core",
+    "type": "regular",
+    "description": "Guard 2.\nThorns 4.",
+    "stats": {
+      "Max Health": 120,
+      "Min Physical Damage": 4,
+      "Thorns": 4,
+      "Guard": 2
+    }
+  },
+  {
+    "slug": "creeping-mandrake",
+    "name": "Creeping Mandrake",
+    "img": "assets/enemies/creeping_mandrake.png",
+    "room": "corrupted-forest",
+    "type": "regular",
+    "description": "Poisonous.\nAfter dying, applies 10 Poison.",
+    "stats": {
+      "Max Health": 50,
+      "Min Physical Damage": 1,
+      "Poisonous": 5
+    }
+  },
+  {
+    "slug": "cursed-faithful",
+    "name": "Cursed Faithful",
+    "img": "assets/enemies/cursed_faithful.png",
+    "room": "path-to-the-core",
+    "type": "minion",
+    "description": "After attacking, it explodes, applying Confusion to you.",
+    "stats": {
+      "Max Health": 100,
+      "Min Physical Damage": 5
+    }
+  },
+  {
+    "slug": "daughter-of-the-corruption",
+    "name": "Daughter of The Corruption",
+    "img": "assets/enemies/corruptions_daughter.png",
+    "room": "path-to-the-core",
+    "type": "minion",
+    "description": "At the end of the round, increase the damage of The Corruption by 1.",
+    "stats": {
+      "Max Health": 1000,
+      "Min Physical Damage": 5
+    }
+  },
+  {
+    "slug": "drake-eater-plant",
+    "name": "Drake-Eater Plant",
+    "img": "assets/enemies/drakeeater_plant.png",
+    "room": "corrupted-forest",
+    "type": "boss",
+    "description": "When attacking, applies 3 Weakness.",
+    "stats": {
+      "Max Health": 500,
+      "Min Physical Damage": 3
+    }
+  },
+  {
+    "slug": "drake-mandrake",
+    "name": "Drake Mandrake",
+    "img": "assets/enemies/drake_mandrake.png",
+    "room": "corrupted-forest",
+    "type": "boss",
+    "description": "Poisonous.\nAfter dying, another enemy gains 10 Damage.",
+    "stats": {
+      "Max Health": 300,
+      "Min Physical Damage": 1,
+      "Poisonous": 5
+    }
+  },
+  {
+    "slug": "forest-kin-assassin",
+    "name": "Forest-kin Assassin",
+    "img": "assets/enemies/short_elf.png",
+    "room": "outer-forest",
+    "type": "regular",
+    "description": "50% chance of dodging the first attack received.",
+    "stats": {
+      "Max Health": 3,
+      "Min Physical Damage": 3,
+      "Dodge": 40
+    }
+  },
+  {
+    "slug": "forest-kin-brute",
+    "name": "Forest-kin Brute",
+    "img": "assets/enemies/big_elf.png",
+    "room": "outer-forest",
+    "type": "regular",
+    "description": "A particularly strong Forest-kin with no special abilities.",
+    "stats": {
+      "Max Health": 25,
+      "Min Physical Damage": 5
+    }
+  },
+  {
+    "slug": "forest-kin-druid",
+    "name": "Forest-kin Druid",
+    "img": "assets/enemies/old_elf.png",
+    "room": "outer-forest",
+    "type": "regular",
+    "description": "When attacking, increase the damage of other enemies by 3.",
+    "stats": {
+      "Max Health": 12,
+      "Min Physical Damage": 3
+    }
+  },
+  {
+    "slug": "forest-kin-warrior",
+    "name": "Forest-kin Warrior",
+    "img": "assets/enemies/mid_elf.png",
+    "room": "outer-forest",
+    "type": "regular",
+    "description": "Guard 1.",
+    "stats": {
+      "Max Health": 12,
+      "Min Physical Damage": 4,
+      "Guard": 1
+    }
+  },
+  {
+    "slug": "giant-eater-plant",
+    "name": "Giant-Eater Plant",
+    "img": "assets/enemies/gianteater_plant.png",
+    "room": "corrupted-forest",
+    "type": "boss",
+    "description": "When attacking, applies 3 Wound.",
+    "stats": {
+      "Max Health": 500,
+      "Min Physical Damage": 3
+    }
+  },
+  {
+    "slug": "giant-shroomy",
+    "name": "Giant Shroomy",
+    "img": "assets/enemies/giant_shroomy.png",
+    "room": "corrupted-forest",
+    "type": "regular",
+    "description": "A very old Shrooomy that has grown so large that it can parasitize a dragon.",
+    "stats": {
+      "Max Health": 200,
+      "Min Physical Damage": 6
+    }
+  },
+  {
+    "slug": "growing-flower",
+    "name": "Growing Flower",
+    "img": "assets/enemies/growing_flower.png",
+    "room": "corrupted-forest",
+    "type": "minion",
+    "description": "Grows after 2 rounds. Untargetable.",
+    "stats": {
+      "Max Health": 1,
+      "Min Physical Damage": 1
+    }
+  },
+  {
+    "slug": "humanoid-mandrake",
+    "name": "Humanoid Mandrake",
+    "img": "assets/enemies/humanoid_mandrake.png",
+    "room": "corrupted-forest",
+    "type": "regular",
+    "description": "Thorns 2.\nAfter dying, increase the damage of another enemy by Humanoid Mandrake's damage.",
+    "stats": {
+      "Max Health": 45,
+      "Min Physical Damage": 5,
+      "Thorns": 2
+    }
+  },
+  {
+    "slug": "hummingwasp",
+    "name": "Hummingwasp",
+    "img": "assets/enemies/hummingwasp.png",
+    "room": "outer-forest",
+    "type": "regular",
+    "description": "When attacking, apply 2 Wound.",
+    "stats": {
+      "Max Health": 15,
+      "Min Physical Damage": 1
+    }
+  },
+  {
+    "slug": "king-of-the-forest",
+    "name": "King of the Forest",
+    "img": "assets/enemies/first_boss.png",
+    "room": "outer-forest",
+    "type": "boss",
+    "description": "Every 5th turn, does a special attack. If there are no Sapplings, summons 2 Sapplings instead.",
+    "stats": {
+      "Max Health": 250,
+      "Min Physical Damage": 8
+    }
+  },
+  {
+    "slug": "manticore",
+    "name": "Manticore",
+    "img": "assets/enemies/manticore.png",
+    "room": "outer-forest",
+    "type": "boss",
+    "description": "When attacking, apply 2 Wound.",
+    "stats": {
+      "Max Health": 150,
+      "Min Physical Damage": 3
+    }
+  },
+  {
+    "slug": "orb-of-the-core",
+    "name": "Orb of the Core",
+    "img": "assets/enemies/core_orb.png",
+    "room": "path-to-the-core",
+    "type": "regular",
+    "description": "When attacking, increase the Damage of other enemies by 4. This effect increases by 2 each time it triggers. \nWhen attacked, apply Confusion.",
+    "stats": {
+      "Max Health": 300,
+      "Min Physical Damage": 5
+    }
+  },
+  {
+    "slug": "prophet-of-the-corruption",
+    "name": "Prophet of The Corruption",
+    "img": "assets/enemies/corruptions_prophet.png",
+    "room": "path-to-the-core",
+    "type": "boss",
+    "description": "After attacking, summon two Faithfuls.",
+    "stats": {
+      "Max Health": 3000,
+      "Min Physical Damage": 20
+    }
+  },
+  {
+    "slug": "rotten-faithful",
+    "name": "Rotten Faithful",
+    "img": "assets/enemies/rotten_faithful.png",
+    "room": "path-to-the-core",
+    "type": "minion",
+    "description": "After attacking, it explodes, applying 15 Poison to you.",
+    "stats": {
+      "Max Health": 100,
+      "Min Physical Damage": 5
+    }
+  },
+  {
+    "slug": "sappling",
+    "name": "Sappling",
+    "img": "assets/enemies/sappling.png",
+    "room": "outer-forest",
+    "type": "minion",
+    "description": "Just a bloodlusted sappling with no special abilities.",
+    "stats": {
+      "Max Health": 20,
+      "Min Physical Damage": 4
+    }
+  },
+  {
+    "slug": "saurian-mandrake",
+    "name": "Saurian Mandrake",
+    "img": "assets/enemies/saurian_mandrake.png",
+    "room": "corrupted-forest",
+    "type": "regular",
+    "description": "When another enemy dies, gain 4 Damage.\nAfter dying, applies 12 Weakness.",
+    "stats": {
+      "Max Health": 120,
+      "Min Physical Damage": 12
+    }
+  },
+  {
+    "slug": "scornake",
+    "name": "Scornake",
+    "img": "assets/enemies/small_snake.png",
+    "room": "outer-forest",
+    "type": "regular",
+    "description": "Poisonous.",
+    "stats": {
+      "Max Health": 8,
+      "Min Physical Damage": 1,
+      "Poisonous": 3
+    }
+  },
+  {
+    "slug": "seed-of-corruption",
+    "name": "Seed of Corruption",
+    "img": "assets/enemies/seed_of_corruption.png",
+    "room": "outer-forest",
+    "type": "boss",
+    "description": "Multiattack 2.\nWhen a Corrupted Flower dies, gain 2 Damage and plant a Growing Flower.",
+    "stats": {
+      "Max Health": 1200,
+      "Min Physical Damage": 4
+    }
+  },
+  {
+    "slug": "shield-of-the-core",
+    "name": "Shield of the Core",
+    "img": "assets/enemies/core_shield.png",
+    "room": "path-to-the-core",
+    "type": "regular",
+    "description": "Guard 2.\nThorns 4.\nWhen attacked, applies 4 Weakness.",
+    "stats": {
+      "Max Health": 300,
+      "Min Physical Damage": 4,
+      "Thorns": 4,
+      "Guard": 2
+    }
+  },
+  {
+    "slug": "shroomy-family",
+    "name": "Shroomy Family",
+    "img": "assets/enemies/shroomy_family.png",
+    "room": "corrupted-forest",
+    "type": "regular",
+    "description": "Multiattack 3.",
+    "stats": {
+      "Max Health": 90,
+      "Min Physical Damage": 3
+    }
+  },
+  {
+    "slug": "shroomy",
+    "name": "Shroomy",
+    "img": "assets/enemies/shroomy.png",
+    "room": "corrupted-forest",
+    "type": "regular",
+    "description": "A parasitic mushroom that can control its host.",
+    "stats": {
+      "Max Health": 20,
+      "Min Physical Damage": 4
+    }
+  },
+  {
+    "slug": "slime-drone",
+    "name": "Slime Drone",
+    "img": "assets/enemies/slime_drone.png",
+    "room": "outer-forest",
+    "type": "minion",
+    "description": "A Slime born straight from the Slime Mother, but with no special abilities.",
+    "stats": {
+      "Max Health": 1,
+      "Min Physical Damage": 1
+    }
+  },
+  {
+    "slug": "slime-eater-plant",
+    "name": "Slime-eater Plant",
+    "img": "assets/enemies/small_plant.png",
+    "room": "corrupted-forest",
+    "type": "regular",
+    "description": "Just a particularly aggressive plant with no special abilities.",
+    "stats": {
+      "Max Health": 30,
+      "Min Physical Damage": 3
+    }
+  },
+  {
+    "slug": "slime-mother",
+    "name": "Slime Mother",
+    "img": "assets/enemies/slime_mother.png",
+    "room": "outer-forest",
+    "type": "boss",
+    "description": "When attacked, if there are less than two Slime Drones, summon a Slime Drone with Max Health equal to the health lost. If not, increase the attack of a random Slime Drone by that amount.",
+    "stats": {
+      "Max Health": 200,
+      "Min Physical Damage": 5
+    }
+  },
+  {
+    "slug": "slime",
+    "name": "Slime",
+    "img": "assets/enemies/slime.png",
+    "room": "outer-forest",
+    "type": "regular",
+    "description": "Just a slime with no special abilities.",
+    "stats": {
+      "Max Health": 1,
+      "Min Physical Damage": 1
+    }
+  },
+  {
+    "slug": "son-of-the-corruption",
+    "name": "Son of The Corruption",
+    "img": "assets/enemies/corruptions_son.png",
+    "room": "path-to-the-core",
+    "type": "minion",
+    "description": "At the end of the round, The Corruption gains 1 Barrier.",
+    "stats": {
+      "Max Health": 1000,
+      "Min Physical Damage": 5
+    }
+  },
+  {
+    "slug": "spear-of-the-core",
+    "name": "Spear of the Core",
+    "img": "assets/enemies/core_spear.png",
+    "room": "path-to-the-core",
+    "type": "regular",
+    "description": "Multiattack 2.\nIts attacks ignore armor.\nWhen attacked, gains 1 Multiattack.",
+    "stats": {
+      "Max Health": 300,
+      "Min Physical Damage": 2
+    }
+  },
+  {
+    "slug": "strange-corvid",
+    "name": "Strange Corvid",
+    "img": "assets/enemies/strange_corvid.png",
+    "room": "corrupted-forest",
+    "type": "regular",
+    "description": "Multiattack 2.\nAfter dying, summon a Shroomy.",
+    "stats": {
+      "Max Health": 40,
+      "Min Physical Damage": 3
+    }
+  },
+  {
+    "slug": "strange-dragon",
+    "name": "Strange Dragon",
+    "img": "assets/enemies/strange_dragon.png",
+    "room": "corrupted-forest",
+    "type": "boss",
+    "description": "After dying, summon a Giant Shroomy.",
+    "stats": {
+      "Max Health": 1000,
+      "Min Physical Damage": 10
+    }
+  },
+  {
+    "slug": "strange-reptilian",
+    "name": "Strange Reptilian",
+    "img": "assets/enemies/strange_reptilian.png",
+    "room": "corrupted-forest",
+    "type": "regular",
+    "description": "Poisonous.\nGuard 1.\nAfter dying, summon a Shroomy.",
+    "stats": {
+      "Max Health": 70,
+      "Min Physical Damage": 1,
+      "Poisonous": 5,
+      "Guard": 1
+    }
+  },
+  {
+    "slug": "strange-rhino",
+    "name": "Strange Rhino",
+    "img": "assets/enemies/strange_rhino.png",
+    "room": "corrupted-forest",
+    "type": "regular",
+    "description": "At the end of the round, loses 2 Damage.\nAfter dying, summon a Shroomy.",
+    "stats": {
+      "Max Health": 140,
+      "Min Physical Damage": 14
+    }
+  },
+  {
+    "slug": "the-corruption-incarnate",
+    "name": "The Corruption, Incarnate",
+    "img": "assets/enemies/incarnate.png",
+    "room": "path-to-the-core",
+    "type": "boss",
+    "description": "Multiattack 3.\nAt the end of the round, applies 3 Weakness, 3 Wound and 3 Poison. This effect increases by 1 each time it triggers.",
+    "stats": {
+      "Max Health": 10000,
+      "Min Physical Damage": 5
+    }
+  },
+  {
+    "slug": "the-rotten",
+    "name": "The Rotten",
+    "img": "assets/enemies/the_rotten.png",
+    "room": "path-to-the-core",
+    "type": "boss",
+    "description": "Poisonous.\nWhen attacked, applies 3 Poison to ALL characters.",
+    "stats": {
+      "Max Health": 2000,
+      "Min Physical Damage": 1,
+      "Poisonous": 5
+    }
+  },
+  {
+    "slug": "the-wounded",
+    "name": "The Wounded",
+    "img": "assets/enemies/the_wounded.png",
+    "room": "path-to-the-core",
+    "type": "boss",
+    "description": "Multiattack 2.\nWhen attacked, applies 3 Wound to ALL characters.",
+    "stats": {
+      "Max Health": 2000,
+      "Min Physical Damage": 5
+    }
+  },
+  {
+    "slug": "tortobra",
+    "name": "Tortobra",
+    "img": "assets/enemies/big_snake.png",
+    "room": "outer-forest",
+    "type": "regular",
+    "description": "Poisonous.\nGuard 1.",
+    "stats": {
+      "Max Health": 20,
+      "Min Physical Damage": 1,
+      "Poisonous": 5,
+      "Guard": 1
+    }
+  },
+  {
+    "slug": "troll-eater-plant",
+    "name": "Troll-Eater Plant",
+    "img": "assets/enemies/trolleater_plant.png",
+    "room": "corrupted-forest",
+    "type": "boss",
+    "description": "Poisonous.",
+    "stats": {
+      "Max Health": 500,
+      "Min Physical Damage": 1,
+      "Poisonous": 5
+    }
+  },
+  {
+    "slug": "warghark-eater-plant",
+    "name": "Warghark-eater Plant",
+    "img": "assets/enemies/big_plant.png",
+    "room": "corrupted-forest",
+    "type": "regular",
+    "description": "When attacking, applies Confusion.",
+    "stats": {
+      "Max Health": 150,
+      "Min Physical Damage": 8
+    }
+  },
+  {
+    "slug": "warghark",
+    "name": "Warghark",
+    "img": "assets/enemies/big_wolf.png",
+    "room": "outer-forest",
+    "type": "regular",
+    "description": "Deals double damage when not alone.",
+    "stats": {
+      "Max Health": 30,
+      "Min Physical Damage": 4
+    }
+  },
+  {
+    "slug": "weeping-faithful",
+    "name": "Weeping Faithful",
+    "img": "assets/enemies/weeping_faithful.png",
+    "room": "path-to-the-core",
+    "type": "minion",
+    "description": "After attacking, it explodes, applying 15 Weakness to you.",
+    "stats": {
+      "Max Health": 100,
+      "Min Physical Damage": 5
+    }
+  },
+  {
+    "slug": "wolbbit-eater-plant",
+    "name": "Wolbbit-eater Plant",
+    "img": "assets/enemies/mid_plant.png",
+    "room": "corrupted-forest",
+    "type": "regular",
+    "description": "When attacking, increase the damage of other enemies by 4.\nIf it's alone, applies 4 Weakness when attacking.",
+    "stats": {
+      "Max Health": 80,
+      "Min Physical Damage": 4
+    }
+  },
+  {
+    "slug": "wolbbit",
+    "name": "Wolbbit",
+    "img": "assets/enemies/small_wolf.png",
+    "room": "outer-forest",
+    "type": "regular",
+    "description": "Deals double damage when not alone.",
+    "stats": {
+      "Max Health": 4,
+      "Min Physical Damage": 2
+    }
+  },
+  {
+    "slug": "wounded-faithful",
+    "name": "Wounded Faithful",
+    "img": "assets/enemies/wounded_faithful.png",
+    "room": "path-to-the-core",
+    "type": "minion",
+    "description": "After attacking, it explodes, applying 15 Wound to you.",
+    "stats": {
+      "Max Health": 100,
+      "Min Physical Damage": 5
+    }
+  }
+]

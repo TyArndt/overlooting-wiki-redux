@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="" name="keywords"/>
+<meta content="Overlooting wiki" name="description"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Sets</title>
+<link rel="stylesheet" href="assets/style.css"/>
+<style>
+#item-tooltip {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    background: #0a0b10;
+    border: 3px solid #35384d;
+    padding: 10px 14px 10px 12px;
+    min-width: 220px;
+    max-width: 340px;
+    pointer-events: none;
+    font-family: monospace;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.9);
+}
+#item-tooltip .tt-header { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+#item-tooltip .tt-header img { width: 24px; height: 24px; image-rendering: pixelated; }
+#item-tooltip .tt-name { font-size: 1rem; font-weight: bold; color: #fff; }
+#item-tooltip .tt-slot { font-size: 0.8rem; color: #888; margin-bottom: 10px; }
+#item-tooltip .tt-stats { margin-bottom: 10px; }
+#item-tooltip .tt-stat {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #fff;
+    padding: 2px 0;
+}
+#item-tooltip .tt-stat-val { white-space: nowrap; }
+#item-tooltip .tt-desc { font-size: 0.8rem; color: #d4af37; font-style: italic; margin-bottom: 8px; line-height: 1.4; }
+#item-tooltip .tt-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #333;
+    padding-top: 8px;
+    margin-top: 4px;
+}
+#item-tooltip .tt-stars { color: #aaa; font-size: 1rem; letter-spacing: 2px; }
+#item-tooltip .tt-rarity { font-size: 0.85rem; font-weight: bold; }
+
+#set-tooltip {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  background: #0a0b10;
+  border: 3px solid #35384d;
+  padding: 10px 14px;
+  min-width: 240px;
+  max-width: 320px;
+  pointer-events: none;
+  font-family: monospace;
+  font-size: 0.82rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.9);
+}
+#set-tooltip .st-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+#set-tooltip .st-header img {
+  width: 28px;
+  height: 28px;
+  image-rendering: pixelated;
+}
+#set-tooltip .st-name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #e8e4d8;
+}
+#set-tooltip .st-desc {
+  color: #bbb;
+  line-height: 1.4;
+}
+#set-tooltip .st-divider {
+  border-top: 1px solid #2a2d40;
+  margin: 7px 0;
+}
+#set-tooltip .st-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #555;
+  margin-bottom: 4px;
+}
+#set-tooltip .st-bonus {
+  display: flex;
+  gap: 8px;
+  padding: 2px 0;
+  color: #ddd;
+}
+#set-tooltip .st-count {
+  color: #7bbfd4;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+#set-tooltip .st-item {
+  padding: 1px 0;
+}
+</style>
+</head>
+<body>
+<header class="header">
+<a href="index.html">overlooting.wiki</a>
+</header>
+<div class="container">
+<div id="breadcrumbs"></div>
+<main>
+<div id="listing-view"></div>
+<div id="detail-view" hidden></div>
+</main>
+</div>
+<div class="spacer"></div>
+<footer class="footer">
+<p>This is a non-commercial fan wiki. All sprites are property of Posing Possums / Overlooting. No copyright infringement is intended.</p>
+</footer>
+<!-- Cloudflare Pages Analytics --><script data-cf-beacon='{"token": "c53fb89800e545a681eab9087f42f0e6"}' defer="" src="https://static.cloudflareinsights.com/beacon.min.js"></script><!-- Cloudflare Pages Analytics -->
+<div id="set-tooltip">
+  <div class="st-header">
+    <img id="st-img" src="" alt=""/>
+    <span class="st-name" id="st-name"></span>
+  </div>
+  <div id="st-body"></div>
+</div>
+<div id="item-tooltip">
+  <div class="tt-header">
+    <img id="tt-img" src="" alt="" />
+    <span class="tt-name" id="tt-name"></span>
+  </div>
+  <div class="tt-slot" id="tt-slot"></div>
+  <div class="tt-stats" id="tt-stats"></div>
+  <div class="tt-desc" id="tt-desc"></div>
+  <div class="tt-footer">
+    <span class="tt-rarity" id="tt-rarity"></span>
+  </div>
+</div>
+<script src="assets/wiki.js"></script>
+<script src="assets/sets-page.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+[
+  {
+    "slug": "chest",
+    "name": "Chest",
+    "description": "A chest containing three random items."
+  },
+  {
+    "slug": "boss-chest",
+    "name": "Boss Chest",
+    "description": "A chest found after defeating a boss, containing three random high quality items."
+  },
+  {
+    "slug": "crossroads",
+    "name": "Crossroads",
+    "description": "Occurs at the 16th stage of the Corrupted Forest. Choose one of three paths that lasts until the next Forge Area:",
+    "choices": [
+      { "name": "Easy Path",  "description": "When entering a Combat Area, enemies lose 20% of their health." },
+      { "name": "Calm Path",  "description": "Restore 3 health when entering a new Area." },
+      { "name": "Hard Path",  "description": "Combat Areas have stronger enemies and offer better loot." }
+    ]
+  },
+  {
+    "slug": "golden-chest",
+    "name": "Golden Chest",
+    "description": "A fancier chest that contains three random fancy pieces of loot."
+  },
+  {
+    "slug": "forge",
+    "name": "Forge",
+    "description": "The forge is used to upgrade your equipment. You get three upgrades by default, but this can be increased by masteries. Combine three items to craft a new one:",
+    "choices": [
+      { "name": "Same rarity", "description": "Using three items of the same rarity results in an item of a higher rarity." },
+      { "name": "Different rarities", "description": "Using three items of different rarities results in a random item of the highest rarity among those used." },
+      { "name": "Upgraded items", "description": "Using three upgraded items results in an upgraded item. If all of them are level 3, the resulting item will be too." },
+      { "name": "Mythic items", "description": "You can't obtain Mythic items in the forge." }
+    ]
+  },
+  {
+    "slug": "potions",
+    "name": "Potions",
+    "description": "A random stranger drops two potions for you. If you're Liz, you get three."
+  },
+  {
+    "slug": "remains-of-a-hero",
+    "name": "Remains of a Hero",
+    "description": "Occurs at the 16th stage of Path to the Core. Choose one of three trinkets:",
+    "choices": [
+      { "name": "Philosopher's Stone" },
+      { "name": "Crystallized Soul" },
+      { "name": "Basilisk's Eye" }
+    ]
+  },
+  {
+    "slug": "shrine",
+    "name": "Shrine",
+    "description": "Appears at the 20th and 40th area of each room. Choose one of two blessings:",
+    "choices": [
+      { "name": "Heart",   "description": "Restores 50% of your health." },
+      { "name": "Hammer",  "description": "Upgrades one of your equipped items." }
+    ]
+  },
+  {
+    "slug": "skill-book",
+    "name": "Skill Book",
+    "description": "Appears at the 8th area of each room. Choose a new mastery to unlock."
+  },
+  {
+    "slug": "well",
+    "name": "Well",
+    "description": "Occurs at the 24th and 36th area of each room. Choose one of three boons:",
+    "choices": [
+      { "name": "Boon of Power",       "description": "Gain a permanent random stat boost." },
+      { "name": "Boon of Vitality",    "description": "Obtain 3 Healing Potions." },
+      { "name": "Boon of Prosperity",  "description": "Obtain a random Uncommon item at level 3." }
+    ]
+  }
+]

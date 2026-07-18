@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+/* ── Base ── */
+
+html {
+    margin: 0;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #0f1015;
+    color: #e0ddd8;
+    font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* ── Typography ── */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', serif;
+    color: #e8e4d8;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.25;
+}
+
+h1 { font-size: 1.8rem; }
+h2 { font-size: 1.3rem; border-bottom: 1px solid #2e3245; padding-bottom: 0.3rem; }
+h3 { font-size: 1.05rem; }
+
+/* ── Header ── */
+
+.header {
+    margin: 0 auto;
+    padding: 1.25rem 0;
+    font-size: 2.6rem;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: #e8e4d8;
+    text-shadow: 0 2px 16px rgba(0,0,0,0.9), 0 0 40px rgba(100,80,40,0.3);
+}
+
+/* ── Container ── */
+
+.container {
+    width: 800px;
+    margin: 6px auto 1rem auto;
+    padding: 2rem;
+    background-color: #1a1d2a;
+    color: #e0ddd8;
+    border: 6px solid #35384d;
+    box-shadow: 0 0 0 6px #000, 0 8px 32px rgba(0,0,0,0.7);
+}
+
+.container--wide {
+    width: 900px;
+}
+
+.container--builds {
+    width: 1200px;
+}
+
+/* ── Grid ── */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.grid-item {
+    align-items: center;
+    justify-content: center;
+}
+
+/* ── Links ── */
+
+a, a:visited, a:active {
+    color: #7bbfd4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #aad8ec;
+    font-style: italic;
+}
+
+/* ── Tables ── */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0.5rem 0 1rem;
+}
+
+th, td {
+    border: 1px solid #35384d;
+    padding: 7px 12px;
+    text-align: left;
+}
+
+thead tr {
+    background-color: #232639;
+    font-family: 'Cinzel', serif;
+    font-size: 0.85rem;
+    letter-spacing: 0.03em;
+    color: #b8b4a8;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(255,255,255,0.025);
+}
+
+tbody tr:hover {
+    background-color: rgba(123,191,212,0.08);
+}
+
+/* ── Footer ── */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1.25rem 0;
+    background-color: #13151e;
+    border-top: 6px solid #2a2d40;
+    color: #666;
+    font-size: 0.85rem;
+}
+
+/* override the inline style="color:#000" on the coffee link */
+.footer a { color: #7bbfd4 !important; }
+.footer a:hover { color: #aad8ec !important; }
+
+/* ── Misc ── */
+
+.sprite {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+.spacer { flex: 1; }
+
+#breadcrumbs {
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+/* ── Scrollbar (Webkit) ── */
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #0f1015; }
+::-webkit-scrollbar-thumb { background: #35384d; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #4a4d66; }

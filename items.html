@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="" name="keywords"/>
+<meta content="Overlooting wiki" name="description"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Items — overlooting.wiki</title>
+<link rel="stylesheet" href="assets/style.css"/>
+<style>
+/* ── Filter bar ── */
+#filters {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 1.25rem;
+    padding: 0.75rem 1rem;
+    background: #13151e;
+    border: 2px solid #35384d;
+}
+#filters label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 0.85rem;
+    color: #aaa;
+}
+#filters select {
+    background: #1a1d2a;
+    color: #e0ddd8;
+    border: 2px solid #35384d;
+    padding: 4px 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    min-width: 130px;
+}
+#filters select:focus { outline: none; border-color: #7bbfd4; }
+#filters select option:checked { background: #2a3050; }
+#filters .filter-hint { font-size: 0.7rem; color: #555; margin-top: 2px; }
+#filter-count { font-size: 0.8rem; color: #888; padding-bottom: 6px; }
+
+
+/* ── Hover tooltip ── */
+#item-tooltip {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    background: #0a0b10;
+    border: 3px solid #35384d;
+    padding: 10px 14px 10px 12px;
+    min-width: 220px;
+    max-width: 340px;
+    pointer-events: none;
+    font-family: monospace;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.9);
+}
+#item-tooltip .tt-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 4px;
+}
+#item-tooltip .tt-header img { width: 24px; height: 24px; image-rendering: pixelated; }
+#item-tooltip .tt-name { font-size: 1rem; font-weight: bold; color: #fff; }
+#item-tooltip .tt-slot { font-size: 0.8rem; color: #888; margin-bottom: 10px; }
+#item-tooltip .tt-stats { margin-bottom: 10px; }
+#item-tooltip .tt-stat {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #fff;
+    padding: 2px 0;
+}
+#item-tooltip .tt-stat-val { white-space: nowrap; }
+#item-tooltip .tt-desc {
+    font-size: 0.8rem;
+    color: #d4af37;
+    font-style: italic;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+#item-tooltip .tt-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #333;
+    padding-top: 8px;
+    margin-top: 4px;
+}
+#item-tooltip .tt-stars { color: #aaa; font-size: 1rem; letter-spacing: 2px; }
+#item-tooltip .tt-rarity { font-size: 0.85rem; font-weight: bold; }
+
+/* ── Item grid ── */
+#item-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+/* ── Slot group layout ── */
+.slot-group { margin-bottom: 1.25rem; width: 100%; }
+.slot-group-header {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ccc;
+    border-bottom: 2px solid #7A7885FF;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.slot-group-items { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.item-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 96px;
+    padding: 8px 6px 6px;
+    background: #13151e;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 0.72rem;
+    box-sizing: border-box;
+}
+.item-card a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+}
+.item-card img.item-sprite { width: 32px; height: 32px; object-fit: contain; }
+.item-card .item-name { word-break: break-word; line-height: 1.3; }
+.item-card .item-rarity { font-size: 0.65rem; margin-top: 1px; }
+.item-card .item-slot { opacity: 0.5; font-size: 0.65rem; margin-top: 2px; }
+.item-card .item-set {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-top: 4px;
+    opacity: 0.75;
+    font-size: 0.65rem;
+}
+.item-card .item-set img { width: 13px; height: 13px; }
+
+#no-results {
+    display: none;
+    padding: 2rem;
+    color: #aaa;
+    font-style: italic;
+}
+</style>
+</head>
+<body>
+<header class="header">
+<a href="index.html">overlooting.wiki</a>
+</header>
+<div class="container container--wide">
+<div id="breadcrumbs"></div>
+<main>
+
+<!-- LISTING VIEW -->
+<div id="listing-view">
+<h1>Items</h1>
+<p>The following items can be obtained:</p>
+
+<div id="filters">
+  <label>Slot
+    <select id="slot-filter" multiple size="8">
+      <option value="" selected>All</option>
+      <option value="chestpiece">Chestpiece</option>
+      <option value="footwear">Footwear</option>
+      <option value="headpiece">Headpiece</option>
+      <option value="necklace">Necklace</option>
+      <option value="ring">Ring</option>
+      <option value="shield">Shield</option>
+      <option value="weapon">Weapon</option>
+    </select>
+    <span class="filter-hint">Ctrl+click to multi-select</span>
+  </label>
+  <label>Rarity
+    <select id="rarity-filter" multiple size="7">
+      <option value="" selected>All</option>
+      <option value="common"    style="color:#c3aa94">Common</option>
+      <option value="uncommon"  style="color:#3a8832">Uncommon</option>
+      <option value="rare"      style="color:#34A6E2">Rare</option>
+      <option value="epic"      style="color:#6e40a3">Epic</option>
+      <option value="legendary" style="color:#cf6b16">Legendary</option>
+      <option value="mythic"    style="color:#d4af37">Mythic</option>
+    </select>
+    <span class="filter-hint">Ctrl+click to multi-select</span>
+  </label>
+  <label>Set
+    <select id="set-filter" multiple size="9">
+      <option value="" selected>All</option>
+      <option value="arcane">Arcane</option>
+      <option value="beast">Beast</option>
+      <option value="darkthorn">Darkthorn</option>
+      <option value="faceless">Faceless</option>
+      <option value="fae">Fae</option>
+      <option value="ironclad">Ironclad</option>
+      <option value="legion">Legion</option>
+      <option value="mythic">Mythic</option>
+      <option value="occult">Occult</option>
+      <option value="rogue">Rogue</option>
+      <option value="ronin">Ronin</option>
+      <option value="royal">Royal</option>
+      <option value="saltwater">Saltwater</option>
+      <option value="sylvan">Sylvan</option>
+      <option value="taboo">Taboo</option>
+      <option value="villager">Villager</option>
+    </select>
+    <span class="filter-hint">Ctrl+click to multi-select</span>
+  </label>
+  <label>Style
+    <select id="style-filter">
+      <option value="">All Styles</option>
+    </select>
+    <span class="filter-hint">Shows items from that style's sets</span>
+  </label>
+  <span id="filter-count"></span>
+</div>
+
+<div id="item-grid"></div>
+<div id="no-results">No items match the selected filters.</div>
+</div>
+
+<!-- DETAIL VIEW -->
+<div id="detail-view" hidden></div>
+
+</main>
+</div>
+<div class="spacer"></div>
+<footer class="footer">
+<p>This is a non-commercial fan wiki. All sprites are property of Posing Possums / Overlooting. No copyright infringement is intended.</p>
+</footer>
+
+<div id="item-tooltip">
+  <div class="tt-header">
+    <img id="tt-set-icon" src="" alt="" style="display:none" />
+    <span class="tt-name" id="tt-name"></span>
+  </div>
+  <div class="tt-slot" id="tt-slot"></div>
+  <div class="tt-stats" id="tt-stats"></div>
+  <div class="tt-desc" id="tt-desc"></div>
+  <div class="tt-footer">
+    <span class="tt-rarity" id="tt-rarity"></span>
+  </div>
+</div>
+
+<script src="assets/wiki.js"></script>
+<script src="assets/items-page.js"></script>
+<!-- Cloudflare Pages Analytics --><script data-cf-beacon='{"token": "c53fb89800e545a681eab9087f42f0e6"}' defer src="https://static.cloudflareinsights.com/beacon.min.js"></script>
+</body>
+</html>

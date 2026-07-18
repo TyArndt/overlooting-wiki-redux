@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="" name="keywords"/>
+<meta content="Overlooting wiki" name="description"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Masteries</title>
+<link rel="stylesheet" href="assets/style.css"/>
+<style>
+/* ── Character selector ── */
+.m-char-selector {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+.m-char-btn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 1rem;
+  background: #13151e;
+  border: 3px solid #35384d;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+  font-family: inherit;
+  color: inherit;
+}
+.m-char-btn:hover { border-color: #4a4d66; background: #1a1d2a; }
+.m-char-btn.active { border-color: #7bbfd4; background: #1a2535; }
+.m-char-btn img {
+  width: 64px;
+  height: 64px;
+}
+.m-char-name {
+  font-family: 'Cinzel', serif;
+  font-size: 0.9rem;
+  color: #7A7885;
+}
+.m-char-btn.active .m-char-name { color: #7bbfd4; }
+
+/* ── Mastery icon grid ── */
+.m-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 4px;
+  margin-bottom: 1rem;
+}
+.m-icon-btn {
+  aspect-ratio: 1;
+  background: #0a0b10;
+  border: 2px solid #1e2030;
+  padding: 3px;
+  cursor: pointer;
+  transition: border-color 0.12s, background 0.12s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.m-icon-btn:hover  { border-color: #35384d; }
+.m-icon-btn.active { border-color: #7bbfd4; background: #1a2535; }
+.m-icon-btn img {
+  width: 100%;
+  height: 100%;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  object-fit: contain;
+  display: block;
+}
+
+/* ── Hover tooltip ── */
+#mastery-tooltip {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  background: #0a0b10;
+  border: 3px solid #35384d;
+  padding: 8px 12px;
+  pointer-events: none;
+  font-family: monospace;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.9);
+  display: none;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+#mastery-tooltip img {
+  width: 24px;
+  height: 24px;
+  image-rendering: pixelated;
+  flex-shrink: 0;
+}
+#mastery-tooltip span {
+  font-size: 0.9rem;
+  color: #e8e4d8;
+  font-weight: bold;
+}
+
+/* ── Detail card ── */
+.m-detail {
+  display: none;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: #13151e;
+  border: 2px solid #35384d;
+}
+.m-detail.visible { display: flex; }
+.m-detail-icon {
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+}
+.m-detail-name {
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  color: #e8e4d8;
+  margin-bottom: 0.4rem;
+}
+.m-detail-desc {
+  font-size: 0.85rem;
+  color: #aaa;
+  line-height: 1.5;
+}
+</style>
+</head>
+<body>
+<header class="header">
+<a href="index.html">overlooting.wiki</a>
+</header>
+<div class="container">
+<div id="breadcrumbs"></div>
+<main>
+<div id="listing-view"></div>
+</main>
+</div>
+<div class="spacer"></div>
+<footer class="footer">
+<p>This is a non-commercial fan wiki. All sprites are property of Posing Possums / Overlooting. No copyright infringement is intended.</p>
+</footer>
+<!-- Cloudflare Pages Analytics --><script data-cf-beacon='{"token": "c53fb89800e545a681eab9087f42f0e6"}' defer="" src="https://static.cloudflareinsights.com/beacon.min.js"></script><!-- Cloudflare Pages Analytics -->
+<div id="mastery-tooltip">
+  <img id="mtt-img" src="" alt=""/>
+  <span id="mtt-name"></span>
+</div>
+<script src="assets/masteries-page.js"></script>
+</body>
+</html>

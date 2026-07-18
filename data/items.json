@@ -1,0 +1,5808 @@
+[
+  {
+    "slug": "apprentice-hat",
+    "name": "Apprentice Hat",
+    "img": "assets/items/apprentice_hat.png",
+    "rarity": "common",
+    "slot": "headpiece",
+    "set": "arcane",
+    "stats": {
+      "Armor": [
+        2,
+        4,
+        6
+      ],
+      "Mana Burst": [
+        8,
+        12,
+        18
+      ]
+    }
+  },
+  {
+    "slug": "apprentice-wand",
+    "name": "Apprentice Wand",
+    "img": "assets/items/apprentice_wand.png",
+    "rarity": "common",
+    "slot": "weapon",
+    "set": "arcane",
+    "stats": {
+      "Magic Damage": [
+        "2 - 4",
+        "4 - 6",
+        "6 - 9"
+      ]
+    }
+  },
+  {
+    "slug": "initiate-boots",
+    "name": "Initiate Boots",
+    "img": "assets/items/initiate_boots.png",
+    "rarity": "uncommon",
+    "slot": "footwear",
+    "set": "arcane",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Mana Burst": [
+        5,
+        8,
+        12
+      ],
+      "Swiftness": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "initiate-hat",
+    "name": "Initiate Hat",
+    "img": "assets/items/initiate_hat.png",
+    "rarity": "uncommon",
+    "slot": "headpiece",
+    "set": "arcane",
+    "stats": {
+      "Armor": [
+        2,
+        4,
+        6
+      ],
+      "Mana Burst": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "initiate-robes",
+    "name": "Initiate Robes",
+    "img": "assets/items/initiate_robes.png",
+    "rarity": "uncommon",
+    "slot": "chestpiece",
+    "set": "arcane",
+    "stats": {
+      "Armor": [
+        4,
+        6,
+        9
+      ],
+      "Mana Burst": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "initiate-staff",
+    "name": "Initiate Staff",
+    "img": "assets/items/initiate_staff.png",
+    "rarity": "uncommon",
+    "slot": "weapon",
+    "set": "arcane",
+    "stats": {
+      "Magic Damage": [
+        "2 - 4",
+        "4 - 6",
+        "6 - 9"
+      ],
+      "Mana Burst": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "adept-boots",
+    "name": "Adept Boots",
+    "img": "assets/items/adept_boots.png",
+    "rarity": "rare",
+    "slot": "footwear",
+    "set": "arcane",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Mana Burst": [
+        10,
+        15,
+        23
+      ],
+      "Swiftness": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "adept-hat",
+    "name": "Adept Hat",
+    "img": "assets/items/adept_hat.png",
+    "rarity": "rare",
+    "slot": "headpiece",
+    "set": "arcane",
+    "stats": {
+      "Armor": [
+        4,
+        6,
+        9
+      ],
+      "Mana Burst": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "adept-robes",
+    "name": "Adept Robes",
+    "img": "assets/items/adept_robes.png",
+    "rarity": "rare",
+    "slot": "chestpiece",
+    "set": "arcane",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ],
+      "Mana Burst": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "adept-staff",
+    "name": "Adept Staff",
+    "img": "assets/items/adept_staff.png",
+    "rarity": "rare",
+    "slot": "weapon",
+    "set": "arcane",
+    "stats": {
+      "Magic Damage": [
+        "4 - 6",
+        "6 - 9",
+        "9 - 14"
+      ],
+      "Mana Burst": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "mana-crystal",
+    "name": "Mana Crystal",
+    "img": "assets/items/mana_crystal.png",
+    "rarity": "rare",
+    "slot": "necklace",
+    "set": "arcane",
+    "stats": {
+      "Mana Burst": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "magus-boots",
+    "name": "Magus Boots",
+    "img": "assets/items/magus_boots.png",
+    "rarity": "epic",
+    "slot": "footwear",
+    "set": "arcane",
+    "stats": {
+      "Armor": [
+        4,
+        6,
+        9
+      ],
+      "Mana Burst": [
+        20,
+        30,
+        45
+      ],
+      "Swiftness": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "magus-hat",
+    "name": "Magus Hat",
+    "img": "assets/items/magus_hat.png",
+    "rarity": "epic",
+    "slot": "headpiece",
+    "set": "arcane",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ],
+      "Mana Burst": [
+        30,
+        45,
+        68
+      ]
+    }
+  },
+  {
+    "slug": "magus-robes",
+    "name": "Magus Robes",
+    "img": "assets/items/magus_robes.png",
+    "rarity": "epic",
+    "slot": "chestpiece",
+    "set": "arcane",
+    "stats": {
+      "Armor": [
+        8,
+        12,
+        18
+      ],
+      "Mana Burst": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "magus-staff",
+    "name": "Magus Staff",
+    "img": "assets/items/magus_staff.png",
+    "rarity": "epic",
+    "slot": "weapon",
+    "set": "arcane",
+    "stats": {
+      "Magic Damage": [
+        "5 - 8",
+        "8 - 12",
+        "12 - 18"
+      ],
+      "Mana Burst": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "ring-of-spellcasting",
+    "name": "Ring of Spellcasting",
+    "img": "assets/items/ring_of_spellcasting.png",
+    "rarity": "epic",
+    "slot": "ring",
+    "set": "arcane",
+    "stats": {
+      "Mana Burst": [
+        10,
+        15,
+        23
+      ],
+      "Damage Amplification": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "dusty-hat",
+    "name": "Dusty Hat",
+    "img": "assets/items/dusty_hat.png",
+    "rarity": "legendary",
+    "slot": "headpiece",
+    "set": "arcane",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ],
+      "Mana Burst": [
+        50,
+        75,
+        113
+      ]
+    }
+  },
+  {
+    "slug": "worn-wood-staff",
+    "name": "Worn Wood Staff",
+    "img": "assets/items/worn_wood_staff.png",
+    "rarity": "legendary",
+    "slot": "weapon",
+    "set": "arcane",
+    "stats": {
+      "Magic Damage": [
+        "7 - 10",
+        "11 - 15",
+        "17 - 23"
+      ],
+      "Mana Burst": [
+        30,
+        45,
+        68
+      ]
+    }
+  },
+  {
+    "slug": "boar-club",
+    "name": "Boar Club",
+    "img": "assets/items/boar_club.png",
+    "rarity": "uncommon",
+    "slot": "weapon",
+    "set": "beast",
+    "stats": {
+      "Physical Damage": [
+        "3 - 5",
+        "5 - 8",
+        "8 - 12"
+      ],
+      "Bludgeoning": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "fang-necklace",
+    "name": "Fang Necklace",
+    "img": "assets/items/fang_necklace.png",
+    "rarity": "uncommon",
+    "slot": "necklace",
+    "set": "beast",
+    "stats": {
+      "Enrage": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "bear-boots",
+    "name": "Bear Boots",
+    "img": "assets/items/bear_boots.png",
+    "rarity": "rare",
+    "slot": "footwear",
+    "set": "beast",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Enrage": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "bear-claw",
+    "name": "Bear Claw",
+    "img": "assets/items/bear_claw.png",
+    "rarity": "rare",
+    "slot": "weapon",
+    "set": "beast",
+    "stats": {
+      "Physical Damage": [
+        "4 - 6",
+        "6 - 9",
+        "9 - 14"
+      ],
+      "Critical Chance": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "bear-headress",
+    "name": "Bear Headdress",
+    "img": "assets/items/bear_headress.png",
+    "rarity": "rare",
+    "slot": "headpiece",
+    "set": "beast",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Enrage": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "bear-pelt",
+    "name": "Bear Pelt",
+    "img": "assets/items/bear_pelt.png",
+    "rarity": "rare",
+    "slot": "chestpiece",
+    "set": "beast",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Enrage": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "wolf-ring",
+    "name": "Wolf Ring",
+    "img": "assets/items/wolf_ring.png",
+    "rarity": "rare",
+    "slot": "ring",
+    "set": "beast",
+    "stats": {
+      "Damage Amplification": [
+        12,
+        18,
+        27
+      ]
+    }
+  },
+  {
+    "slug": "lion-head",
+    "name": "Lion Head",
+    "img": "assets/items/lion_head.png",
+    "rarity": "epic",
+    "slot": "headpiece",
+    "set": "beast",
+    "stats": {
+      "Armor": [
+        6,
+        9,
+        14
+      ],
+      "Enrage": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "lion-heart",
+    "name": "Lion Heart",
+    "img": "assets/items/lion_heart.png",
+    "rarity": "epic",
+    "slot": "chestpiece",
+    "set": "beast",
+    "stats": {
+      "Armor": [
+        6,
+        9,
+        14
+      ],
+      "Enrage": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "lion-maw",
+    "name": "Lion Maw",
+    "img": "assets/items/lion_maw.png",
+    "rarity": "epic",
+    "slot": "weapon",
+    "set": "beast",
+    "stats": {
+      "Physical Damage": [
+        "5 - 12",
+        "8 - 18",
+        "12 - 27"
+      ],
+      "Lifesteal": [
+        2,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "lion-paws",
+    "name": "Lion Paws",
+    "img": "assets/items/lion_paws.png",
+    "rarity": "epic",
+    "slot": "footwear",
+    "set": "beast",
+    "stats": {
+      "Armor": [
+        6,
+        9,
+        14
+      ],
+      "Enrage": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "lion-shield",
+    "name": "Lion Shield",
+    "img": "assets/items/lion_shield.png",
+    "rarity": "epic",
+    "slot": "shield",
+    "set": "beast",
+    "stats": {
+      "Armor": [
+        4,
+        6,
+        9
+      ],
+      "Enrage": [
+        2,
+        3,
+        4
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "behemoth-boots",
+    "name": "Behemoth Boots",
+    "img": "assets/items/behemoth_boots.png",
+    "rarity": "legendary",
+    "slot": "footwear",
+    "set": "beast",
+    "stats": {
+      "Armor": [
+        8,
+        12,
+        18
+      ],
+      "Swiftness": [
+        10,
+        15,
+        23
+      ],
+      "Enrage": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "behemoth-head",
+    "name": "Behemoth Head",
+    "img": "assets/items/behemoth_head.png",
+    "rarity": "legendary",
+    "slot": "headpiece",
+    "set": "beast",
+    "stats": {
+      "Armor": [
+        8,
+        12,
+        18
+      ],
+      "Enrage": [
+        2,
+        3,
+        4
+      ],
+      "Damage Amplification": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "behemoth-hide",
+    "name": "Behemoth Hide",
+    "img": "assets/items/behemoth_hide.png",
+    "rarity": "legendary",
+    "slot": "chestpiece",
+    "set": "beast",
+    "stats": {
+      "Armor": [
+        8,
+        12,
+        18
+      ],
+      "Regeneration": [
+        1,
+        2,
+        3
+      ],
+      "Enrage": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "thorny-ring",
+    "name": "Thorny Ring",
+    "img": "assets/items/thorny_ring.png",
+    "rarity": "uncommon",
+    "slot": "ring",
+    "set": "darkthorn",
+    "stats": {
+      "Thorns": [
+        2,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "thorny-shield",
+    "name": "Thorny Shield",
+    "img": "assets/items/thorny_shield.png",
+    "rarity": "uncommon",
+    "slot": "shield",
+    "set": "darkthorn",
+    "stats": {
+      "Armor": [
+        2,
+        4,
+        6
+      ],
+      "Thorns": [
+        2,
+        4,
+        6
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "poisoned-branch",
+    "name": "Poisonous Branch",
+    "img": "assets/items/poisoned_branch.png",
+    "rarity": "rare",
+    "slot": "weapon",
+    "set": "darkthorn",
+    "stats": {
+      "Physical Damage": [
+        "2 - 3",
+        "4 - 5",
+        "6 - 8"
+      ],
+      "Poisonous": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "withered-boots",
+    "name": "Withered Boots",
+    "img": "assets/items/withered_boots.png",
+    "rarity": "rare",
+    "slot": "footwear",
+    "set": "darkthorn",
+    "stats": {
+      "Armor": [
+        2,
+        4,
+        6
+      ],
+      "Swiftness": [
+        10,
+        15,
+        23
+      ],
+      "Thorns": [
+        2,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "withered-breastplate",
+    "name": "Withered Breastplate",
+    "img": "assets/items/withered_breastplate.png",
+    "rarity": "rare",
+    "slot": "chestpiece",
+    "set": "darkthorn",
+    "stats": {
+      "Armor": [
+        4,
+        6,
+        9
+      ],
+      "Thorns": [
+        3,
+        5,
+        8
+      ]
+    }
+  },
+  {
+    "slug": "withered-crown",
+    "name": "Withered Crown",
+    "img": "assets/items/withered_crown.png",
+    "rarity": "rare",
+    "slot": "headpiece",
+    "set": "darkthorn",
+    "stats": {
+      "Armor": [
+        4,
+        6,
+        9
+      ],
+      "Thorns": [
+        3,
+        5,
+        8
+      ]
+    }
+  },
+  {
+    "slug": "withered-shield",
+    "name": "Withered Shield",
+    "img": "assets/items/withered_shield.png",
+    "rarity": "rare",
+    "slot": "shield",
+    "set": "darkthorn",
+    "stats": {
+      "Armor": [
+        2,
+        4,
+        6
+      ],
+      "Thorns": [
+        3,
+        5,
+        8
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "amulet-of-regrowth",
+    "name": "Amulet of Regrowth",
+    "img": "assets/items/amulet_of_regrowth.png",
+    "rarity": "epic",
+    "slot": "necklace",
+    "set": "darkthorn",
+    "stats": {
+      "Regeneration": [
+        1,
+        2,
+        3
+      ],
+      "Thorns": [
+        2,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "blighted-boots",
+    "name": "Blighted Boots",
+    "img": "assets/items/blighted_boots.png",
+    "rarity": "epic",
+    "slot": "footwear",
+    "set": "darkthorn",
+    "stats": {
+      "Armor": [
+        4,
+        6,
+        9
+      ],
+      "Swiftness": [
+        10,
+        15,
+        23
+      ],
+      "Thorns": [
+        4,
+        6,
+        9
+      ]
+    }
+  },
+  {
+    "slug": "blighted-breastplate",
+    "name": "Blighted Breastplate",
+    "img": "assets/items/blighted_breastplate.png",
+    "rarity": "epic",
+    "slot": "chestpiece",
+    "set": "darkthorn",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ],
+      "Thorns": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "blighted-crown",
+    "name": "Blighted Crown",
+    "img": "assets/items/blighted_crown.png",
+    "rarity": "epic",
+    "slot": "headpiece",
+    "set": "darkthorn",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ],
+      "Thorns": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "blighted-shield",
+    "name": "Blighted Shield",
+    "img": "assets/items/blighted_shield.png",
+    "rarity": "epic",
+    "slot": "shield",
+    "set": "darkthorn",
+    "stats": {
+      "Armor": [
+        4,
+        6,
+        9
+      ],
+      "Thorns": [
+        4,
+        6,
+        9
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "rose-whip",
+    "name": "Rose Whip",
+    "img": "assets/items/rose_whip.png",
+    "rarity": "epic",
+    "slot": "weapon",
+    "set": "darkthorn",
+    "stats": {
+      "Physical Damage": [
+        "4 - 9",
+        "6 - 14",
+        "9 - 21"
+      ],
+      "Lifesteal": [
+        1,
+        3,
+        5
+      ],
+      "Swiftness": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "blackrose-shield",
+    "name": "Blackrose Shield",
+    "img": "assets/items/blackrose_shield.png",
+    "rarity": "legendary",
+    "slot": "shield",
+    "set": "darkthorn",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Regeneration": [
+        1,
+        2,
+        3
+      ],
+      "Thorns": [
+        5,
+        8,
+        12
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "bramble-crown",
+    "name": "Bramble Crown",
+    "img": "assets/items/bramble_crown.png",
+    "rarity": "legendary",
+    "slot": "headpiece",
+    "set": "darkthorn",
+    "stats": {
+      "Armor": [
+        4,
+        6,
+        9
+      ],
+      "Regeneration": [
+        1,
+        2,
+        3
+      ],
+      "Thorns": [
+        6,
+        9,
+        14
+      ]
+    }
+  },
+  {
+    "slug": "corrupted-vines",
+    "name": "Corrupted Vines",
+    "img": "assets/items/corrupted_vines.png",
+    "rarity": "legendary",
+    "slot": "chestpiece",
+    "set": "darkthorn",
+    "stats": {
+      "Armor": [
+        4,
+        6,
+        9
+      ],
+      "Regeneration": [
+        1,
+        2,
+        3
+      ],
+      "Thorns": [
+        6,
+        9,
+        14
+      ]
+    }
+  },
+  {
+    "slug": "mask-of-the-helpless",
+    "name": "Mask of the Helpless",
+    "img": "assets/items/mask_of_the_helpless.png",
+    "rarity": "uncommon",
+    "slot": "headpiece",
+    "set": "faceless",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Luck": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "ritual-ring",
+    "name": "Ritual Ring",
+    "img": "assets/items/ritual_ring.png",
+    "rarity": "uncommon",
+    "slot": "ring",
+    "set": "faceless",
+    "stats": {
+      "Critical Chance": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "cultist-robes",
+    "name": "Cultist Robes",
+    "img": "assets/items/cultist_robes.png",
+    "rarity": "rare",
+    "slot": "chestpiece",
+    "set": "faceless",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ],
+      "Dodge": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "cultist-shoes",
+    "name": "Cultist Shoes",
+    "img": "assets/items/cultist_shoes.png",
+    "rarity": "rare",
+    "slot": "footwear",
+    "set": "faceless",
+    "stats": {
+      "Armor": [
+        6,
+        9,
+        14
+      ],
+      "Dodge": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "harvest-scythe",
+    "name": "Harvest Scythe",
+    "img": "assets/items/harvest_scythe.png",
+    "rarity": "rare",
+    "slot": "weapon",
+    "set": "faceless",
+    "stats": {
+      "Physical Damage": [
+        "4 - 13",
+        "6 - 20",
+        "9 - 30"
+      ]
+    }
+  },
+  {
+    "slug": "mask-of-the-fearless",
+    "name": "Mask of the Fearless",
+    "img": "assets/items/mask_of_the_fearless.png",
+    "rarity": "rare",
+    "slot": "headpiece",
+    "set": "faceless",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Enrage": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "leader-boots",
+    "name": "Leader Boots",
+    "img": "assets/items/leader_boots.png",
+    "rarity": "epic",
+    "slot": "footwear",
+    "set": "faceless",
+    "stats": {
+      "Armor": [
+        10,
+        15,
+        23
+      ],
+      "Dodge": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "leader-garb",
+    "name": "Leader Garb",
+    "img": "assets/items/leader_garb.png",
+    "rarity": "epic",
+    "slot": "chestpiece",
+    "set": "faceless",
+    "stats": {
+      "Armor": [
+        8,
+        12,
+        18
+      ],
+      "Dodge": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "mask-of-the-boundless",
+    "name": "Mask of the Boundless",
+    "img": "assets/items/mask_of_the_boundless.png",
+    "rarity": "epic",
+    "slot": "headpiece",
+    "set": "faceless",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Critical Chance": [
+        40,
+        60,
+        90
+      ]
+    }
+  },
+  {
+    "slug": "ritual-dagger",
+    "name": "Ritual Dagger",
+    "img": "assets/items/ritual_dagger.png",
+    "rarity": "epic",
+    "slot": "weapon",
+    "set": "faceless",
+    "stats": {
+      "Physical Damage": [
+        "4 - 5",
+        "6 - 8",
+        "9 - 12"
+      ],
+      "Critical Chance": [
+        20,
+        30,
+        45
+      ],
+      "Critical Damage": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "symbol-of-the-faceless",
+    "name": "Symbol of the Faceless",
+    "img": "assets/items/symbol_of_the_faceless.png",
+    "rarity": "epic",
+    "slot": "necklace",
+    "set": "faceless",
+    "stats": {
+      "Lifesteal": [
+        1,
+        3,
+        5
+      ],
+      "Enrage": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "executioner-s-scythe",
+    "name": "Executioner's Scythe",
+    "img": "assets/items/executioners_scythe.png",
+    "rarity": "legendary",
+    "slot": "weapon",
+    "set": "faceless",
+    "stats": {
+      "Physical Damage": [
+        "6 - 13",
+        "9 - 20",
+        "14 - 30"
+      ],
+      "Critical Chance": [
+        10,
+        15,
+        23
+      ],
+      "Critical Damage": [
+        10,
+        15,
+        23
+      ],
+      "Lifesteal": [
+        3,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "slug": "mark-of-the-chosen-one",
+    "name": "Mark of the Chosen One",
+    "img": "assets/items/mark_of_the_chosen_one.png",
+    "rarity": "legendary",
+    "slot": "ring",
+    "set": "faceless",
+    "stats": {
+      "Critical Chance": [
+        10,
+        15,
+        23
+      ],
+      "Critical Damage": [
+        20,
+        30,
+        45
+      ],
+      "Lifesteal": [
+        3,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "slug": "mask-of-the-endless",
+    "name": "Mask of the Endless",
+    "img": "assets/items/mask_of_the_endless.png",
+    "rarity": "legendary",
+    "slot": "headpiece",
+    "set": "faceless",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Damage Amplification": [
+        50,
+        75,
+        113
+      ]
+    }
+  },
+  {
+    "slug": "sentient-necklace",
+    "name": "Sentient Necklace",
+    "img": "assets/items/sentient_necklace.png",
+    "rarity": "uncommon",
+    "slot": "necklace",
+    "set": "fae",
+    "stats": {
+      "Swiftness": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "winter-attire",
+    "name": "Winter Attire",
+    "img": "assets/items/winter_attire.png",
+    "rarity": "uncommon",
+    "slot": "chestpiece",
+    "set": "fae",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Dodge": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "winter-boots",
+    "name": "Winter Boots",
+    "img": "assets/items/winter_boots.png",
+    "rarity": "uncommon",
+    "slot": "footwear",
+    "set": "fae",
+    "stats": {
+      "Dodge": [
+        10,
+        15,
+        23
+      ],
+      "Swiftness": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "winter-crown",
+    "name": "Winter Crown",
+    "img": "assets/items/winter_crown.png",
+    "rarity": "uncommon",
+    "slot": "headpiece",
+    "set": "fae",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Mana Burst": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "winter-staff",
+    "name": "Winter Staff",
+    "img": "assets/items/winter_staff.png",
+    "rarity": "uncommon",
+    "slot": "weapon",
+    "set": "fae",
+    "stats": {
+      "Magic Damage": [
+        "2 - 5",
+        "4 - 8",
+        "6 - 12"
+      ],
+      "Damage Amplification": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "autumn-attire",
+    "name": "Autumn Attire",
+    "img": "assets/items/autumn_attire.png",
+    "rarity": "rare",
+    "slot": "chestpiece",
+    "set": "fae",
+    "stats": {
+      "Armor": [
+        4,
+        6,
+        9
+      ],
+      "Dodge": [
+        10,
+        15,
+        23
+      ],
+      "Counterattack": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "autumn-boots",
+    "name": "Autumn Boots",
+    "img": "assets/items/autumn_boots.png",
+    "rarity": "rare",
+    "slot": "footwear",
+    "set": "fae",
+    "stats": {
+      "Armor": [
+        2,
+        4,
+        6
+      ],
+      "Dodge": [
+        10,
+        15,
+        23
+      ],
+      "Swiftness": [
+        12,
+        18,
+        27
+      ]
+    }
+  },
+  {
+    "slug": "autumn-crown",
+    "name": "Autumn Crown",
+    "img": "assets/items/autumn_crown.png",
+    "rarity": "rare",
+    "slot": "headpiece",
+    "set": "fae",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ],
+      "Mana Burst": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "autumn-staff",
+    "name": "Autumn Staff",
+    "img": "assets/items/autumn_staff.png",
+    "rarity": "rare",
+    "slot": "weapon",
+    "set": "fae",
+    "stats": {
+      "Magic Damage": [
+        "4 - 6",
+        "6 - 9",
+        "9 - 14"
+      ],
+      "Damage Amplification": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "sentient-ring",
+    "name": "Sentient Ring",
+    "img": "assets/items/sentient_ring.png",
+    "rarity": "rare",
+    "slot": "ring",
+    "set": "fae",
+    "stats": {
+      "Mana Burst": [
+        10,
+        15,
+        23
+      ],
+      "Swiftness": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "summer-attire",
+    "name": "Summer Attire",
+    "img": "assets/items/summer_attire.png",
+    "rarity": "epic",
+    "slot": "chestpiece",
+    "set": "fae",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ],
+      "Dodge": [
+        15,
+        23,
+        35
+      ],
+      "Swiftness": [
+        5,
+        8,
+        12
+      ],
+      "Counterattack": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "summer-boots",
+    "name": "Summer Boots",
+    "img": "assets/items/summer_boots.png",
+    "rarity": "epic",
+    "slot": "footwear",
+    "set": "fae",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Dodge": [
+        10,
+        15,
+        23
+      ],
+      "Swiftness": [
+        15,
+        23,
+        35
+      ],
+      "Counterattack": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "summer-crown",
+    "name": "Summer Crown",
+    "img": "assets/items/summer_crown.png",
+    "rarity": "epic",
+    "slot": "headpiece",
+    "set": "fae",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ],
+      "Mana Burst": [
+        10,
+        15,
+        23
+      ],
+      "Swiftness": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "summer-staff",
+    "name": "Summer Staff",
+    "img": "assets/items/summer_staff.png",
+    "rarity": "epic",
+    "slot": "weapon",
+    "set": "fae",
+    "stats": {
+      "Magic Damage": [
+        "4 - 7",
+        "6 - 11",
+        "9 - 17"
+      ],
+      "Swiftness": [
+        10,
+        15,
+        23
+      ],
+      "Damage Amplification": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "spring-boots",
+    "name": "Spring Boots",
+    "img": "assets/items/spring_boots.png",
+    "rarity": "legendary",
+    "slot": "footwear",
+    "set": "fae",
+    "stats": {
+      "Armor": [
+        4,
+        6,
+        9
+      ],
+      "Dodge": [
+        12,
+        18,
+        27
+      ],
+      "Swiftness": [
+        20,
+        30,
+        45
+      ],
+      "Counterattack": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "spring-crown",
+    "name": "Spring Crown",
+    "img": "assets/items/spring_crown.png",
+    "rarity": "legendary",
+    "slot": "headpiece",
+    "set": "fae",
+    "stats": {
+      "Armor": [
+        6,
+        9,
+        14
+      ],
+      "Dodge": [
+        12,
+        18,
+        27
+      ],
+      "Mana Burst": [
+        20,
+        30,
+        45
+      ],
+      "Counterattack": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "spring-staff",
+    "name": "Spring Staff",
+    "img": "assets/items/spring_staff.png",
+    "rarity": "legendary",
+    "slot": "weapon",
+    "set": "fae",
+    "stats": {
+      "Magic Damage": [
+        "5 - 8",
+        "8 - 12",
+        "12 - 18"
+      ],
+      "Mana Burst": [
+        10,
+        15,
+        23
+      ],
+      "Swiftness": [
+        10,
+        15,
+        23
+      ],
+      "Damage Amplification": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "half-chest-armor",
+    "name": "Half Chest Armor",
+    "img": "assets/items/half_chest_armor.png",
+    "rarity": "common",
+    "slot": "chestpiece",
+    "set": "ironclad",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ]
+    }
+  },
+  {
+    "slug": "steel-buckler",
+    "name": "Steel Buckler",
+    "img": "assets/items/steel_buckler.png",
+    "rarity": "common",
+    "slot": "shield",
+    "set": "ironclad",
+    "stats": {
+      "Armor": [
+        2,
+        4,
+        6
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "arming-sword",
+    "name": "Arming Sword",
+    "img": "assets/items/arming_sword.png",
+    "rarity": "uncommon",
+    "slot": "weapon",
+    "set": "ironclad",
+    "stats": {
+      "Physical Damage": [
+        "4 - 6",
+        "6 - 9",
+        "9 - 14"
+      ]
+    }
+  },
+  {
+    "slug": "iron-ring",
+    "name": "Iron Ring",
+    "img": "assets/items/iron_ring.png",
+    "rarity": "uncommon",
+    "slot": "ring",
+    "set": "ironclad",
+    "stats": {
+      "Bludgeoning": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "squire-chainmail",
+    "name": "Squire Chainmail",
+    "img": "assets/items/squire_chainmail.png",
+    "rarity": "uncommon",
+    "slot": "chestpiece",
+    "set": "ironclad",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "squire-greaves",
+    "name": "Squire Greaves",
+    "img": "assets/items/squire_greaves.png",
+    "rarity": "uncommon",
+    "slot": "footwear",
+    "set": "ironclad",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "squire-helmet",
+    "name": "Squire Helmet",
+    "img": "assets/items/squire_helmet.png",
+    "rarity": "uncommon",
+    "slot": "headpiece",
+    "set": "ironclad",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "bastard-sword",
+    "name": "Bastard Sword",
+    "img": "assets/items/bastard_sword.png",
+    "rarity": "rare",
+    "slot": "weapon",
+    "set": "ironclad",
+    "stats": {
+      "Physical Damage": [
+        "7 - 9",
+        "11 - 14",
+        "17 - 21"
+      ]
+    }
+  },
+  {
+    "slug": "knight-breastplate",
+    "name": "Knight Breastplate",
+    "img": "assets/items/knight_breastplate.png",
+    "rarity": "rare",
+    "slot": "chestpiece",
+    "set": "ironclad",
+    "stats": {
+      "Armor": [
+        8,
+        12,
+        18
+      ]
+    }
+  },
+  {
+    "slug": "knight-greaves",
+    "name": "Knight Greaves",
+    "img": "assets/items/knight_greaves.png",
+    "rarity": "rare",
+    "slot": "footwear",
+    "set": "ironclad",
+    "stats": {
+      "Armor": [
+        8,
+        12,
+        18
+      ]
+    }
+  },
+  {
+    "slug": "knight-helmet",
+    "name": "Knight Helmet",
+    "img": "assets/items/knight_helmet.png",
+    "rarity": "rare",
+    "slot": "headpiece",
+    "set": "ironclad",
+    "stats": {
+      "Armor": [
+        8,
+        12,
+        18
+      ]
+    }
+  },
+  {
+    "slug": "steel-shield",
+    "name": "Steel Shield",
+    "img": "assets/items/steel_shield.png",
+    "rarity": "rare",
+    "slot": "shield",
+    "set": "ironclad",
+    "stats": {
+      "Armor": [
+        6,
+        9,
+        14
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "horned-helmet",
+    "name": "Horned Helmet",
+    "img": "assets/items/horned_helmet.png",
+    "rarity": "epic",
+    "slot": "headpiece",
+    "set": "ironclad",
+    "stats": {
+      "Armor": [
+        8,
+        12,
+        18
+      ],
+      "Thorns": [
+        2,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "iron-medal",
+    "name": "Iron Medal",
+    "img": "assets/items/iron_medal.png",
+    "rarity": "epic",
+    "slot": "necklace",
+    "set": "ironclad",
+    "stats": {
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "morning-start",
+    "name": "Morning Star",
+    "img": "assets/items/morning_start.png",
+    "rarity": "epic",
+    "slot": "weapon",
+    "set": "ironclad",
+    "stats": {
+      "Physical Damage": [
+        "8 - 12",
+        "12 - 18",
+        "18 - 27"
+      ],
+      "Bludgeoning": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "spiked-breastplate",
+    "name": "Spiked Breastplate",
+    "img": "assets/items/spiked_breastplate.png",
+    "rarity": "epic",
+    "slot": "chestpiece",
+    "set": "ironclad",
+    "stats": {
+      "Armor": [
+        8,
+        12,
+        18
+      ],
+      "Thorns": [
+        2,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "spiked-greaves",
+    "name": "Spiked Greaves",
+    "img": "assets/items/spiked_greaves.png",
+    "rarity": "epic",
+    "slot": "footwear",
+    "set": "ironclad",
+    "stats": {
+      "Armor": [
+        8,
+        12,
+        18
+      ],
+      "Thorns": [
+        2,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "spiked-shield",
+    "name": "Spiked Shield",
+    "img": "assets/items/spiked_shield.png",
+    "rarity": "epic",
+    "slot": "shield",
+    "set": "ironclad",
+    "stats": {
+      "Armor": [
+        6,
+        9,
+        14
+      ],
+      "Thorns": [
+        2,
+        4,
+        6
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "barbed-breastplate",
+    "name": "Barbed Breastplate",
+    "img": "assets/items/barbed_breastplate.png",
+    "rarity": "legendary",
+    "slot": "chestpiece",
+    "set": "ironclad",
+    "stats": {
+      "Armor": [
+        10,
+        15,
+        23
+      ],
+      "Thorns": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "tower-shield",
+    "name": "Tower Shield",
+    "img": "assets/items/tower_shield.png",
+    "rarity": "legendary",
+    "slot": "shield",
+    "set": "ironclad",
+    "stats": {
+      "Armor": [
+        4,
+        6,
+        9
+      ],
+      "Guard": [
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "slug": "bronze-buckler",
+    "name": "Bronze Buckler",
+    "img": "assets/items/bronze_buckler.png",
+    "rarity": "common",
+    "slot": "shield",
+    "set": "legion",
+    "stats": {
+      "Armor": [
+        2,
+        4,
+        6
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "gladius",
+    "name": "Gladius",
+    "img": "assets/items/gladius.png",
+    "rarity": "common",
+    "slot": "weapon",
+    "set": "legion",
+    "stats": {
+      "Physical Damage": [
+        "2 - 4",
+        "4 - 6",
+        "6 - 9"
+      ]
+    }
+  },
+  {
+    "slug": "old-breastplate",
+    "name": "Old Breastplate",
+    "img": "assets/items/old_breastplate.png",
+    "rarity": "common",
+    "slot": "chestpiece",
+    "set": "legion",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ]
+    }
+  },
+  {
+    "slug": "old-greaves",
+    "name": "Old Greaves",
+    "img": "assets/items/old_greaves.png",
+    "rarity": "common",
+    "slot": "footwear",
+    "set": "legion",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ]
+    }
+  },
+  {
+    "slug": "old-helmet",
+    "name": "Old Helmet",
+    "img": "assets/items/old_helmet.png",
+    "rarity": "common",
+    "slot": "headpiece",
+    "set": "legion",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ]
+    }
+  },
+  {
+    "slug": "ancient-breastplate",
+    "name": "Ancient Breastplate",
+    "img": "assets/items/ancient_breastplate.png",
+    "rarity": "uncommon",
+    "slot": "chestpiece",
+    "set": "legion",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "ancient-greaves",
+    "name": "Ancient Greaves",
+    "img": "assets/items/ancient_greaves.png",
+    "rarity": "uncommon",
+    "slot": "footwear",
+    "set": "legion",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "ancient-helmet",
+    "name": "Ancient Helmet",
+    "img": "assets/items/ancient_helmet.png",
+    "rarity": "uncommon",
+    "slot": "headpiece",
+    "set": "legion",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "bronze-shield",
+    "name": "Bronze Shield",
+    "img": "assets/items/bronze_shield.png",
+    "rarity": "uncommon",
+    "slot": "shield",
+    "set": "legion",
+    "stats": {
+      "Armor": [
+        4,
+        6,
+        9
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "healing-amulet",
+    "name": "Healing Amulet",
+    "img": "assets/items/healing_amulet.png",
+    "rarity": "rare",
+    "slot": "necklace",
+    "set": "legion",
+    "stats": {
+      "Regeneration": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "historic-breastplate",
+    "name": "Historic Breastplate",
+    "img": "assets/items/historic_breastplate.png",
+    "rarity": "rare",
+    "slot": "chestpiece",
+    "set": "legion",
+    "stats": {
+      "Armor": [
+        6,
+        9,
+        14
+      ],
+      "Enrage": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "historic-greaves",
+    "name": "Historic Greaves",
+    "img": "assets/items/historic_greaves.png",
+    "rarity": "rare",
+    "slot": "footwear",
+    "set": "legion",
+    "stats": {
+      "Armor": [
+        6,
+        9,
+        14
+      ],
+      "Enrage": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "historic-helmet",
+    "name": "Historic Helmet",
+    "img": "assets/items/historic_helmet.png",
+    "rarity": "rare",
+    "slot": "headpiece",
+    "set": "legion",
+    "stats": {
+      "Armor": [
+        6,
+        9,
+        14
+      ],
+      "Enrage": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "spatha",
+    "name": "Spatha",
+    "img": "assets/items/spatha.png",
+    "rarity": "rare",
+    "slot": "weapon",
+    "set": "legion",
+    "stats": {
+      "Physical Damage": [
+        "6 - 10",
+        "9 - 15",
+        "14 - 23"
+      ]
+    }
+  },
+  {
+    "slug": "champion-ring",
+    "name": "Champion Ring",
+    "img": "assets/items/champion_ring.png",
+    "rarity": "epic",
+    "slot": "ring",
+    "set": "legion",
+    "stats": {
+      "Enrage": [
+        2,
+        3,
+        4
+      ],
+      "Damage Amplification": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "legionnaire-helmet",
+    "name": "Legionnaire Helmet",
+    "img": "assets/items/legionnaire_helmet.png",
+    "rarity": "epic",
+    "slot": "headpiece",
+    "set": "legion",
+    "stats": {
+      "Armor": [
+        10,
+        15,
+        23
+      ],
+      "Enrage": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "legionnaire-shield",
+    "name": "Legionnaire Shield",
+    "img": "assets/items/legionnaire_shield.png",
+    "rarity": "epic",
+    "slot": "shield",
+    "set": "legion",
+    "stats": {
+      "Armor": [
+        4,
+        6,
+        9
+      ],
+      "Guard": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "hero-s-breastplate",
+    "name": "Hero's Breastplate",
+    "img": "assets/items/heros_breastplate.png",
+    "rarity": "legendary",
+    "slot": "chestpiece",
+    "set": "legion",
+    "stats": {
+      "Armor": [
+        8,
+        12,
+        18
+      ],
+      "Enrage": [
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "slug": "hero-s-shield",
+    "name": "Hero's Shield",
+    "img": "assets/items/heros_shield.png",
+    "rarity": "legendary",
+    "slot": "shield",
+    "set": "legion",
+    "stats": {
+      "Armor": [
+        4,
+        6,
+        9
+      ],
+      "Enrage": [
+        2,
+        3,
+        4
+      ],
+      "Guard": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "hero-s-sword",
+    "name": "Hero's Sword",
+    "img": "assets/items/sword_of_the_hero.png",
+    "rarity": "legendary",
+    "slot": "weapon",
+    "set": "legion",
+    "stats": {
+      "Physical Damage": [
+        "10 - 15",
+        "15 - 23",
+        "23 - 35"
+      ],
+      "Damage Amplification": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "hags-veil",
+    "name": "Veil of the Hag",
+    "img": "assets/items/hags_veil.png",
+    "rarity": "rare",
+    "slot": "headpiece",
+    "set": "occult",
+    "stats": {
+      "Armor": [
+        2,
+        4,
+        6
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "hag-cape",
+    "name": "Hag Cape",
+    "img": "assets/items/hag_cape.png",
+    "rarity": "rare",
+    "slot": "chestpiece",
+    "set": "occult",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Dodge": [
+        10,
+        15,
+        23
+      ],
+      "Damage Amplification": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "hag-shoes",
+    "name": "Hag Shoes",
+    "img": "assets/items/hag_shoes.png",
+    "rarity": "rare",
+    "slot": "footwear",
+    "set": "occult",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Dodge": [
+        10,
+        15,
+        23
+      ],
+      "Swiftness": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "hag-staff",
+    "name": "Hag Staff",
+    "img": "assets/items/hag_staff.png",
+    "rarity": "rare",
+    "slot": "weapon",
+    "set": "occult",
+    "stats": {
+      "Magic Damage": [
+        "5 - 8",
+        "8 - 12",
+        "12 - 18"
+      ],
+      "Bludgeoning": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "vial-necklace",
+    "name": "Vial Necklace",
+    "img": "assets/items/vial_necklace.png",
+    "rarity": "rare",
+    "slot": "necklace",
+    "set": "occult",
+    "stats": {
+      "Damage Amplification": [
+        12,
+        18,
+        27
+      ]
+    }
+  },
+  {
+    "slug": "ring-of-enchanting",
+    "name": "Ring of Enchanting",
+    "img": "assets/items/ring_of_enchanting.png",
+    "rarity": "epic",
+    "slot": "ring",
+    "set": "occult",
+    "stats": {
+      "Poisonous": [
+        3,
+        5,
+        8
+      ],
+      "Bludgeoning": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "mask-of-the-witch",
+    "name": "Mask of the Witch",
+    "img": "assets/items/witchs_mask.png",
+    "rarity": "epic",
+    "slot": "headpiece",
+    "set": "occult",
+    "stats": {
+      "Armor": [
+        6,
+        9,
+        14
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "witch-boots",
+    "name": "Witch Boots",
+    "img": "assets/items/witch_boots.png",
+    "rarity": "epic",
+    "slot": "footwear",
+    "set": "occult",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Dodge": [
+        10,
+        15,
+        23
+      ],
+      "Swiftness": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "witch-robes",
+    "name": "Witch Robes",
+    "img": "assets/items/witch_robes.png",
+    "rarity": "epic",
+    "slot": "chestpiece",
+    "set": "occult",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ],
+      "Dodge": [
+        10,
+        15,
+        23
+      ],
+      "Damage Amplification": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "witch-staff",
+    "name": "Witch Staff",
+    "img": "assets/items/witch_staff.png",
+    "rarity": "epic",
+    "slot": "weapon",
+    "set": "occult",
+    "stats": {
+      "Magic Damage": [
+        "7 - 12",
+        "11 - 18",
+        "17 - 27"
+      ],
+      "Bludgeoning": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "wicked-hat",
+    "name": "Wicked Hat",
+    "img": "assets/items/wicked_hat.png",
+    "rarity": "legendary",
+    "slot": "headpiece",
+    "set": "occult",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Mana Burst": [
+        30,
+        45,
+        68
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "wicked-robes",
+    "name": "Wicked Robes",
+    "img": "assets/items/wicked_robes.png",
+    "rarity": "legendary",
+    "slot": "chestpiece",
+    "set": "occult",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ],
+      "Dodge": [
+        15,
+        23,
+        35
+      ],
+      "Damage Amplification": [
+        25,
+        38,
+        57
+      ]
+    }
+  },
+  {
+    "slug": "stealth-dagger",
+    "name": "Stealth Dagger",
+    "img": "assets/items/stealth_dagger.png",
+    "rarity": "common",
+    "slot": "weapon",
+    "set": "rogue",
+    "stats": {
+      "Physical Damage": [
+        "2 - 3",
+        "4 - 5",
+        "6 - 8"
+      ],
+      "Critical Chance": [
+        8,
+        12,
+        18
+      ]
+    }
+  },
+  {
+    "slug": "thief-boots",
+    "name": "Thief Boots",
+    "img": "assets/items/thief_boots.png",
+    "rarity": "common",
+    "slot": "footwear",
+    "set": "rogue",
+    "stats": {
+      "Critical Chance": [
+        10,
+        15,
+        23
+      ],
+      "Swiftness": [
+        3,
+        5,
+        8
+      ]
+    }
+  },
+  {
+    "slug": "thief-mask",
+    "name": "Thief Mask",
+    "img": "assets/items/thief_mask.png",
+    "rarity": "common",
+    "slot": "headpiece",
+    "set": "rogue",
+    "stats": {
+      "Dodge": [
+        10,
+        15,
+        23
+      ],
+      "Critical Chance": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "infiltrator-boots",
+    "name": "Infiltrator Boots",
+    "img": "assets/items/infiltrator_boots.png",
+    "rarity": "uncommon",
+    "slot": "footwear",
+    "set": "rogue",
+    "stats": {
+      "Critical Chance": [
+        10,
+        15,
+        23
+      ],
+      "Swiftness": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "infiltrator-cloak",
+    "name": "Infiltrator Cloak",
+    "img": "assets/items/infiltrator_cloak.png",
+    "rarity": "uncommon",
+    "slot": "chestpiece",
+    "set": "rogue",
+    "stats": {
+      "Armor": [
+        2,
+        4,
+        6
+      ],
+      "Dodge": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "parrying-dagger",
+    "name": "Parrying Dagger",
+    "img": "assets/items/parrying_dagger.png",
+    "rarity": "uncommon",
+    "slot": "weapon",
+    "set": "rogue",
+    "stats": {
+      "Physical Damage": [
+        "3 - 4",
+        "5 - 6",
+        "8 - 9"
+      ],
+      "Counterattack": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "assassin-cloak",
+    "name": "Assassin Cloak",
+    "img": "assets/items/assassin_cloak.png",
+    "rarity": "rare",
+    "slot": "chestpiece",
+    "set": "rogue",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Dodge": [
+        12,
+        18,
+        27
+      ],
+      "Counterattack": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "assassin-mask",
+    "name": "Assassin Mask",
+    "img": "assets/items/assassin_mask.png",
+    "rarity": "rare",
+    "slot": "headpiece",
+    "set": "rogue",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Dodge": [
+        10,
+        15,
+        23
+      ],
+      "Critical Chance": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "dueling-dagger",
+    "name": "Dueling Dagger",
+    "img": "assets/items/dueling_dagger.png",
+    "rarity": "rare",
+    "slot": "weapon",
+    "set": "rogue",
+    "stats": {
+      "Physical Damage": [
+        "3 - 4",
+        "5 - 6",
+        "8 - 9"
+      ],
+      "Critical Chance": [
+        10,
+        15,
+        23
+      ],
+      "Counterattack": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "opal-amulet",
+    "name": "Opal Amulet",
+    "img": "assets/items/opal_amulet.png",
+    "rarity": "rare",
+    "slot": "necklace",
+    "set": "rogue",
+    "stats": {
+      "Critical Damage": [
+        30,
+        45,
+        68
+      ]
+    }
+  },
+  {
+    "slug": "estoc",
+    "name": "Estoc",
+    "img": "assets/items/estoc.png",
+    "rarity": "epic",
+    "slot": "weapon",
+    "set": "rogue",
+    "stats": {
+      "Physical Damage": [
+        "5 - 8",
+        "8 - 12",
+        "12 - 18"
+      ],
+      "Critical Chance": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "ruby-ring",
+    "name": "Ruby Ring",
+    "img": "assets/items/ruby_ring.png",
+    "rarity": "epic",
+    "slot": "ring",
+    "set": "rogue",
+    "stats": {
+      "Lifesteal": [
+        3,
+        5,
+        7
+      ]
+    }
+  },
+  {
+    "slug": "shadow-boots",
+    "name": "Shadow Boots",
+    "img": "assets/items/shadow_boots.png",
+    "rarity": "epic",
+    "slot": "footwear",
+    "set": "rogue",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Critical Chance": [
+        10,
+        15,
+        23
+      ],
+      "Swiftness": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "shadow-mask",
+    "name": "Shadow Mask",
+    "img": "assets/items/shadow_mask.png",
+    "rarity": "epic",
+    "slot": "headpiece",
+    "set": "rogue",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Dodge": [
+        10,
+        15,
+        23
+      ],
+      "Critical Chance": [
+        20,
+        30,
+        45
+      ],
+      "Critical Damage": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "claw-boots",
+    "name": "Claw Boots",
+    "img": "assets/items/claw_boots.png",
+    "rarity": "legendary",
+    "slot": "footwear",
+    "set": "rogue",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ],
+      "Dodge": [
+        12,
+        18,
+        27
+      ],
+      "Critical Damage": [
+        20,
+        30,
+        45
+      ],
+      "Swiftness": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "midnight-helmet",
+    "name": "Midnight Helmet",
+    "img": "assets/items/midnight_helmet.png",
+    "rarity": "legendary",
+    "slot": "headpiece",
+    "set": "rogue",
+    "stats": {
+      "Armor": [
+        8,
+        12,
+        18
+      ],
+      "Dodge": [
+        12,
+        18,
+        27
+      ],
+      "Critical Chance": [
+        10,
+        15,
+        23
+      ],
+      "Critical Damage": [
+        30,
+        45,
+        68
+      ]
+    }
+  },
+  {
+    "slug": "night-s-blade",
+    "name": "Night's Blade",
+    "img": "assets/items/nights_blade.png",
+    "rarity": "legendary",
+    "slot": "weapon",
+    "set": "rogue",
+    "stats": {
+      "Physical Damage": [
+        "5 - 7",
+        "8 - 11",
+        "12 - 17"
+      ],
+      "Critical Chance": [
+        20,
+        30,
+        45
+      ],
+      "Critical Damage": [
+        40,
+        60,
+        90
+      ]
+    }
+  },
+  {
+    "slug": "jitte",
+    "name": "Jitte",
+    "img": "assets/items/jitte.png",
+    "rarity": "common",
+    "slot": "weapon",
+    "set": "ronin",
+    "stats": {
+      "Physical Damage": [
+        "2 - 3",
+        "4 - 5",
+        "6 - 8"
+      ],
+      "Bludgeoning": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "kogake",
+    "name": "Kogake",
+    "img": "assets/items/kogake.png",
+    "rarity": "common",
+    "slot": "footwear",
+    "set": "ronin",
+    "stats": {
+      "Armor": [
+        2,
+        4,
+        6
+      ],
+      "Dodge": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "manchira",
+    "name": "Manchira",
+    "img": "assets/items/manchira.png",
+    "rarity": "common",
+    "slot": "chestpiece",
+    "set": "ronin",
+    "stats": {
+      "Armor": [
+        2,
+        4,
+        6
+      ],
+      "Dodge": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "kappa-boots",
+    "name": "Kappa Boots",
+    "img": "assets/items/kappa_boots.png",
+    "rarity": "uncommon",
+    "slot": "footwear",
+    "set": "ronin",
+    "stats": {
+      "Armor": [
+        2,
+        4,
+        6
+      ],
+      "Dodge": [
+        5,
+        8,
+        12
+      ],
+      "Swiftness": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "kappa-breastplate",
+    "name": "Kappa Breastplate",
+    "img": "assets/items/kappa_breastplate.png",
+    "rarity": "uncommon",
+    "slot": "chestpiece",
+    "set": "ronin",
+    "stats": {
+      "Armor": [
+        4,
+        6,
+        9
+      ],
+      "Dodge": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "kappa-helmet",
+    "name": "Kappa Helmet",
+    "img": "assets/items/kappa_helmet.png",
+    "rarity": "uncommon",
+    "slot": "headpiece",
+    "set": "ronin",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Dodge": [
+        5,
+        8,
+        12
+      ],
+      "Swiftness": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "bushido-breastplate",
+    "name": "Bushido Breastplate",
+    "img": "assets/items/bushido_breastplate.png",
+    "rarity": "rare",
+    "slot": "chestpiece",
+    "set": "ronin",
+    "stats": {
+      "Armor": [
+        6,
+        9,
+        14
+      ],
+      "Dodge": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "bushido-helmet",
+    "name": "Bushido Helmet",
+    "img": "assets/items/bushido_helmet.png",
+    "rarity": "rare",
+    "slot": "headpiece",
+    "set": "ronin",
+    "stats": {
+      "Armor": [
+        6,
+        9,
+        14
+      ],
+      "Dodge": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "bushido-sandals",
+    "name": "Bushido Sandals",
+    "img": "assets/items/bushido_sandals.png",
+    "rarity": "rare",
+    "slot": "footwear",
+    "set": "ronin",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Dodge": [
+        10,
+        15,
+        23
+      ],
+      "Swiftness": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "flow-ring",
+    "name": "Flow Ring",
+    "img": "assets/items/flow_ring.png",
+    "rarity": "rare",
+    "slot": "ring",
+    "set": "ronin",
+    "stats": {
+      "Swiftness": [
+        10,
+        15,
+        23
+      ],
+      "Counterattack": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "kanabo",
+    "name": "Kanabo",
+    "img": "assets/items/kanabo.png",
+    "rarity": "rare",
+    "slot": "weapon",
+    "set": "ronin",
+    "stats": {
+      "Physical Damage": [
+        "5 - 8",
+        "8 - 12",
+        "12 - 18"
+      ],
+      "Bludgeoning": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "garb-of-the-exiled",
+    "name": "Garb of the Exiled",
+    "img": "assets/items/garb_of_the_exiled.png",
+    "rarity": "epic",
+    "slot": "chestpiece",
+    "set": "ronin",
+    "stats": {
+      "Armor": [
+        8,
+        12,
+        18
+      ],
+      "Dodge": [
+        15,
+        23,
+        35
+      ],
+      "Counterattack": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "spirit-amulet",
+    "name": "Spirit Amulet",
+    "img": "assets/items/spirit_amulet.png",
+    "rarity": "epic",
+    "slot": "necklace",
+    "set": "ronin",
+    "stats": {
+      "Swiftness": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "uchigatana",
+    "name": "Uchigatana",
+    "img": "assets/items/uchigatana.png",
+    "rarity": "epic",
+    "slot": "weapon",
+    "set": "ronin",
+    "stats": {
+      "Physical Damage": [
+        "5 - 7",
+        "8 - 11",
+        "12 - 17"
+      ],
+      "Critical Chance": [
+        10,
+        15,
+        23
+      ],
+      "Swiftness": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "japamala",
+    "name": "Japamala",
+    "img": "assets/items/japamala.png",
+    "rarity": "legendary",
+    "slot": "necklace",
+    "set": "ronin",
+    "stats": {
+      "Swiftness": [
+        12,
+        18,
+        27
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "otsuchi",
+    "name": "Otsuchi",
+    "img": "assets/items/otsuchi.png",
+    "rarity": "legendary",
+    "slot": "weapon",
+    "set": "ronin",
+    "stats": {
+      "Physical Damage": [
+        "10 - 16",
+        "15 - 24",
+        "23 - 36"
+      ],
+      "Bludgeoning": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "tengu-geta",
+    "name": "Tengu Geta",
+    "img": "assets/items/tengu_geta.png",
+    "rarity": "legendary",
+    "slot": "footwear",
+    "set": "ronin",
+    "stats": {
+      "Armor": [
+        6,
+        9,
+        14
+      ],
+      "Dodge": [
+        12,
+        18,
+        27
+      ],
+      "Swiftness": [
+        25,
+        38,
+        57
+      ]
+    }
+  },
+  {
+    "slug": "page-boots",
+    "name": "Page Boots",
+    "img": "assets/items/page_boots.png",
+    "rarity": "uncommon",
+    "slot": "footwear",
+    "set": "royal",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Luck": [
+        5,
+        8,
+        12
+      ],
+      "Swiftness": [
+        3,
+        5,
+        8
+      ]
+    }
+  },
+  {
+    "slug": "page-cape",
+    "name": "Page Cape",
+    "img": "assets/items/page_cape.png",
+    "rarity": "uncommon",
+    "slot": "chestpiece",
+    "set": "royal",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Dodge": [
+        5,
+        8,
+        12
+      ],
+      "Luck": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "court-dagger",
+    "name": "Court Dagger",
+    "img": "assets/items/court_dagger.png",
+    "rarity": "rare",
+    "slot": "weapon",
+    "set": "royal",
+    "stats": {
+      "Physical Damage": [
+        "3 - 4",
+        "5 - 6",
+        "8 - 9"
+      ],
+      "Poisonous": [
+        4,
+        6,
+        9
+      ]
+    }
+  },
+  {
+    "slug": "heir-boots",
+    "name": "Heir Boots",
+    "img": "assets/items/heir_boots.png",
+    "rarity": "rare",
+    "slot": "footwear",
+    "set": "royal",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Luck": [
+        5,
+        8,
+        12
+      ],
+      "Swiftness": [
+        12,
+        18,
+        27
+      ]
+    }
+  },
+  {
+    "slug": "heir-cape",
+    "name": "Heir Cape",
+    "img": "assets/items/heir_cape.png",
+    "rarity": "rare",
+    "slot": "chestpiece",
+    "set": "royal",
+    "stats": {
+      "Armor": [
+        2,
+        4,
+        6
+      ],
+      "Dodge": [
+        10,
+        15,
+        23
+      ],
+      "Luck": [
+        5,
+        8,
+        12
+      ],
+      "Swiftness": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "heir-crown",
+    "name": "Heir Crown",
+    "img": "assets/items/heir_crown.png",
+    "rarity": "rare",
+    "slot": "headpiece",
+    "set": "royal",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Luck": [
+        10,
+        15,
+        23
+      ],
+      "Damage Amplification": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "ostentatious-ring",
+    "name": "Ostentatious Ring",
+    "img": "assets/items/ostentatious_ring.png",
+    "rarity": "rare",
+    "slot": "ring",
+    "set": "royal",
+    "stats": {
+      "Luck": [
+        10,
+        15,
+        23
+      ],
+      "Bludgeoning": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "monarch-boots",
+    "name": "Monarch Boots",
+    "img": "assets/items/monarch_boots.png",
+    "rarity": "epic",
+    "slot": "footwear",
+    "set": "royal",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ],
+      "Luck": [
+        5,
+        8,
+        12
+      ],
+      "Swiftness": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "monarch-cape",
+    "name": "Monarch Cape",
+    "img": "assets/items/monarch_cape.png",
+    "rarity": "epic",
+    "slot": "chestpiece",
+    "set": "royal",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Dodge": [
+        15,
+        23,
+        35
+      ],
+      "Luck": [
+        5,
+        8,
+        12
+      ],
+      "Swiftness": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "monatch-crown",
+    "name": "Monarch Crown",
+    "img": "assets/items/monatch_crown.png",
+    "rarity": "epic",
+    "slot": "headpiece",
+    "set": "royal",
+    "stats": {
+      "Armor": [
+        4,
+        6,
+        9
+      ],
+      "Luck": [
+        10,
+        15,
+        23
+      ],
+      "Damage Amplification": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "ostentatious-necklace",
+    "name": "Ostentatious Necklace",
+    "img": "assets/items/ostentatious_necklace.png",
+    "rarity": "epic",
+    "slot": "necklace",
+    "set": "royal",
+    "stats": {
+      "Luck": [
+        5,
+        8,
+        12
+      ],
+      "Damage Amplification": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "regal-sword",
+    "name": "Regal Sword",
+    "img": "assets/items/regal_sword.png",
+    "rarity": "epic",
+    "slot": "weapon",
+    "set": "royal",
+    "stats": {
+      "Physical Damage": [
+        "8 - 10",
+        "12 - 15",
+        "18 - 23"
+      ],
+      "Luck": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "emperor-crown",
+    "name": "Emperor Crown",
+    "img": "assets/items/emperor_crown.png",
+    "rarity": "legendary",
+    "slot": "headpiece",
+    "set": "royal",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Luck": [
+        10,
+        15,
+        23
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ],
+      "Damage Amplification": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "regicide-dagger",
+    "name": "Regicide Dagger",
+    "img": "assets/items/regicide_dagger.png",
+    "rarity": "legendary",
+    "slot": "weapon",
+    "set": "royal",
+    "stats": {
+      "Physical Damage": [
+        "4 - 6",
+        "6 - 9",
+        "9 - 14"
+      ],
+      "Poisonous": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "unvaluable-necklace",
+    "name": "Invaluable Necklace",
+    "img": "assets/items/unvaluable_necklace.png",
+    "rarity": "legendary",
+    "slot": "necklace",
+    "set": "royal",
+    "stats": {
+      "Regeneration": [
+        1,
+        2,
+        3
+      ],
+      "Luck": [
+        10,
+        15,
+        23
+      ],
+      "Damage Amplification": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "corsair-boots",
+    "name": "Corsair Boots",
+    "img": "assets/items/corsair_boots.png",
+    "rarity": "rare",
+    "slot": "footwear",
+    "set": "saltwater",
+    "stats": {
+      "Dodge": [
+        10,
+        15,
+        23
+      ],
+      "Swiftness": [
+        10,
+        15,
+        23
+      ],
+      "Damage Amplification": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "corsair-clothes",
+    "name": "Corsair Clothes",
+    "img": "assets/items/corsair_clothes.png",
+    "rarity": "rare",
+    "slot": "chestpiece",
+    "set": "saltwater",
+    "stats": {
+      "Dodge": [
+        12,
+        18,
+        27
+      ],
+      "Counterattack": [
+        20,
+        30,
+        45
+      ],
+      "Damage Amplification": [
+        12,
+        18,
+        27
+      ]
+    }
+  },
+  {
+    "slug": "corsair-hat",
+    "name": "Corsair Hat",
+    "img": "assets/items/corsair_hat.png",
+    "rarity": "rare",
+    "slot": "headpiece",
+    "set": "saltwater",
+    "stats": {
+      "Dodge": [
+        10,
+        15,
+        23
+      ],
+      "Damage Amplification": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "sabre",
+    "name": "Sabre",
+    "img": "assets/items/sabre.png",
+    "rarity": "rare",
+    "slot": "weapon",
+    "set": "saltwater",
+    "stats": {
+      "Physical Damage": [
+        "4 - 7",
+        "6 - 11",
+        "9 - 17"
+      ],
+      "Swiftness": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "stolen-necklace",
+    "name": "Stolen Necklace",
+    "img": "assets/items/stolen_necklace.png",
+    "rarity": "rare",
+    "slot": "necklace",
+    "set": "saltwater",
+    "stats": {
+      "Swiftness": [
+        12,
+        18,
+        27
+      ]
+    }
+  },
+  {
+    "slug": "commodore-boots",
+    "name": "Commodore Boots",
+    "img": "assets/items/commodore_boots.png",
+    "rarity": "epic",
+    "slot": "footwear",
+    "set": "saltwater",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Dodge": [
+        10,
+        15,
+        23
+      ],
+      "Swiftness": [
+        10,
+        15,
+        23
+      ],
+      "Damage Amplification": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "commodore-hat",
+    "name": "Commodore Hat",
+    "img": "assets/items/commodore_hat.png",
+    "rarity": "epic",
+    "slot": "headpiece",
+    "set": "saltwater",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Dodge": [
+        10,
+        15,
+        23
+      ],
+      "Damage Amplification": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "commodore-jacket",
+    "name": "Commodore Jacket",
+    "img": "assets/items/commodore_jacket.png",
+    "rarity": "epic",
+    "slot": "chestpiece",
+    "set": "saltwater",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ],
+      "Dodge": [
+        12,
+        18,
+        27
+      ],
+      "Counterattack": [
+        10,
+        15,
+        23
+      ],
+      "Damage Amplification": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "poisoned-hook",
+    "name": "Poisoned Hook",
+    "img": "assets/items/poisoned_hook.png",
+    "rarity": "epic",
+    "slot": "weapon",
+    "set": "saltwater",
+    "stats": {
+      "Physical Damage": [
+        "2 - 3",
+        "4 - 5",
+        "6 - 8"
+      ],
+      "Swiftness": [
+        10,
+        15,
+        23
+      ],
+      "Poisonous": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "stolen-ring",
+    "name": "Stolen Ring",
+    "img": "assets/items/stolen_ring.png",
+    "rarity": "epic",
+    "slot": "ring",
+    "set": "saltwater",
+    "stats": {
+      "Damage Amplification": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "treasure-necklace",
+    "name": "Treasure Necklace",
+    "img": "assets/items/treasure_necklace.png",
+    "rarity": "legendary",
+    "slot": "necklace",
+    "set": "saltwater",
+    "stats": {
+      "Swiftness": [
+        15,
+        23,
+        35
+      ],
+      "Damage Amplification": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "treasure-ring",
+    "name": "Treasure Ring",
+    "img": "assets/items/treasure_ring.png",
+    "rarity": "legendary",
+    "slot": "ring",
+    "set": "saltwater",
+    "stats": {
+      "Damage Amplification": [
+        30,
+        45,
+        68
+      ]
+    }
+  },
+  {
+    "slug": "shotel",
+    "name": "Shotel",
+    "img": "assets/items/shotel.png",
+    "rarity": "common",
+    "slot": "weapon",
+    "set": "sylvan",
+    "stats": {
+      "Physical Damage": [
+        "2 - 3",
+        "4 - 5",
+        "6 - 8"
+      ],
+      "Swiftness": [
+        4,
+        6,
+        9
+      ]
+    }
+  },
+  {
+    "slug": "wayfarer-boots",
+    "name": "Wayfarer Boots",
+    "img": "assets/items/wayfarer_boots.png",
+    "rarity": "common",
+    "slot": "footwear",
+    "set": "sylvan",
+    "stats": {
+      "Swiftness": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "wayfarer-hat",
+    "name": "Wayfarer Hat",
+    "img": "assets/items/wayfarer_hat.png",
+    "rarity": "common",
+    "slot": "headpiece",
+    "set": "sylvan",
+    "stats": {
+      "Dodge": [
+        4,
+        6,
+        9
+      ],
+      "Swiftness": [
+        8,
+        12,
+        18
+      ]
+    }
+  },
+  {
+    "slug": "scimitar",
+    "name": "Shamshir",
+    "img": "assets/items/scimitar.png",
+    "rarity": "uncommon",
+    "slot": "weapon",
+    "set": "sylvan",
+    "stats": {
+      "Physical Damage": [
+        "3 - 5",
+        "5 - 8",
+        "8 - 12"
+      ],
+      "Swiftness": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "scout-cloak",
+    "name": "Scout Cloak",
+    "img": "assets/items/scout_cloak.png",
+    "rarity": "uncommon",
+    "slot": "chestpiece",
+    "set": "sylvan",
+    "stats": {
+      "Armor": [
+        2,
+        4,
+        6
+      ],
+      "Dodge": [
+        10,
+        15,
+        23
+      ],
+      "Counterattack": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "scout-cowl",
+    "name": "Scout Cowl",
+    "img": "assets/items/scout_cowl.png",
+    "rarity": "uncommon",
+    "slot": "headpiece",
+    "set": "sylvan",
+    "stats": {
+      "Dodge": [
+        10,
+        15,
+        23
+      ],
+      "Swiftness": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "traveler-amulet",
+    "name": "Traveler Amulet",
+    "img": "assets/items/traveler_amulet.png",
+    "rarity": "uncommon",
+    "slot": "necklace",
+    "set": "sylvan",
+    "stats": {
+      "Counterattack": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "explorer-boots",
+    "name": "Explorer Boots",
+    "img": "assets/items/explorer_boots.png",
+    "rarity": "rare",
+    "slot": "footwear",
+    "set": "sylvan",
+    "stats": {
+      "Dodge": [
+        12,
+        18,
+        27
+      ],
+      "Swiftness": [
+        12,
+        18,
+        27
+      ],
+      "Counterattack": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "explorer-cloak",
+    "name": "Explorer Cloak",
+    "img": "assets/items/explorer_cloak.png",
+    "rarity": "rare",
+    "slot": "chestpiece",
+    "set": "sylvan",
+    "stats": {
+      "Armor": [
+        2,
+        4,
+        6
+      ],
+      "Dodge": [
+        12,
+        18,
+        27
+      ],
+      "Counterattack": [
+        30,
+        45,
+        68
+      ]
+    }
+  },
+  {
+    "slug": "hunter-knife",
+    "name": "Hunter Knife",
+    "img": "assets/items/hunter_knife.png",
+    "rarity": "rare",
+    "slot": "weapon",
+    "set": "sylvan",
+    "stats": {
+      "Physical Damage": [
+        "3 - 4",
+        "5 - 6",
+        "8 - 9"
+      ],
+      "Critical Chance": [
+        20,
+        30,
+        45
+      ],
+      "Critical Damage": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "falchion",
+    "name": "Falchion",
+    "img": "assets/items/falchion.png",
+    "rarity": "epic",
+    "slot": "weapon",
+    "set": "sylvan",
+    "stats": {
+      "Physical Damage": [
+        "7 - 10",
+        "11 - 15",
+        "17 - 23"
+      ],
+      "Swiftness": [
+        12,
+        18,
+        27
+      ]
+    }
+  },
+  {
+    "slug": "ranger-boots",
+    "name": "Ranger Boots",
+    "img": "assets/items/ranger_boots.png",
+    "rarity": "epic",
+    "slot": "footwear",
+    "set": "sylvan",
+    "stats": {
+      "Armor": [
+        4,
+        6,
+        9
+      ],
+      "Dodge": [
+        10,
+        15,
+        23
+      ],
+      "Swiftness": [
+        10,
+        15,
+        23
+      ],
+      "Counterattack": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "ranger-jerkin",
+    "name": "Ranger Jerkin",
+    "img": "assets/items/ranger_jerkin.png",
+    "rarity": "epic",
+    "slot": "chestpiece",
+    "set": "sylvan",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ],
+      "Dodge": [
+        15,
+        23,
+        35
+      ],
+      "Swiftness": [
+        10,
+        15,
+        23
+      ],
+      "Counterattack": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "wind-ring",
+    "name": "Wind Ring",
+    "img": "assets/items/wind_ring.png",
+    "rarity": "epic",
+    "slot": "ring",
+    "set": "sylvan",
+    "stats": {
+      "Critical Chance": [
+        5,
+        8,
+        12
+      ],
+      "Swiftness": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "boots-of-the-wanderer",
+    "name": "Boots of the Wanderer",
+    "img": "assets/items/boots_of_the_wanderer.png",
+    "rarity": "legendary",
+    "slot": "footwear",
+    "set": "sylvan",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Dodge": [
+        12,
+        18,
+        27
+      ],
+      "Swiftness": [
+        25,
+        38,
+        57
+      ],
+      "Counterattack": [
+        25,
+        38,
+        57
+      ]
+    }
+  },
+  {
+    "slug": "cloak-of-the-wanderer",
+    "name": "Cloak of the Wanderer",
+    "img": "assets/items/cloak_of_the_wanderer.png",
+    "rarity": "legendary",
+    "slot": "chestpiece",
+    "set": "sylvan",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ],
+      "Dodge": [
+        15,
+        23,
+        35
+      ],
+      "Swiftness": [
+        10,
+        15,
+        23
+      ],
+      "Counterattack": [
+        50,
+        75,
+        113
+      ]
+    }
+  },
+  {
+    "slug": "dancing-sword",
+    "name": "Dancing Sword",
+    "img": "assets/items/dancing_sword.png",
+    "rarity": "legendary",
+    "slot": "weapon",
+    "set": "sylvan",
+    "stats": {
+      "Physical Damage": [
+        "7 - 12",
+        "11 - 18",
+        "17 - 27"
+      ],
+      "Swiftness": [
+        20,
+        30,
+        45
+      ],
+      "Counterattack": [
+        20,
+        30,
+        45
+      ]
+    }
+  },
+  {
+    "slug": "infamous-buckler",
+    "name": "Infamous Buckler",
+    "img": "assets/items/infamous_buckler.png",
+    "rarity": "common",
+    "slot": "shield",
+    "set": "taboo",
+    "stats": {
+      "Armor": [
+        1,
+        2,
+        4
+      ],
+      "Thorns": [
+        1,
+        2,
+        4
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "poisoned-spike",
+    "name": "Poisoned Spike",
+    "img": "assets/items/poisoned_spike.png",
+    "rarity": "common",
+    "slot": "weapon",
+    "set": "taboo",
+    "stats": {
+      "Physical Damage": [
+        "1 - 3",
+        "2 - 5",
+        "4 - 8"
+      ],
+      "Poisonous": [
+        1,
+        2,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "forbidden-breastplate",
+    "name": "Forbidden Breastplate",
+    "img": "assets/items/forbidden_breastplate.png",
+    "rarity": "uncommon",
+    "slot": "chestpiece",
+    "set": "taboo",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Enrage": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "forbidden-helmet",
+    "name": "Forbidden Helmet",
+    "img": "assets/items/forbidden_helmet.png",
+    "rarity": "uncommon",
+    "slot": "headpiece",
+    "set": "taboo",
+    "stats": {
+      "Armor": [
+        2,
+        4,
+        6
+      ],
+      "Thorns": [
+        2,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "poisoned-knife",
+    "name": "Poisoned Knife",
+    "img": "assets/items/poisoned_knife.png",
+    "rarity": "uncommon",
+    "slot": "weapon",
+    "set": "taboo",
+    "stats": {
+      "Physical Damage": [
+        "2 - 3",
+        "4 - 5",
+        "6 - 8"
+      ],
+      "Poisonous": [
+        2,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "skull-ring",
+    "name": "Skull Ring",
+    "img": "assets/items/skull_ring.png",
+    "rarity": "rare",
+    "slot": "ring",
+    "set": "taboo",
+    "stats": {
+      "Enrage": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "souldrain-sword",
+    "name": "Souldrain Sword",
+    "img": "assets/items/souldrain_sword.png",
+    "rarity": "rare",
+    "slot": "weapon",
+    "set": "taboo",
+    "stats": {
+      "Physical Damage": [
+        "5 - 7",
+        "8 - 11",
+        "12 - 17"
+      ],
+      "Lifesteal": [
+        1,
+        3,
+        5
+      ]
+    }
+  },
+  {
+    "slug": "undead-boots",
+    "name": "Undead Boots",
+    "img": "assets/items/undead_boots.png",
+    "rarity": "rare",
+    "slot": "footwear",
+    "set": "taboo",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Swiftness": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "undead-breastplate",
+    "name": "Undead Breastplate",
+    "img": "assets/items/undead_breastplate.png",
+    "rarity": "rare",
+    "slot": "chestpiece",
+    "set": "taboo",
+    "stats": {
+      "Armor": [
+        6,
+        9,
+        14
+      ],
+      "Enrage": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "undead-helmet",
+    "name": "Undead Helmet",
+    "img": "assets/items/undead_helmet.png",
+    "rarity": "rare",
+    "slot": "headpiece",
+    "set": "taboo",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ],
+      "Thorns": [
+        2,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "undead-shield",
+    "name": "Undead Shield",
+    "img": "assets/items/undead_shield.png",
+    "rarity": "rare",
+    "slot": "shield",
+    "set": "taboo",
+    "stats": {
+      "Armor": [
+        4,
+        6,
+        9
+      ],
+      "Enrage": [
+        1,
+        2,
+        3
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "cursed-boots",
+    "name": "Cursed Boots",
+    "img": "assets/items/cursed_boots.png",
+    "rarity": "epic",
+    "slot": "footwear",
+    "set": "taboo",
+    "stats": {
+      "Armor": [
+        8,
+        12,
+        18
+      ],
+      "Swiftness": [
+        12,
+        18,
+        27
+      ]
+    }
+  },
+  {
+    "slug": "cursed-breastplate",
+    "name": "Cursed Breastplate",
+    "img": "assets/items/cursed_breastplate.png",
+    "rarity": "epic",
+    "slot": "chestpiece",
+    "set": "taboo",
+    "stats": {
+      "Armor": [
+        6,
+        9,
+        14
+      ],
+      "Enrage": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "slug": "cursed-helmet",
+    "name": "Cursed Helmet",
+    "img": "assets/items/cursed_helmet.png",
+    "rarity": "epic",
+    "slot": "headpiece",
+    "set": "taboo",
+    "stats": {
+      "Armor": [
+        8,
+        12,
+        18
+      ],
+      "Thorns": [
+        2,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "cursed-shield",
+    "name": "Cursed Shield",
+    "img": "assets/items/cursed_shield.png",
+    "rarity": "epic",
+    "slot": "shield",
+    "set": "taboo",
+    "stats": {
+      "Armor": [
+        3,
+        5,
+        8
+      ],
+      "Regeneration": [
+        1,
+        2,
+        3
+      ],
+      "Enrage": [
+        1,
+        2,
+        3
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "death-pendant",
+    "name": "Death Pendant",
+    "img": "assets/items/death_pendant.png",
+    "rarity": "epic",
+    "slot": "necklace",
+    "set": "taboo",
+    "stats": {
+      "Enrage": [
+        2,
+        3,
+        4
+      ],
+      "Thorns": [
+        2,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "poisoned-dagger",
+    "name": "Poisoned Dagger",
+    "img": "assets/items/poisoned_dagger.png",
+    "rarity": "epic",
+    "slot": "weapon",
+    "set": "taboo",
+    "stats": {
+      "Physical Damage": [
+        "3 - 4",
+        "5 - 6",
+        "8 - 9"
+      ],
+      "Poisonous": [
+        6,
+        9,
+        14
+      ]
+    }
+  },
+  {
+    "slug": "necromancer-ring",
+    "name": "Necromancy Ring",
+    "img": "assets/items/necromancer_ring.png",
+    "rarity": "legendary",
+    "slot": "ring",
+    "set": "taboo",
+    "stats": {
+      "Poisonous": [
+        5,
+        8,
+        12
+      ],
+      "Bludgeoning": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "ribcage-shield",
+    "name": "Ribcage Shield",
+    "img": "assets/items/ribcage_shield.png",
+    "rarity": "legendary",
+    "slot": "shield",
+    "set": "taboo",
+    "stats": {
+      "Armor": [
+        4,
+        6,
+        9
+      ],
+      "Regeneration": [
+        1,
+        2,
+        3
+      ],
+      "Enrage": [
+        2,
+        3,
+        4
+      ],
+      "Thorns": [
+        2,
+        4,
+        6
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "comfy-boots",
+    "name": "Comfy Boots",
+    "img": "assets/items/comfy_boots.png",
+    "rarity": "common",
+    "slot": "footwear",
+    "set": "villager",
+    "stats": {
+      "Luck": [
+        5,
+        8,
+        12
+      ],
+      "Swiftness": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "comfy-hat",
+    "name": "Comfy Hat",
+    "img": "assets/items/comfy_hat.png",
+    "rarity": "common",
+    "slot": "headpiece",
+    "set": "villager",
+    "stats": {
+      "Armor": [
+        2,
+        4,
+        6
+      ],
+      "Luck": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "comfy-jacket",
+    "name": "Comfy Jacket",
+    "img": "assets/items/comfy_jacket.png",
+    "rarity": "common",
+    "slot": "chestpiece",
+    "set": "villager",
+    "stats": {
+      "Armor": [
+        2,
+        4,
+        6
+      ],
+      "Luck": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "wooden-shield",
+    "name": "Wooden Shield",
+    "img": "assets/items/wooden_shield.png",
+    "rarity": "common",
+    "slot": "shield",
+    "set": "villager",
+    "stats": {
+      "Armor": [
+        1,
+        2,
+        4
+      ],
+      "Luck": [
+        5,
+        8,
+        12
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "wooden-sword",
+    "name": "Wooden Sword",
+    "img": "assets/items/wooden_sword.png",
+    "rarity": "common",
+    "slot": "weapon",
+    "set": "villager",
+    "stats": {
+      "Physical Damage": [
+        "1 - 4",
+        "2 - 6",
+        "4 - 9"
+      ],
+      "Luck": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "improvised-dagger",
+    "name": "Improvised \"Dagger\"",
+    "img": "assets/items/improvised_dagger.png",
+    "rarity": "uncommon",
+    "slot": "weapon",
+    "set": "villager",
+    "stats": {
+      "Physical Damage": [
+        "2 - 3",
+        "4 - 5",
+        "6 - 8"
+      ],
+      "Luck": [
+        5,
+        8,
+        12
+      ],
+      "Critical Chance": [
+        15,
+        23,
+        35
+      ]
+    }
+  },
+  {
+    "slug": "improvised-hammer",
+    "name": "Improvised \"Hammer\"",
+    "img": "assets/items/improvised_hammer.png",
+    "rarity": "uncommon",
+    "slot": "weapon",
+    "set": "villager",
+    "stats": {
+      "Physical Damage": [
+        "1 - 5",
+        "2 - 8",
+        "4 - 12"
+      ],
+      "Luck": [
+        5,
+        8,
+        12
+      ],
+      "Bludgeoning": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "improvised-shield",
+    "name": "Improvised \"Shield\"",
+    "img": "assets/items/improvised_shield.png",
+    "rarity": "uncommon",
+    "slot": "shield",
+    "set": "villager",
+    "stats": {
+      "Regeneration": [
+        1,
+        2,
+        3
+      ],
+      "Luck": [
+        5,
+        8,
+        12
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "slug": "lucky-charm",
+    "name": "Lucky Charm",
+    "img": "assets/items/lucky_charm.png",
+    "rarity": "uncommon",
+    "slot": "necklace",
+    "set": "villager",
+    "stats": {
+      "Luck": [
+        10,
+        15,
+        23
+      ]
+    }
+  },
+  {
+    "slug": "padded-boots",
+    "name": "Padded Boots",
+    "img": "assets/items/padded_boots.png",
+    "rarity": "uncommon",
+    "slot": "footwear",
+    "set": "villager",
+    "stats": {
+      "Luck": [
+        5,
+        8,
+        12
+      ],
+      "Swiftness": [
+        12,
+        18,
+        27
+      ]
+    }
+  },
+  {
+    "slug": "padded-garb",
+    "name": "Padded Garb",
+    "img": "assets/items/padded_garb.png",
+    "rarity": "uncommon",
+    "slot": "chestpiece",
+    "set": "villager",
+    "stats": {
+      "Armor": [
+        4,
+        6,
+        9
+      ],
+      "Luck": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "padded-hat",
+    "name": "Padded Hat",
+    "img": "assets/items/padded_hat.png",
+    "rarity": "uncommon",
+    "slot": "headpiece",
+    "set": "villager",
+    "stats": {
+      "Armor": [
+        4,
+        6,
+        9
+      ],
+      "Luck": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "rusty-ring",
+    "name": "Rusty Ring",
+    "img": "assets/items/rusty_ring.png",
+    "rarity": "rare",
+    "slot": "ring",
+    "set": "villager",
+    "stats": {
+      "Luck": [
+        5,
+        8,
+        12
+      ],
+      "Poisonous": [
+        2,
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "slug": "woodcutting-axe",
+    "name": "Woodcutting Axe",
+    "img": "assets/items/woodcutting_axe.png",
+    "rarity": "rare",
+    "slot": "weapon",
+    "set": "villager",
+    "stats": {
+      "Physical Damage": [
+        "5 - 10",
+        "8 - 15",
+        "12 - 23"
+      ],
+      "Luck": [
+        5,
+        8,
+        12
+      ]
+    }
+  },
+  {
+    "slug": "cyclopean-masterpiece",
+    "name": "Cyclopean Masterpiece",
+    "img": "assets/items/cyclopean_masterpiece.png",
+    "rarity": "mythic",
+    "slot": "shield",
+    "set": "mythic",
+    "stats": {
+      "Armor": [
+        10,
+        15,
+        23
+      ],
+      "Thorns": [
+        5,
+        8,
+        12
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    },
+    "description": "When attacking, your Thorns are added to your physical damage.\nWhenever an enemy damages you, gain 2 Thorns."
+  },
+  {
+    "slug": "the-oldest-staff",
+    "name": "The Oldest Staff",
+    "img": "assets/items/the_oldest_staff.png",
+    "rarity": "mythic",
+    "slot": "weapon",
+    "set": "mythic",
+    "stats": {
+      "Magic Damage": [
+        "8 - 12",
+        "12 - 18",
+        "18 - 27"
+      ],
+      "Mana Burst": [
+        50,
+        75,
+        113
+      ]
+    },
+    "description": "Whenever your Mana Burst triggers, gain 20% Mana Burst."
+  },
+  {
+    "slug": "godslayer-dagger",
+    "name": "Godslayer Dagger",
+    "img": "assets/items/godslayer_dagger.png",
+    "rarity": "mythic",
+    "slot": "weapon",
+    "set": "mythic",
+    "stats": {
+      "Physical Damage": [
+        "7 - 9",
+        "11 - 14",
+        "17 - 21"
+      ],
+      "Critical Chance": [
+        20,
+        30,
+        45
+      ],
+      "Critical Damage": [
+        100,
+        150,
+        225
+      ]
+    },
+    "description": "Your attacks execute enemies under 25% of their life."
+  },
+  {
+    "slug": "divine-visage",
+    "name": "Divine Visage",
+    "img": "assets/items/divine_visage.png",
+    "rarity": "mythic",
+    "slot": "headpiece",
+    "set": "mythic",
+    "stats": {
+      "Armor": [
+        10,
+        15,
+        23
+      ],
+      "Regeneration": [
+        1,
+        2,
+        3
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    },
+    "description": "Whenever you heal, remove a negative Status. If you don't suffer any, restore 1 additional health."
+  },
+  {
+    "slug": "cloud-stepping-boots",
+    "name": "Cloud-stepping Boots",
+    "img": "assets/items/cloud_stepping_boots.png",
+    "rarity": "mythic",
+    "slot": "footwear",
+    "set": "mythic",
+    "stats": {
+      "Armor": [
+        2,
+        4,
+        6
+      ],
+      "Dodge": [
+        12,
+        18,
+        27
+      ],
+      "Swiftness": [
+        20,
+        30,
+        45
+      ],
+      "Counterattack": [
+        100,
+        150,
+        225
+      ]
+    },
+    "description": "Your counterattacks always critically strike."
+  },
+  {
+    "slug": "sacred-chain",
+    "name": "Sacred Chain",
+    "img": "assets/items/sacred_chain.png",
+    "rarity": "mythic",
+    "slot": "necklace",
+    "set": "mythic",
+    "stats": {
+      "Regeneration": [
+        3,
+        4,
+        5
+      ]
+    },
+    "description": "When entering an Event Area, upgrade a random level 1 item that you have equipped."
+  },
+  {
+    "slug": "black-lotus-petal",
+    "name": "Black Lotus Petal",
+    "img": "assets/items/black_lotus_petal.png",
+    "rarity": "mythic",
+    "slot": "ring",
+    "set": "mythic",
+    "stats": {
+      "Luck": [
+        5,
+        8,
+        12
+      ],
+      "Swiftness": [
+        5,
+        8,
+        12
+      ],
+      "Poisonous": [
+        5,
+        8,
+        12
+      ]
+    },
+    "description": "Whenever Poison stacks are applied to an enemy, the same amount of Wound stacks are also applied to it."
+  },
+  {
+    "slug": "forgotten-crown",
+    "name": "Forgotten Crown",
+    "img": "assets/items/forgotten_crown.png",
+    "rarity": "mythic",
+    "slot": "headpiece",
+    "set": "mythic",
+    "stats": {
+      "Armor": [
+        6,
+        9,
+        14
+      ],
+      "Poisonous": [
+        3,
+        5,
+        8
+      ],
+      "Thorns": [
+        3,
+        5,
+        8
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    },
+    "description": "When an enemy attacks you, apply Poison to it equal to your Poisonous."
+  },
+  {
+    "slug": "dragon-scales",
+    "name": "Dragon Scales",
+    "img": "assets/items/dragon_scales.png",
+    "rarity": "mythic",
+    "slot": "chestpiece",
+    "set": "mythic",
+    "stats": {
+      "Armor": [
+        15,
+        23,
+        35
+      ],
+      "Enrage": [
+        3,
+        4,
+        5
+      ]
+    },
+    "description": "You have an extra 5% Damage amplification for every Rage stack."
+  },
+  {
+    "slug": "sun-and-moon-shield",
+    "name": "Sun and Moon Shield",
+    "img": "assets/items/sun_and_moon_shield.png",
+    "rarity": "mythic",
+    "slot": "shield",
+    "set": "mythic",
+    "stats": {
+      "Armor": [
+        20,
+        30,
+        45
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    },
+    "description": "While you have Armor, you receive 25% less damage.\nWhile you don't, you deal 25% more damage."
+  },
+  {
+    "slug": "orichalchum-breastplate",
+    "name": "Orichalchum Breastplate",
+    "img": "assets/items/breastplate_of_orichalcum.png",
+    "rarity": "mythic",
+    "slot": "chestpiece",
+    "set": "mythic",
+    "stats": {
+      "Armor": [
+        30,
+        45,
+        68
+      ]
+    },
+    "description": "At the end of the round, gain armor equal to 10% of your base Armor."
+  },
+  {
+    "slug": "golden-fleece-cape",
+    "name": "Golden-Fleece Cape",
+    "img": "assets/items/golden_fleece_cape.png",
+    "rarity": "mythic",
+    "slot": "chestpiece",
+    "set": "mythic",
+    "stats": {
+      "Armor": [
+        15,
+        23,
+        35
+      ],
+      "Dodge": [
+        15,
+        23,
+        35
+      ],
+      "Counterattack": [
+        30,
+        45,
+        68
+      ]
+    },
+    "description": "After dodging an attack, all the damage you would receive that round is halved."
+  },
+  {
+    "slug": "seal-of-the-burden",
+    "name": "Seal of the Burden",
+    "img": "assets/items/seal_of_the_burden.png",
+    "rarity": "mythic",
+    "slot": "ring",
+    "set": "mythic",
+    "stats": {
+      "Bludgeoning": [
+        15,
+        23,
+        35
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ],
+      "Damage Amplification": [
+        10,
+        15,
+        23
+      ]
+    },
+    "description": "Whenever an enemy breaks free of a Stun, apply 20 Weakness to it"
+  },
+  {
+    "slug": "lead-boots",
+    "name": "Lead Boots",
+    "img": "assets/items/lead_boots.png",
+    "rarity": "mythic",
+    "slot": "footwear",
+    "set": "mythic",
+    "stats": {
+      "Armor": [
+        12,
+        18,
+        27
+      ],
+      "Regeneration": [
+        1,
+        2,
+        3
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    },
+    "description": "All damage received is reduced by 2. This effect increases by 2 at the end of the round."
+  },
+  {
+    "slug": "scepter-of-the-devil",
+    "name": "Scepter of the Devil",
+    "img": "assets/items/scepter_of_the_devil.png",
+    "rarity": "mythic",
+    "slot": "weapon",
+    "set": "mythic",
+    "stats": {
+      "Magic Damage": [
+        "11 - 13",
+        "17 - 20",
+        "26 - 30"
+      ],
+      "Poisonous": [
+        3,
+        5,
+        8
+      ],
+      "Bludgeoning": [
+        15,
+        23,
+        35
+      ]
+    },
+    "description": "When attacking an enemy that suffers from any negative Status, apply 3 additional stacks of each negative Status it is affected by."
+  },
+  {
+    "slug": "soul-devourer",
+    "name": "Soul Devourer",
+    "img": "assets/items/soul_devourer.png",
+    "rarity": "mythic",
+    "slot": "weapon",
+    "set": "mythic",
+    "stats": {
+      "Physical Damage": [
+        "13 - 19",
+        "20 - 29",
+        "30 - 44"
+      ],
+      "Lifesteal": [
+        3,
+        5,
+        7
+      ]
+    },
+    "description": "Gain 100% Damage Amplification after killing the first enemy each combat."
+  },
+  {
+    "slug": "helm-of-conquest",
+    "name": "Helm of Conquest",
+    "img": "assets/items/helm_of_conquest.png",
+    "rarity": "mythic",
+    "slot": "headpiece",
+    "set": "mythic",
+    "stats": {
+      "Armor": [
+        20,
+        30,
+        45
+      ],
+      "Damage Amplification": [
+        20,
+        30,
+        45
+      ]
+    },
+    "description": "At the end of the round, lose 1 health and gain 20% Damage Amplification. Each time this effect triggers, health lost increases by 1 and Damage amplification gained increases by 20%."
+  },
+  {
+    "slug": "evershining-diamond",
+    "name": "Evershining Diamond",
+    "img": "assets/items/evershining_diamond.png",
+    "rarity": "mythic",
+    "slot": "ring",
+    "set": "mythic",
+    "stats": {
+      "Luck": [
+        50,
+        75,
+        113
+      ]
+    },
+    "description": "Your Luck is transformed to Damage Amplification"
+  },
+  {
+    "slug": "quicksilver-pendant",
+    "name": "Quicksilver Pendant",
+    "img": "assets/items/quicksilver_pendant.png",
+    "rarity": "mythic",
+    "slot": "necklace",
+    "set": "mythic",
+    "stats": {
+      "Swiftness": [
+        20,
+        30,
+        45
+      ],
+      "Damage Amplification": [
+        20,
+        30,
+        45
+      ]
+    },
+    "description": "The first equipped item of each set adds +1 to its Set bonus (excluding Mythic items)."
+  },
+  {
+    "slug": "unbreakable-mirror",
+    "name": "Unbreakable Mirror",
+    "img": "assets/items/unbreakable_mirror.png",
+    "rarity": "mythic",
+    "slot": "shield",
+    "set": "mythic",
+    "stats": {
+      "Armor": [
+        10,
+        15,
+        23
+      ],
+      "Guard": [
+        3,
+        4,
+        5
+      ]
+    },
+    "description": "Whenever an enemy breaks one of your Barriers,  apply 20 Wound to it"
+  },
+  {
+    "slug": "dancer-s-treasure",
+    "name": "Dancer's Treasure",
+    "img": "assets/items/dancers_treasure.png",
+    "rarity": "mythic",
+    "slot": "weapon",
+    "set": "mythic",
+    "stats": {
+      "Physical Damage": [
+        "8 - 10",
+        "12 - 15",
+        "18 - 23"
+      ],
+      "Critical Chance": [
+        10,
+        15,
+        23
+      ],
+      "Critical Damage": [
+        50,
+        75,
+        113
+      ],
+      "Swiftness": [
+        10,
+        15,
+        23
+      ]
+    },
+    "description": "The first time you critically strike each round, gain armor equal to 10% of the damage dealt."
+  },
+  {
+    "slug": "rainbow-jewels",
+    "name": "Rainbow Jewels",
+    "img": "assets/items/rainbow_jewels.png",
+    "rarity": "mythic",
+    "slot": "necklace",
+    "set": "mythic",
+    "stats": {
+      "Regeneration": [
+        1,
+        2,
+        3
+      ],
+      "Enrage": [
+        1,
+        2,
+        3
+      ],
+      "Thorns": [
+        1,
+        2,
+        4
+      ],
+      "Guard": [
+        1,
+        2,
+        3
+      ]
+    },
+    "description": "Whenever you enter an Area, trigger one of these effects (chosen randomly):\n·Restore 20% of your health.\n·Enemies lose 20% of their health.\n·Gain 2 Barrier.\n·Gain 20 Rage.\n·Obtain a random Legendary item."
+  },
+  {
+    "slug": "soul-harvester",
+    "name": "Soul Harvester",
+    "img": "assets/items/soul_harvester.png",
+    "rarity": "mythic",
+    "slot": "weapon",
+    "set": "mythic",
+    "stats": {
+      "Physical Damage": [
+        "13 - 19",
+        "20 - 29",
+        "30 - 44"
+      ],
+      "Lifesteal": [
+        3,
+        5,
+        7
+      ]
+    },
+    "description": "After killing an enemy, gain 1% Damage Amplification permanently."
+  },
+  {
+    "slug": "seven-league-boots",
+    "name": "Seven-League Boots",
+    "img": "assets/items/seven_league_boots.png",
+    "rarity": "mythic",
+    "slot": "footwear",
+    "set": "mythic",
+    "stats": {
+      "Armor": [
+        7,
+        11,
+        17
+      ],
+      "Dodge": [
+        12,
+        18,
+        27
+      ],
+      "Swiftness": [
+        40,
+        60,
+        90
+      ]
+    },
+    "description": "When attacking, gain 5% Swiftness. Swiftness over 100% has a chance to trigger again (repeat for 200%, 300%, etc.)"
+  },
+  {
+    "slug": "fated-sword",
+    "name": "Fated Sword",
+    "img": "assets/items/fated_sword.png",
+    "rarity": "mythic",
+    "slot": "weapon",
+    "set": "mythic",
+    "stats": {
+      "Physical Damage": [
+        "15 - 20",
+        "23 - 30",
+        "35 - 45"
+      ],
+      "Damage Amplification": [
+        10,
+        15,
+        23
+      ]
+    },
+    "description": "Your attacks ignore Barriers and Thorns, can't miss and aren't affected by Weakness."
+  },
+  {
+    "slug": "warmage-hat",
+    "name": "Warmage Hat",
+    "img": "assets/items/warmage_hat.png",
+    "rarity": "mythic",
+    "slot": "headpiece",
+    "set": "mythic",
+    "stats": {
+      "Armor": [
+        5,
+        8,
+        12
+      ],
+      "Damage Amplification": [
+        50,
+        75,
+        113
+      ]
+    },
+    "description": "If your Magic Damage is greater than your Physical Damage, all your damage becomes Magic and you gain 50% Mana Burst. Otherwise, all your damage becomes Physical and you gain 50% Critical Chance and 10% Lifesteal."
+  }
+]

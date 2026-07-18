@@ -1,0 +1,818 @@
+[
+  {
+    "slug": "alchemist",
+    "name": "Alchemist",
+    "sets": [
+      "occult",
+      "villager"
+    ]
+  },
+  {
+    "slug": "archmage",
+    "name": "Archmage",
+    "sets": [
+      "arcane",
+      "royal"
+    ]
+  },
+  {
+    "slug": "aristocrat",
+    "name": "Aristocrat",
+    "sets": [
+      "royal",
+      "villager"
+    ]
+  },
+  {
+    "slug": "barbarian",
+    "name": "Barbarian",
+    "sets": [
+      "legion",
+      "sylvan"
+    ]
+  },
+  {
+    "slug": "battlemage",
+    "name": "Battlemage",
+    "sets": [
+      "arcane",
+      "legion"
+    ]
+  },
+  {
+    "slug": "belladonna",
+    "name": "Belladonna",
+    "sets": [
+      "darkthorn",
+      "occult"
+    ]
+  },
+  {
+    "slug": "burglar",
+    "name": "Burglar",
+    "sets": [
+      "rogue",
+      "villager"
+    ]
+  },
+  {
+    "slug": "captain",
+    "name": "Captain",
+    "sets": [
+      "royal",
+      "saltwater"
+    ]
+  },
+  {
+    "slug": "changeling",
+    "name": "Changeling",
+    "sets": [
+      "fae",
+      "villager"
+    ]
+  },
+  {
+    "slug": "chaote",
+    "name": "Chaote",
+    "sets": [
+      "arcane",
+      "occult"
+    ]
+  },
+  {
+    "slug": "commander",
+    "name": "Commander",
+    "sets": [
+      "ironclad",
+      "royal"
+    ]
+  },
+  {
+    "slug": "conspirator",
+    "name": "Conspirator",
+    "sets": [
+      "arcane",
+      "faceless"
+    ]
+  },
+  {
+    "slug": "coral",
+    "name": "Coral",
+    "sets": [
+      "darkthorn",
+      "saltwater"
+    ]
+  },
+  {
+    "slug": "corrupt",
+    "name": "Corrupt",
+    "sets": [
+      "rogue",
+      "royal"
+    ]
+  },
+  {
+    "slug": "cruel",
+    "name": "Cruel",
+    "sets": [
+      "legion",
+      "taboo"
+    ]
+  },
+  {
+    "slug": "daisy",
+    "name": "Daisy",
+    "sets": [
+      "darkthorn",
+      "villager"
+    ]
+  },
+  {
+    "slug": "dandelion",
+    "name": "Dandelion",
+    "sets": [
+      "beast",
+      "darkthorn"
+    ]
+  },
+  {
+    "slug": "deathcap",
+    "name": "Deathcap",
+    "sets": [
+      "darkthorn",
+      "taboo"
+    ]
+  },
+  {
+    "slug": "deathknight",
+    "name": "Deathknight",
+    "sets": [
+      "ironclad",
+      "taboo"
+    ]
+  },
+  {
+    "slug": "deep",
+    "name": "Deep",
+    "sets": [
+      "faceless",
+      "saltwater"
+    ]
+  },
+  {
+    "slug": "dog",
+    "name": "Dog",
+    "sets": [
+      "beast",
+      "villager"
+    ]
+  },
+  {
+    "slug": "dragon",
+    "name": "Dragon",
+    "sets": [
+      "arcane",
+      "beast"
+    ]
+  },
+  {
+    "slug": "druid",
+    "name": "Druid",
+    "sets": [
+      "arcane",
+      "sylvan"
+    ]
+  },
+  {
+    "slug": "eldritch",
+    "name": "Eldritch",
+    "sets": [
+      "occult",
+      "saltwater"
+    ]
+  },
+  {
+    "slug": "enchanter",
+    "name": "Enchanter",
+    "sets": [
+      "fae",
+      "ironclad"
+    ]
+  },
+  {
+    "slug": "fang",
+    "name": "Fang",
+    "sets": [
+      "rogue",
+      "sylvan"
+    ]
+  },
+  {
+    "slug": "farmer",
+    "name": "Farmer",
+    "sets": [
+      "sylvan",
+      "villager"
+    ]
+  },
+  {
+    "slug": "fisherman",
+    "name": "Fisherman",
+    "sets": [
+      "saltwater",
+      "villager"
+    ]
+  },
+  {
+    "slug": "forest-kin",
+    "name": "Forest-kin",
+    "sets": [
+      "royal",
+      "sylvan"
+    ]
+  },
+  {
+    "slug": "gish",
+    "name": "Gish",
+    "sets": [
+      "ironclad",
+      "occult"
+    ]
+  },
+  {
+    "slug": "gravekeeper",
+    "name": "Gravekeeper",
+    "sets": [
+      "taboo",
+      "villager"
+    ]
+  },
+  {
+    "slug": "griffin",
+    "name": "Griffin",
+    "sets": [
+      "beast",
+      "fae"
+    ]
+  },
+  {
+    "slug": "guerrilla",
+    "name": "Guerrilla",
+    "sets": [
+      "legion",
+      "rogue"
+    ]
+  },
+  {
+    "slug": "hedgewicth",
+    "name": "Hedgewicth",
+    "sets": [
+      "occult",
+      "sylvan"
+    ]
+  },
+  {
+    "slug": "high-priestess",
+    "name": "High priestess",
+    "sets": [
+      "occult",
+      "royal"
+    ]
+  },
+  {
+    "slug": "horror",
+    "name": "Horror",
+    "sets": [
+      "beast",
+      "taboo"
+    ]
+  },
+  {
+    "slug": "hydromancer",
+    "name": "Hydromancer",
+    "sets": [
+      "arcane",
+      "saltwater"
+    ]
+  },
+  {
+    "slug": "illusionist",
+    "name": "Illusionist",
+    "sets": [
+      "arcane",
+      "villager"
+    ]
+  },
+  {
+    "slug": "imperial",
+    "name": "Imperial",
+    "sets": [
+      "legion",
+      "royal"
+    ]
+  },
+  {
+    "slug": "inquisitor",
+    "name": "Inquisitor",
+    "sets": [
+      "faceless",
+      "ironclad"
+    ]
+  },
+  {
+    "slug": "kami",
+    "name": "Kami",
+    "sets": [
+      "ronin",
+      "sylvan"
+    ]
+  },
+  {
+    "slug": "killer",
+    "name": "Killer",
+    "sets": [
+      "faceless",
+      "rogue"
+    ]
+  },
+  {
+    "slug": "lich",
+    "name": "Lich",
+    "sets": [
+      "fae",
+      "taboo"
+    ]
+  },
+  {
+    "slug": "lily",
+    "name": "Lily",
+    "sets": [
+      "darkthorn",
+      "royal"
+    ]
+  },
+  {
+    "slug": "lion",
+    "name": "Lion",
+    "sets": [
+      "beast",
+      "royal"
+    ]
+  },
+  {
+    "slug": "lotus",
+    "name": "Lotus",
+    "sets": [
+      "darkthorn",
+      "ronin"
+    ]
+  },
+  {
+    "slug": "mandrake",
+    "name": "Mandrake",
+    "sets": [
+      "darkthorn",
+      "sylvan"
+    ]
+  },
+  {
+    "slug": "manipulator",
+    "name": "Manipulator",
+    "sets": [
+      "faceless",
+      "royal"
+    ]
+  },
+  {
+    "slug": "marine",
+    "name": "Marine",
+    "sets": [
+      "ironclad",
+      "saltwater"
+    ]
+  },
+  {
+    "slug": "martyr",
+    "name": "Martyr",
+    "sets": [
+      "faceless",
+      "legion"
+    ]
+  },
+  {
+    "slug": "medium",
+    "name": "Medium",
+    "sets": [
+      "occult",
+      "taboo"
+    ]
+  },
+  {
+    "slug": "mercenary",
+    "name": "Mercenary",
+    "sets": [
+      "ironclad",
+      "rogue"
+    ]
+  },
+  {
+    "slug": "mermaid",
+    "name": "Mermaid",
+    "sets": [
+      "fae",
+      "saltwater"
+    ]
+  },
+  {
+    "slug": "militia",
+    "name": "Militia",
+    "sets": [
+      "legion",
+      "villager"
+    ]
+  },
+  {
+    "slug": "mistletoe",
+    "name": "Mistletoe",
+    "sets": [
+      "darkthorn",
+      "fae"
+    ]
+  },
+  {
+    "slug": "monk",
+    "name": "Monk",
+    "sets": [
+      "arcane",
+      "ronin"
+    ]
+  },
+  {
+    "slug": "monster",
+    "name": "Monster",
+    "sets": [
+      "beast",
+      "faceless"
+    ]
+  },
+  {
+    "slug": "mystic",
+    "name": "Mystic",
+    "sets": [
+      "fae",
+      "sylvan"
+    ]
+  },
+  {
+    "slug": "navigator",
+    "name": "Navigator",
+    "sets": [
+      "saltwater",
+      "sylvan"
+    ]
+  },
+  {
+    "slug": "necromancer",
+    "name": "Necromancer",
+    "sets": [
+      "arcane",
+      "taboo"
+    ]
+  },
+  {
+    "slug": "nettle",
+    "name": "Nettle",
+    "sets": [
+      "darkthorn",
+      "rogue"
+    ]
+  },
+  {
+    "slug": "ninja",
+    "name": "Ninja",
+    "sets": [
+      "rogue",
+      "ronin"
+    ]
+  },
+  {
+    "slug": "nomad",
+    "name": "Nomad",
+    "sets": [
+      "faceless",
+      "sylvan"
+    ]
+  },
+  {
+    "slug": "oak",
+    "name": "Oak",
+    "sets": [
+      "darkthorn",
+      "ironclad"
+    ]
+  },
+  {
+    "slug": "onmyoji",
+    "name": "Onmyōji",
+    "sets": [
+      "fae",
+      "ronin"
+    ]
+  },
+  {
+    "slug": "oracle",
+    "name": "Oracle",
+    "sets": [
+      "fae",
+      "royal"
+    ]
+  },
+  {
+    "slug": "poppy",
+    "name": "Poppy",
+    "sets": [
+      "arcane",
+      "darkthorn"
+    ]
+  },
+  {
+    "slug": "predator",
+    "name": "Predator",
+    "sets": [
+      "sylvan",
+      "taboo"
+    ]
+  },
+  {
+    "slug": "psion",
+    "name": "Psion",
+    "sets": [
+      "legion",
+      "occult"
+    ]
+  },
+  {
+    "slug": "rat",
+    "name": "Rat",
+    "sets": [
+      "beast",
+      "rogue"
+    ]
+  },
+  {
+    "slug": "reaper",
+    "name": "Reaper",
+    "sets": [
+      "rogue",
+      "taboo"
+    ]
+  },
+  {
+    "slug": "rhino",
+    "name": "Rhino",
+    "sets": [
+      "beast",
+      "ironclad"
+    ]
+  },
+  {
+    "slug": "sage",
+    "name": "Sage",
+    "sets": [
+      "fae",
+      "legion"
+    ]
+  },
+  {
+    "slug": "sailor",
+    "name": "Sailor",
+    "sets": [
+      "legion",
+      "saltwater"
+    ]
+  },
+  {
+    "slug": "samurai",
+    "name": "Samurai",
+    "sets": [
+      "ironclad",
+      "ronin"
+    ]
+  },
+  {
+    "slug": "savage",
+    "name": "Savage",
+    "sets": [
+      "beast",
+      "sylvan"
+    ]
+  },
+  {
+    "slug": "secretist",
+    "name": "Secretist",
+    "sets": [
+      "faceless",
+      "occult"
+    ]
+  },
+  {
+    "slug": "sectarian",
+    "name": "Sectarian",
+    "sets": [
+      "faceless",
+      "villager"
+    ]
+  },
+  {
+    "slug": "sengoku",
+    "name": "Sengoku",
+    "sets": [
+      "legion",
+      "ronin"
+    ]
+  },
+  {
+    "slug": "shadewalker",
+    "name": "Shadewalker",
+    "sets": [
+      "arcane",
+      "rogue"
+    ]
+  },
+  {
+    "slug": "shark",
+    "name": "Shark",
+    "sets": [
+      "beast",
+      "saltwater"
+    ]
+  },
+  {
+    "slug": "shogun",
+    "name": "Shogun",
+    "sets": [
+      "ronin",
+      "royal"
+    ]
+  },
+  {
+    "slug": "soldier",
+    "name": "Soldier",
+    "sets": [
+      "ironclad",
+      "villager"
+    ]
+  },
+  {
+    "slug": "spellblade",
+    "name": "Spellblade",
+    "sets": [
+      "arcane",
+      "ironclad"
+    ]
+  },
+  {
+    "slug": "sphinx",
+    "name": "Sphinx",
+    "sets": [
+      "beast",
+      "occult"
+    ]
+  },
+  {
+    "slug": "summoner",
+    "name": "Summoner",
+    "sets": [
+      "arcane",
+      "fae"
+    ]
+  },
+  {
+    "slug": "swashbuckler",
+    "name": "Swashbuckler",
+    "sets": [
+      "rogue",
+      "saltwater"
+    ]
+  },
+  {
+    "slug": "tengu",
+    "name": "Tengu",
+    "sets": [
+      "faceless",
+      "ronin"
+    ]
+  },
+  {
+    "slug": "titan",
+    "name": "Titan",
+    "sets": [
+      "beast",
+      "legion"
+    ]
+  },
+  {
+    "slug": "trickster",
+    "name": "Trickster",
+    "sets": [
+      "fae",
+      "rogue"
+    ]
+  },
+  {
+    "slug": "tyrant",
+    "name": "Tyrant",
+    "sets": [
+      "royal",
+      "taboo"
+    ]
+  },
+  {
+    "slug": "vagabond",
+    "name": "Vagabond",
+    "sets": [
+      "ronin",
+      "villager"
+    ]
+  },
+  {
+    "slug": "wako",
+    "name": "Wakō",
+    "sets": [
+      "ronin",
+      "saltwater"
+    ]
+  },
+  {
+    "slug": "wall",
+    "name": "Wall",
+    "sets": [
+      "ironclad",
+      "legion"
+    ]
+  },
+  {
+    "slug": "warlock",
+    "name": "Warlock",
+    "sets": [
+      "occult",
+      "rogue"
+    ]
+  },
+  {
+    "slug": "warrior",
+    "name": "Warrior",
+    "sets": [
+      "ironclad",
+      "sylvan"
+    ]
+  },
+  {
+    "slug": "weizza",
+    "name": "Weizza",
+    "sets": [
+      "occult",
+      "ronin"
+    ]
+  },
+  {
+    "slug": "whisperer",
+    "name": "Whisperer",
+    "sets": [
+      "faceless",
+      "fae"
+    ]
+  },
+  {
+    "slug": "wicked",
+    "name": "Wicked",
+    "sets": [
+      "faceless",
+      "taboo"
+    ]
+  },
+  {
+    "slug": "willow",
+    "name": "Willow",
+    "sets": [
+      "darkthorn",
+      "legion"
+    ]
+  },
+  {
+    "slug": "yokai",
+    "name": "Yokai",
+    "sets": [
+      "beast",
+      "ronin"
+    ]
+  },
+  {
+    "slug": "yurei",
+    "name": "Yurei",
+    "sets": [
+      "ronin",
+      "taboo"
+    ]
+  }
+]

@@ -1,0 +1,1189 @@
+[
+  {
+    "slug": "arcane",
+    "name": "Arcane",
+    "img": "assets/sets/arcane.png",
+    "is_mythic": false,
+    "description": "Mana Burst triggers an additional time. Also, gain Mana Burst per level.",
+    "levels": [
+      {
+        "count": 2,
+        "bonus": "5% Mana Burst"
+      },
+      {
+        "count": 4,
+        "bonus": "20% Mana Burst"
+      },
+      {
+        "count": 6,
+        "bonus": "25% Mana Burst. Also, Mana Burst triggers another additional time"
+      }
+    ],
+    "items": {
+      "common": [
+        "apprentice-hat",
+        "apprentice-wand"
+      ],
+      "uncommon": [
+        "initiate-boots",
+        "initiate-hat",
+        "initiate-robes",
+        "initiate-staff"
+      ],
+      "epic": [
+        "magus-boots",
+        "magus-hat",
+        "magus-robes",
+        "magus-staff",
+        "ring-of-spellcasting"
+      ],
+      "legendary": [
+        "dusty-hat",
+        "worn-wood-staff"
+      ]
+    },
+    "styles": [
+      "archmage",
+      "battlemage",
+      "conspirator",
+      "dragon",
+      "druid",
+      "monk",
+      "necromancer",
+      "poppy",
+      "shadewalker",
+      "spellblade",
+      "summoner",
+      "chaote",
+      "hydromancer",
+      "illusionist"
+    ]
+  },
+  {
+    "slug": "beast",
+    "name": "Beast",
+    "img": "assets/sets/beast.png",
+    "is_mythic": false,
+    "description": "Whenever you attack, a percentage of your damage is dealt to all other enemies as an attack.",
+    "levels": [
+      {
+        "count": 3,
+        "bonus": "20% of your damage"
+      },
+      {
+        "count": 5,
+        "bonus": "60% of your damage"
+      }
+    ],
+    "items": {
+      "uncommon": [
+        "boar-club",
+        "fang-necklace"
+      ],
+      "epic": [
+        "lion-head",
+        "lion-heart",
+        "lion-maw",
+        "lion-paws",
+        "lion-shield"
+      ],
+      "legendary": [
+        "behemoth-boots",
+        "behemoth-head",
+        "behemoth-hide"
+      ]
+    },
+    "styles": [
+      "dandelion",
+      "dragon",
+      "griffin",
+      "horror",
+      "lion",
+      "monster",
+      "rat",
+      "rhino",
+      "savage",
+      "titan",
+      "yokai",
+      "sphinx",
+      "shark",
+      "dog"
+    ]
+  },
+  {
+    "slug": "darkthorn",
+    "name": "Darkthorn",
+    "img": "assets/sets/darkthorn.png",
+    "is_mythic": false,
+    "description": "After restoring health, deal damage to all enemies based on the amount restored. Also, gain Max Health and Regeneration per level.",
+    "levels": [
+      {
+        "count": 2,
+        "bonus": "10 Max Health and 3 Regeneration. Damage dealt is equal to the health restored"
+      },
+      {
+        "count": 4,
+        "bonus": "20 Max Health and 5 Regeneration. Damage dealt is equal to double the health restored"
+      },
+      {
+        "count": 6,
+        "bonus": "30 Max Health and 8 Regeneration. Damage dealt is equal to triple the health restored"
+      }
+    ],
+    "items": {
+      "uncommon": [
+        "thorny-ring",
+        "thorny-shield"
+      ],
+      "epic": [
+        "amulet-of-regrowth",
+        "blighted-boots",
+        "blighted-breastplate",
+        "blighted-crown",
+        "blighted-shield",
+        "rose-whip"
+      ],
+      "legendary": [
+        "blackrose-shield",
+        "bramble-crown",
+        "corrupted-vines"
+      ]
+    },
+    "styles": [
+      "dandelion",
+      "deathcap",
+      "lily",
+      "lotus",
+      "mandrake",
+      "mistletoe",
+      "nettle",
+      "oak",
+      "poppy",
+      "willow",
+      "belladonna",
+      "coral",
+      "daisy"
+    ]
+  },
+  {
+    "slug": "faceless",
+    "name": "Faceless",
+    "img": "assets/sets/faceless.png",
+    "is_mythic": false,
+    "description": "Gain a lot of Damage amplification, but lose health whenever you attack.",
+    "levels": [
+      {
+        "count": 3,
+        "bonus": "80% Damage amplification and 2 health lost"
+      },
+      {
+        "count": 5,
+        "bonus": "120% Damage Amplification and 1 health lost"
+      }
+    ],
+    "items": {
+      "uncommon": [
+        "mask-of-the-helpless",
+        "ritual-ring"
+      ],
+      "epic": [
+        "leader-boots",
+        "leader-garb",
+        "mask-of-the-boundless",
+        "ritual-dagger",
+        "symbol-of-the-faceless"
+      ],
+      "legendary": [
+        "executioner-s-scythe",
+        "mark-of-the-chosen-one",
+        "mask-of-the-endless"
+      ]
+    },
+    "styles": [
+      "conspirator",
+      "inquisitor",
+      "killer",
+      "manipulator",
+      "martyr",
+      "monster",
+      "nomad",
+      "tengu",
+      "whisperer",
+      "wicked",
+      "secretist",
+      "deep",
+      "sectarian"
+    ]
+  },
+  {
+    "slug": "fae",
+    "name": "Fae",
+    "img": "assets/sets/fae.png",
+    "is_mythic": false,
+    "description": "Whenever an enemy receives damage, if it suffers Hex, gain Swiftness. If not, apply stacks of Hex to it.",
+    "levels": [
+      {
+        "count": 2,
+        "bonus": "4 stacks, 2% Swiftness"
+      },
+      {
+        "count": 4,
+        "bonus": "8 stacks, 4% Swiftness"
+      },
+      {
+        "count": 6,
+        "bonus": "12 stacks, 6% Swiftness"
+      }
+    ],
+    "items": {
+      "uncommon": [
+        "sentient-necklace",
+        "winter-attire",
+        "winter-boots",
+        "winter-crown",
+        "winter-staff"
+      ],
+      "epic": [
+        "summer-attire",
+        "summer-boots",
+        "summer-crown",
+        "summer-staff"
+      ],
+      "legendary": [
+        "spring-boots",
+        "spring-crown",
+        "spring-staff"
+      ]
+    },
+    "styles": [
+      "enchanter",
+      "griffin",
+      "lich",
+      "mistletoe",
+      "mystic",
+      "onmyoji",
+      "oracle",
+      "sage",
+      "summoner",
+      "trickster",
+      "whisperer",
+      "mermaid",
+      "changeling"
+    ]
+  },
+  {
+    "slug": "ironclad",
+    "name": "Ironclad",
+    "img": "assets/sets/ironclad.png",
+    "is_mythic": false,
+    "description": "When one of your Barriers is broken, gain Thorns. If an enemy broke it, it receives damage based on its Max Health. Also, gain Guard per level.",
+    "levels": [
+      {
+        "count": 2,
+        "bonus": "1 Guard, 3 Thorns and 3% Max Health damage"
+      },
+      {
+        "count": 4,
+        "bonus": "2 Guard, 4 Thorns and 6% Max Health damage"
+      },
+      {
+        "count": 6,
+        "bonus": "3 Guard, 5 Thorns and 10% Max Health damage"
+      }
+    ],
+    "items": {
+      "common": [
+        "half-chest-armor",
+        "steel-buckler"
+      ],
+      "uncommon": [
+        "arming-sword",
+        "iron-ring",
+        "squire-chainmail",
+        "squire-greaves",
+        "squire-helmet"
+      ],
+      "epic": [
+        "horned-helmet",
+        "iron-medal",
+        "morning-star",
+        "spiked-breastplate",
+        "spiked-greaves",
+        "spiked-shield"
+      ],
+      "legendary": [
+        "barbed-breastplate",
+        "tower-shield"
+      ]
+    },
+    "styles": [
+      "commander",
+      "deathknight",
+      "enchanter",
+      "inquisitor",
+      "mercenary",
+      "oak",
+      "rhino",
+      "samurai",
+      "spellblade",
+      "wall",
+      "warrior",
+      "gish",
+      "marine",
+      "soldier"
+    ]
+  },
+  {
+    "slug": "legion",
+    "name": "Legion",
+    "img": "assets/sets/legion.png",
+    "is_mythic": false,
+    "description": "Gain Rage at the end of the round and reduce all damage received.",
+    "levels": [
+      {
+        "count": 2,
+        "bonus": "15% Damage reduction and 3 Rage"
+      },
+      {
+        "count": 4,
+        "bonus": "35% Damage Reduction and 5 Rage"
+      },
+      {
+        "count": 6,
+        "bonus": "50% Damage Reduction and 8 Rage"
+      }
+    ],
+    "items": {
+      "common": [
+        "bronze-buckler",
+        "gladius",
+        "old-breastplate",
+        "old-greaves",
+        "old-helmet"
+      ],
+      "uncommon": [
+        "ancient-breastplate",
+        "ancient-greaves",
+        "ancient-helmet",
+        "bronze-shield"
+      ],
+      "epic": [
+        "champion-ring",
+        "legionnaire-helmet",
+        "legionnaire-shield"
+      ],
+      "legendary": [
+        "hero-s-breastplate",
+        "hero-s-shield",
+        "hero-s-sword"
+      ]
+    },
+    "styles": [
+      "barbarian",
+      "battlemage",
+      "cruel",
+      "guerrilla",
+      "imperial",
+      "martyr",
+      "sage",
+      "sengoku",
+      "titan",
+      "wall",
+      "willow",
+      "psion",
+      "sailor",
+      "militia"
+    ]
+  },
+  {
+    "slug": "occult",
+    "name": "Occult",
+    "img": "assets/sets/occult.png",
+    "is_mythic": false,
+    "description": "Gain potions and make them stronger.",
+    "levels": [
+      {
+        "count": 3,
+        "bonus": "50% chance of gaining a potion after clearing a Combat Area"
+      },
+      {
+        "count": 5,
+        "bonus": "Also, while in combat (that is, after having already attacked an enemy), potions dropped on enemies apply their effect to all enemies and potions dropped on you have their effect doubled"
+      }
+    ],
+    "items": {
+      "epic": [
+        "ring-of-enchanting",
+        "mask-of-the-witch",
+        "witch-boots",
+        "witch-robes",
+        "witch-staff"
+      ],
+      "legendary": [
+        "wicked-hat",
+        "wicked-robes"
+      ]
+    },
+    "styles": [
+      "belladonna",
+      "chaote",
+      "eldritch",
+      "gish",
+      "hedgewicth",
+      "high-priestess",
+      "medium",
+      "psion",
+      "secretist",
+      "sphinx",
+      "warlock",
+      "weizza",
+      "alchemist"
+    ]
+  },
+  {
+    "slug": "rogue",
+    "name": "Rogue",
+    "img": "assets/sets/rogue.png",
+    "is_mythic": false,
+    "description": "The first time you critically strike each round, gain an extra attack that cannot critically strike. Also, gain Critical Chance and Critical Damage per level.",
+    "levels": [
+      {
+        "count": 2,
+        "bonus": "5% Chance and 5% Damage"
+      },
+      {
+        "count": 4,
+        "bonus": "15% Chance and 25% Damage"
+      },
+      {
+        "count": 6,
+        "bonus": "20% Chance and 50% Damage"
+      }
+    ],
+    "items": {
+      "common": [
+        "stealth-dagger",
+        "thief-boots",
+        "thief-mask"
+      ],
+      "uncommon": [
+        "infiltrator-boots",
+        "infiltrator-cloak",
+        "parrying-dagger"
+      ],
+      "epic": [
+        "estoc",
+        "ruby-ring",
+        "shadow-boots",
+        "shadow-mask"
+      ],
+      "legendary": [
+        "claw-boots",
+        "midnight-helmet",
+        "night-s-blade"
+      ]
+    },
+    "styles": [
+      "corrupt",
+      "fang",
+      "guerrilla",
+      "killer",
+      "mercenary",
+      "nettle",
+      "ninja",
+      "rat",
+      "reaper",
+      "shadewalker",
+      "trickster",
+      "warlock",
+      "swashbuckler",
+      "burglar"
+    ]
+  },
+  {
+    "slug": "ronin",
+    "name": "Ronin",
+    "img": "assets/sets/ronin.png",
+    "is_mythic": false,
+    "description": "Your attacks apply Wound and dodging applies Weakness to the enemy that attacked you. Also, gain Counterattack per level.",
+    "levels": [
+      {
+        "count": 2,
+        "bonus": "10% Counterattack. Your attacks apply 3 Wound"
+      },
+      {
+        "count": 4,
+        "bonus": "20% Counterattack. Dodging applies 3 Weakness to the attacking enemy"
+      },
+      {
+        "count": 6,
+        "bonus": "30% Counterattack. Now attacks apply 5 Wound and dodging applies 5 Weakness"
+      }
+    ],
+    "items": {
+      "common": [
+        "jitte",
+        "kogake",
+        "manchira"
+      ],
+      "uncommon": [
+        "kappa-boots",
+        "kappa-breastplate",
+        "kappa-helmet"
+      ],
+      "epic": [
+        "garb-of-the-exiled",
+        "spirit-amulet",
+        "uchigatana"
+      ],
+      "legendary": [
+        "japamala",
+        "otsuchi",
+        "tengu-geta"
+      ]
+    },
+    "styles": [
+      "kami",
+      "lotus",
+      "monk",
+      "ninja",
+      "onmyoji",
+      "samurai",
+      "sengoku",
+      "shogun",
+      "tengu",
+      "yokai",
+      "yurei",
+      "weizza",
+      "wako",
+      "vagabond"
+    ]
+  },
+  {
+    "slug": "royal",
+    "name": "Royal",
+    "img": "assets/sets/royal.png",
+    "is_mythic": false,
+    "description": "When applying a negative Status or gaining a positive one, apply and gain extra stacks.",
+    "levels": [
+      {
+        "count": 3,
+        "bonus": "1 extra stack when gaining a positive status, 4 extra stacks when applying a negative one"
+      },
+      {
+        "count": 5,
+        "bonus": "2 extra stack when gaining a positive status, 6 extra stacks when applying a negative one"
+      }
+    ],
+    "items": {
+      "uncommon": [
+        "page-boots",
+        "page-cape"
+      ],
+      "epic": [
+        "monarch-boots",
+        "monarch-cape",
+        "monarch-crown",
+        "ostentatious-necklace",
+        "regal-sword"
+      ],
+      "legendary": [
+        "emperor-crown",
+        "regicide-dagger",
+        "invaluable-necklace"
+      ]
+    },
+    "styles": [
+      "archmage",
+      "commander",
+      "corrupt",
+      "forest-kin",
+      "imperial",
+      "lily",
+      "lion",
+      "manipulator",
+      "oracle",
+      "shogun",
+      "tyrant",
+      "high-priestess",
+      "captain",
+      "aristocrat"
+    ]
+  },
+  {
+    "slug": "saltwater",
+    "name": "Saltwater",
+    "img": "assets/sets/saltwater.png",
+    "is_mythic": false,
+    "description": "Gain a chance for Golden Chests to spawn after clearing a Combat Area and make them stronger.",
+    "levels": [
+      {
+        "count": 3,
+        "bonus": "30% chance of Normal Chests becoming Golden Chests"
+      },
+      {
+        "count": 5,
+        "bonus": "Also, items found in Golden Chests are upgraded"
+      }
+    ],
+    "items": {
+      "epic": [
+        "commodore-boots",
+        "commodore-hat",
+        "commodore-jacket",
+        "poisoned-hook",
+        "stolen-ring"
+      ],
+      "legendary": [
+        "treasure-necklace",
+        "treasure-ring"
+      ]
+    },
+    "styles": [
+      "eldritch",
+      "captain",
+      "coral",
+      "deep",
+      "hydromancer",
+      "marine",
+      "mermaid",
+      "navigator",
+      "sailor",
+      "shark",
+      "swashbuckler",
+      "wako",
+      "fisherman"
+    ]
+  },
+  {
+    "slug": "sylvan",
+    "name": "Sylvan",
+    "img": "assets/sets/sylvan.png",
+    "is_mythic": false,
+    "description": "Whenever you attack, gain 5% Damage Amplification. Also, gain Swiftness per level.",
+    "levels": [
+      {
+        "count": 2,
+        "bonus": "5% Swiftness and gain 5% Damage Aplication per attack"
+      },
+      {
+        "count": 4,
+        "bonus": "30% Swiftness"
+      },
+      {
+        "count": 6,
+        "bonus": "35% Swiftness. Also, gain an extra 5% Damage Amplification on attack"
+      }
+    ],
+    "items": {
+      "common": [
+        "shotel",
+        "wayfarer-boots",
+        "wayfarer-hat"
+      ],
+      "uncommon": [
+        "shamshir",
+        "scout-cloak",
+        "scout-cowl",
+        "traveler-amulet"
+      ],
+      "epic": [
+        "falchion",
+        "ranger-boots",
+        "ranger-jerkin",
+        "wind-ring"
+      ],
+      "legendary": [
+        "boots-of-the-wanderer",
+        "cloak-of-the-wanderer",
+        "dancing-sword"
+      ]
+    },
+    "styles": [
+      "barbarian",
+      "druid",
+      "fang",
+      "forest-kin",
+      "kami",
+      "mandrake",
+      "mystic",
+      "nomad",
+      "predator",
+      "savage",
+      "warrior",
+      "hedgewicth",
+      "navigator",
+      "farmer"
+    ]
+  },
+  {
+    "slug": "taboo",
+    "name": "Taboo",
+    "img": "assets/sets/taboo.png",
+    "is_mythic": false,
+    "description": "When an enemy attacks you, it has a chance of being stunned. Also, enemies take damage when breaking free of a stun.",
+    "levels": [
+      {
+        "count": 3,
+        "bonus": "35% chance and 20 + 5% Max Health damage"
+      },
+      {
+        "count": 5,
+        "bonus": "55% chance and 30 + 8% Max Health damage"
+      }
+    ],
+    "items": {
+      "common": [
+        "infamous-buckler",
+        "poisoned-spike"
+      ],
+      "uncommon": [
+        "forbidden-breastplate",
+        "forbidden-helmet",
+        "poisoned-knife"
+      ],
+      "epic": [
+        "cursed-boots",
+        "cursed-breastplate",
+        "cursed-helmet",
+        "cursed-shield",
+        "death-pendant",
+        "poisoned-dagger"
+      ],
+      "legendary": [
+        "necromancy-ring",
+        "ribcage-shield"
+      ]
+    },
+    "styles": [
+      "cruel",
+      "deathcap",
+      "deathknight",
+      "horror",
+      "lich",
+      "necromancer",
+      "predator",
+      "reaper",
+      "tyrant",
+      "wicked",
+      "yurei",
+      "medium",
+      "gravekeeper"
+    ]
+  },
+  {
+    "slug": "villager",
+    "name": "Villager",
+    "img": "assets/sets/villager.png",
+    "is_mythic": false,
+    "description": "Items drop as if you had progressed through more Areas .",
+    "levels": [
+      {
+        "count": 3,
+        "bonus": "15 more Areas"
+      },
+      {
+        "count": 5,
+        "bonus": "25 more Areas"
+      }
+    ],
+    "items": {
+      "common": [
+        "comfy-boots",
+        "comfy-hat",
+        "comfy-jacket",
+        "wooden-shield",
+        "wooden-sword"
+      ],
+      "uncommon": [
+        "improvised-dagger",
+        "improvised-hammer",
+        "improvised-shield",
+        "lucky-charm",
+        "padded-boots",
+        "padded-garb",
+        "padded-hat"
+      ]
+    },
+    "styles": [
+      "alchemist",
+      "aristocrat",
+      "burglar",
+      "changeling",
+      "daisy",
+      "dog",
+      "farmer",
+      "fisherman",
+      "gravekeeper",
+      "illusionist",
+      "militia",
+      "sectarian",
+      "soldier",
+      "vagabond"
+    ]
+  },
+  {
+    "slug": "aegis",
+    "name": "Aegis",
+    "img": "assets/sets/aegis.png",
+    "is_mythic": true,
+    "description": "When attacking, your Thorns are added to your physical damage.\nWhenever an enemy damages you, gain 2 Thorns.",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "cyclopean-masterpiece"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "ancestral",
+    "name": "Ancestral",
+    "img": "assets/sets/ancestral.png",
+    "is_mythic": true,
+    "description": "Whenever your Mana Burst triggers, gain 20% Mana Burst.",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "the-oldest-staff"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "blasphemous",
+    "name": "Blasphemous",
+    "img": "assets/sets/blasphemous.png",
+    "is_mythic": true,
+    "description": "Your attacks execute enemies under 25% of their life.",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "godslayer-dagger"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "blessed",
+    "name": "Blessed",
+    "img": "assets/sets/blessed.png",
+    "is_mythic": true,
+    "description": "Whenever you heal, remove a negative Status. If you don't suffer any, restore 1 additional health.",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "divine-visage"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "celestial",
+    "name": "Celestial",
+    "img": "assets/sets/celestial.png",
+    "is_mythic": true,
+    "description": "Your counterattacks always critically strike.",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "cloud-stepping-boots"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "chained",
+    "name": "Chained",
+    "img": "assets/sets/chained.png",
+    "is_mythic": true,
+    "description": "When entering an Event Area, upgrade a random level 1 item that you have equipped.",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "sacred-chain"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "decadent",
+    "name": "Decadent",
+    "img": "assets/sets/decadent.png",
+    "is_mythic": true,
+    "description": "Whenever Poison stacks are applied to an enemy, the same amount of Wound stacks are also applied to it.",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "black-lotus-petal"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "doomed",
+    "name": "Doomed",
+    "img": "assets/sets/doomed.png",
+    "is_mythic": true,
+    "description": "When an enemy attacks you, apply Poison to it equal to your Poisonous.",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "forgotten-crown"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "draconic",
+    "name": "Draconic",
+    "img": "assets/sets/draconic.png",
+    "is_mythic": true,
+    "description": "You have an extra 5% Damage amplification for every Rage stack.",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "dragon-scales"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "dual",
+    "name": "Dual",
+    "img": "assets/sets/dual.png",
+    "is_mythic": true,
+    "description": "While you have Armor, you receive 25% less damage.\nWhile you don't, you deal 25% more damage.",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "sun-and-moon-shield"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "eternal",
+    "name": "Eternal",
+    "img": "assets/sets/eternal.png",
+    "is_mythic": true,
+    "description": "At the end of the round, gain armor equal to 10% of your base Armor.",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "orichalchum-breastplate"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "golden",
+    "name": "Golden",
+    "img": "assets/sets/golden.png",
+    "is_mythic": true,
+    "description": "After dodging an attack, all the damage you would receive that round is halved.",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "golden-fleece-cape"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "heavy",
+    "name": "Heavy",
+    "img": "assets/sets/heavy.png",
+    "is_mythic": true,
+    "description": "Whenever an enemy breaks free of a Stun, apply 20 Weakness to it",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "seal-of-the-burden"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "immovable",
+    "name": "Immovable",
+    "img": "assets/sets/immovable.png",
+    "is_mythic": true,
+    "description": "All damage received is reduced by 2. This effect increases by 2 at the end of the round.",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "lead-boots"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "infernal",
+    "name": "Infernal",
+    "img": "assets/sets/infernal.png",
+    "is_mythic": true,
+    "description": "When attacking an enemy that suffers from any negative Status, apply 3 additional stacks of each negative Status it is affected by.",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "scepter-of-the-devil"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "insatiable",
+    "name": "Insatiable",
+    "img": "assets/sets/insatiable.png",
+    "is_mythic": true,
+    "description": "Gain 100% Damage Amplification after killing the first enemy each combat.",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "soul-devourer"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "lord",
+    "name": "Lord",
+    "img": "assets/sets/lord.png",
+    "is_mythic": true,
+    "description": "At the end of the round, lose 1 health and gain 20% Damage Amplification. Each time this effect triggers, health lost increases by 1 and Damage amplification gained increases by 20%.",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "helm-of-conquest"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "luminous",
+    "name": "Luminous",
+    "img": "assets/sets/luminous.png",
+    "is_mythic": true,
+    "description": "Your Luck is transformed to Damage Amplification",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "evershining-diamond"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "mercurial",
+    "name": "Mercurial",
+    "img": "assets/sets/mercurial.png",
+    "is_mythic": true,
+    "description": "The first equipped item of each set adds +1 to its Set bonus (excluding Mythic items).",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "quicksilver-pendant"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "mirrored",
+    "name": "Mirrored",
+    "img": "assets/sets/mirrored.png",
+    "is_mythic": true,
+    "description": "Whenever an enemy breaks one of your Barriers,  apply 20 Wound to it",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "unbreakable-mirror"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "performer",
+    "name": "Performer",
+    "img": "assets/sets/performer.png",
+    "is_mythic": true,
+    "description": "The first time you critically strike each round, gain armor equal to 10% of the damage dealt.",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "dancer-s-treasure"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "polychrome",
+    "name": "Polychrome",
+    "img": "assets/sets/polychrome.png",
+    "is_mythic": true,
+    "description": "Whenever you enter an Area, trigger one of these effects (chosen randomly):\n·Restore 20% of your health.\n·Enemies lose 20% of their health.\n·Gain 2 Barrier.\n·Gain 20 Rage.\n·Obtain a random Legendary item.",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "rainbow-jewels"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "psychopomp",
+    "name": "Psychopomp",
+    "img": "assets/sets/psychopomp.png",
+    "is_mythic": true,
+    "description": "After killing an enemy, gain 1% Damage Amplification permanently.",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "soul-harvester"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "speedster",
+    "name": "Speedster",
+    "img": "assets/sets/speedster.png",
+    "is_mythic": true,
+    "description": "When attacking, gain 5% Swiftness. Swiftness over 100% has a chance to trigger again (repeat for 200%, 300%, etc.)",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "seven-league-boots"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "unstoppable",
+    "name": "Unstoppable",
+    "img": "assets/sets/unstoppable.png",
+    "is_mythic": true,
+    "description": "Your attacks ignore Barriers and Thorns, can't miss and aren't affected by Weakness.",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "fated-sword"
+      ]
+    },
+    "styles": []
+  },
+  {
+    "slug": "versatile",
+    "name": "Versatile",
+    "img": "assets/sets/versatile.png",
+    "is_mythic": true,
+    "description": "If your Magic Damage is greater than your Physical Damage, all your damage becomes Magic and you gain 50% Mana Burst. Otherwise, all your damage becomes Physical and you gain 50% Critical Chance and 10% Lifesteal.",
+    "levels": [],
+    "items": {
+      "mythic": [
+        "warmage-hat"
+      ]
+    },
+    "styles": []
+  }
+]

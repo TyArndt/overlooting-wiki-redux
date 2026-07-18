@@ -1,0 +1,1022 @@
+[
+  {
+    "slug": "play-safe",
+    "name": "Play Safe",
+    "img": "assets/masteries/play_safe.png",
+    "character": "liz",
+    "description": "Gain 50% Critical Chance but lose 20% Critical Damage.",
+    "skill_level": 1,
+    "unlock_level": 0,
+    "stats": {
+      "Critical Chance": 50,
+      "Critical Damage": -20
+    }
+  },
+  {
+    "slug": "lucky-foot",
+    "name": "Lucky Foot",
+    "img": "assets/masteries/lucky_feet.png",
+    "character": "liz",
+    "description": "Gain 10 Luck. You can trash an extra item with your first Passive ability.",
+    "skill_level": 1,
+    "unlock_level": 0,
+    "stats": {
+      "Luck": 10
+    }
+  },
+  {
+    "slug": "defensive-maneuver",
+    "name": "Defensive Maneuver",
+    "img": "assets/masteries/defensive_maneuver.png",
+    "character": "liz",
+    "description": "Whenever you attack, gain 1 temporary Armor.",
+    "skill_level": 1,
+    "unlock_level": 0
+  },
+  {
+    "slug": "first-aid",
+    "name": "First Aid",
+    "img": "assets/masteries/first_aid.png",
+    "character": "liz",
+    "description": "When entering an Event Area other than a Shrine Area, gain a healing potion.",
+    "skill_level": 1,
+    "unlock_level": 0
+  },
+  {
+    "slug": "recycling",
+    "name": "Recycling",
+    "img": "assets/masteries/recycling.png",
+    "character": "liz",
+    "description": "When trashing an item with your first Passive Ability, the item obtained will be of the same Category (for example, Headpiece) as the item trashed. You can trash an extra item with your first Passive Ability.",
+    "skill_level": 1,
+    "unlock_level": 0
+  },
+  {
+    "slug": "weapon-infusion",
+    "name": "Weapon Infusion",
+    "img": "assets/masteries/weapon_infusion.png",
+    "character": "liz",
+    "description": "When attacking, apply 2 Weakness or 2 Wound (chosen randomly).",
+    "skill_level": 1,
+    "unlock_level": 0
+  },
+  {
+    "slug": "sneak-attack",
+    "name": "Sneak Attack",
+    "img": "assets/masteries/sneak_attack.png",
+    "character": "liz",
+    "description": "Your first attack of the combat always critically strikes.",
+    "skill_level": 1,
+    "unlock_level": 2
+  },
+  {
+    "slug": "apothecary",
+    "name": "Apothecary",
+    "img": "assets/masteries/apothecary.png",
+    "character": "liz",
+    "description": "When trashing item with your first Passive Ability, the item obtained has increased chance of being a potion. You can trash an extra item with your first Passive ability.",
+    "skill_level": 1,
+    "unlock_level": 3
+  },
+  {
+    "slug": "mana-leak",
+    "name": "Mana Leak",
+    "img": "assets/masteries/mana_leak.png",
+    "character": "liz",
+    "description": "When attacking, deal 5 magic damage to a random enemy.",
+    "skill_level": 1,
+    "unlock_level": 4
+  },
+  {
+    "slug": "armor-infusion",
+    "name": "Armor Infusion",
+    "img": "assets/masteries/armor_infusion.png",
+    "character": "liz",
+    "description": "When an enemy attacks you, apply 3 Weak or 3 Poison to it (chosen randomly)",
+    "skill_level": 1,
+    "unlock_level": 5
+  },
+  {
+    "slug": "quality-control",
+    "name": "Quality Control",
+    "img": "assets/masteries/quality_control.png",
+    "character": "liz",
+    "description": "When trashing an item with your first Passive Ability, the item obtained will not be of inferior Rarity than the item trashed (except for Mythics). You can trash an extra item with your first Passive ability.",
+    "skill_level": 1,
+    "unlock_level": 6
+  },
+  {
+    "slug": "surprise-factor",
+    "name": "Surprise Factor",
+    "img": "assets/masteries/surprise_factor.png",
+    "character": "liz",
+    "description": "When entering a new Area, attack a random enemy without triggering combat.",
+    "skill_level": 1,
+    "unlock_level": 7
+  },
+  {
+    "slug": "junk-artisan",
+    "name": "Junk Artisan",
+    "img": "assets/masteries/junk_artisan.png",
+    "character": "liz",
+    "description": "When trashing item with your first Passive Ability, the item obtained has a 50% chance of being upgraded.\nYou can trash an extra item with your first Passive ability.",
+    "skill_level": 2,
+    "unlock_level": 0
+  },
+  {
+    "slug": "sadist",
+    "name": "Sadist",
+    "img": "assets/masteries/sadist.png",
+    "character": "liz",
+    "description": "When you critically strike, gain 20 Rage.",
+    "skill_level": 2,
+    "unlock_level": 0
+  },
+  {
+    "slug": "spreading-toxicity",
+    "name": "Spreading Toxicity",
+    "img": "assets/masteries/spreading_toxicity.png",
+    "character": "liz",
+    "description": "When an enemy dies, its negative Statuses transfer to a random enemy.",
+    "skill_level": 2,
+    "unlock_level": 0
+  },
+  {
+    "slug": "subterfuge",
+    "name": "Subterfuge",
+    "img": "assets/masteries/subterfuge.png",
+    "character": "liz",
+    "description": "Enemies receive double damage when it's not your turn.",
+    "skill_level": 2,
+    "unlock_level": 0
+  },
+  {
+    "slug": "perfected-defense",
+    "name": "Perfected Defense",
+    "img": "assets/masteries/perfected_defense.png",
+    "character": "liz",
+    "description": "At the end of the round, lose 3 Armor and gain 1 Barrier.",
+    "skill_level": 2,
+    "unlock_level": 0
+  },
+  {
+    "slug": "survival-instinct",
+    "name": "Survival Instinct",
+    "img": "assets/masteries/survival_instinct.png",
+    "character": "liz",
+    "description": "The first time you lose health in each combat, gain 50% Damage Amplification. If your health is below 50%, gain 100% Damage Amplification instead.",
+    "skill_level": 2,
+    "unlock_level": 0
+  },
+  {
+    "slug": "versatile-stance",
+    "name": "Versatile Stance",
+    "img": "assets/masteries/versatile_stance.png",
+    "character": "liz",
+    "description": "Gain 1 Regeneration and 1 Enrage permanently.\nWhenever you dodge, trigger Regeneration and Enrage.",
+    "skill_level": 2,
+    "unlock_level": 2,
+    "stats": {
+      "Regeneration": 1,
+      "Enrage": 1
+    }
+  },
+  {
+    "slug": "upgraded-formula",
+    "name": "Upgraded Formula",
+    "img": "assets/masteries/upgraded_formula.png",
+    "character": "liz",
+    "description": "After using a potion, restore 30% of your health.",
+    "skill_level": 2,
+    "unlock_level": 3
+  },
+  {
+    "slug": "makeshift-weapons",
+    "name": "Makeshift Weapons",
+    "img": "assets/masteries/makeshift_weapons.png",
+    "character": "liz",
+    "description": "After trashing an item while in combat, gain 15% Damage amplification.",
+    "skill_level": 2,
+    "unlock_level": 4
+  },
+  {
+    "slug": "attack-pattern",
+    "name": "Attack Pattern",
+    "img": "assets/masteries/attack_pattern.png",
+    "character": "liz",
+    "description": "Enemies that have already attacked you this combat deal 50% less damage.",
+    "skill_level": 2,
+    "unlock_level": 5
+  },
+  {
+    "slug": "hexblade",
+    "name": "Hexblade",
+    "img": "assets/masteries/hexblade.png",
+    "character": "liz",
+    "description": "When attacking, apply 20 Hex.",
+    "skill_level": 2,
+    "unlock_level": 6
+  },
+  {
+    "slug": "weapon-proficiency",
+    "name": "Weapon Proficiency",
+    "img": "assets/masteries/weapon_proficiency.png",
+    "character": "liz",
+    "description": "On-hit effects and when attacking effects trigger twice.",
+    "skill_level": 2,
+    "unlock_level": 7
+  },
+  {
+    "slug": "thrill-addict",
+    "name": "Thrill Addict",
+    "img": "assets/masteries/thrill_addict.png",
+    "character": "liz",
+    "description": "Critical strikes deal double damage, but non-critical strikes deal half damage.",
+    "skill_level": 3,
+    "unlock_level": 0
+  },
+  {
+    "slug": "nimble-fighter",
+    "name": "Nimble Fighter",
+    "img": "assets/masteries/nimble_fighter.png",
+    "character": "liz",
+    "description": "50% Swiftness, 100% Counterattack and 25% Dodge if the Head slot is empty.",
+    "skill_level": 3,
+    "unlock_level": 0
+  },
+  {
+    "slug": "duelist",
+    "name": "Duelist",
+    "img": "assets/masteries/duelist.png",
+    "character": "liz",
+    "description": "At the start of the round, if you have a Hand slot empty, gain 3 extra attacks.",
+    "skill_level": 3,
+    "unlock_level": 0
+  },
+  {
+    "slug": "timely-retreat",
+    "name": "Timely Retreat",
+    "img": "assets/masteries/timely_retreat.png",
+    "character": "liz",
+    "description": "When an enemy damages you, gain 1 Barrier and 5 Weakness.",
+    "skill_level": 3,
+    "unlock_level": 0
+  },
+  {
+    "slug": "untouchable",
+    "name": "Untouchable",
+    "img": "assets/masteries/untouchable.png",
+    "character": "liz",
+    "description": "Whenever an enemy attacks you and doesn't deal damage, apply 20 Wound to it.",
+    "skill_level": 3,
+    "unlock_level": 0
+  },
+  {
+    "slug": "target-the-weak",
+    "name": "Target the Weak",
+    "img": "assets/masteries/target_the_weak.png",
+    "character": "liz",
+    "description": "The first time you attack each enemy in each round, if it suffers a negative Status, gain an extra attack.",
+    "skill_level": 3,
+    "unlock_level": 0
+  },
+  {
+    "slug": "genius-of-adaptability",
+    "name": "Genius of Adaptability",
+    "img": "assets/masteries/genius_of_adaptability.png",
+    "character": "liz",
+    "description": "Gain a stat buff depending on the item on your right hand:\nPhysical weapon - 20 Physical damage.\nMagic weapon - 80% Mana Burst.\nShield - 4 Guard.",
+    "skill_level": 3,
+    "unlock_level": 2
+  },
+  {
+    "slug": "schrodinger-s-cat",
+    "name": "Schrödinger's Cat",
+    "img": "assets/masteries/schrodingers_cat.png",
+    "character": "liz",
+    "description": "ALL characters receive double damage. You gain Invulnerable every 2nd turn.",
+    "skill_level": 3,
+    "unlock_level": 3
+  },
+  {
+    "slug": "slow-start",
+    "name": "Slow Start",
+    "img": "assets/masteries/slow_start.png",
+    "character": "liz",
+    "description": "Gain 1 extra attack for each round that has passed, but your attacks deal 50% less damage.",
+    "skill_level": 3,
+    "unlock_level": 4
+  },
+  {
+    "slug": "vampirism",
+    "name": "Vampirism",
+    "img": "assets/masteries/vampirism.png",
+    "character": "liz",
+    "description": "Gain 15% Lifesteal permanently that increases to 30% during the first round of each combat.",
+    "skill_level": 3,
+    "unlock_level": 5,
+    "stats": {
+      "Lifesteal": 15
+    }
+  },
+  {
+    "slug": "perfectly-balanced",
+    "name": "Perfectly Balanced",
+    "img": "assets/masteries/perfectly_balanced.png",
+    "character": "liz",
+    "description": "Whenever you lose armor, restore 3 health.\nWhenever you lose health, gain 3 Rage.\nWhenever you lose stacks of a Status, gain 3 armor.",
+    "skill_level": 3,
+    "unlock_level": 6
+  },
+  {
+    "slug": "rule-of-three",
+    "name": "Rule of Three",
+    "img": "assets/masteries/rule_of_three.png",
+    "character": "liz",
+    "description": "At the end of the 3rd round, lose all your Damage Amplification and deal magic damage equal to 3 times that amount to all enemies.",
+    "skill_level": 3,
+    "unlock_level": 7
+  },
+  {
+    "slug": "basic-training",
+    "name": "Basic Training",
+    "img": "assets/masteries/basic_training.png",
+    "character": "maximilian",
+    "description": "Gain 5 Armor and 10% Damage amplification.",
+    "skill_level": 1,
+    "unlock_level": 0,
+    "stats": {
+      "Armor": 5,
+      "Damage Amplification": 10
+    }
+  },
+  {
+    "slug": "healthy-lifestyle",
+    "name": "Healthy Lifestyle",
+    "img": "assets/masteries/healthy_lifestyle.png",
+    "character": "maximilian",
+    "description": "Gain 30 Max Health and restore 30 health.",
+    "skill_level": 1,
+    "unlock_level": 0,
+    "stats": {
+      "Max Health": 30
+    }
+  },
+  {
+    "slug": "quick-repair",
+    "name": "Quick Repair",
+    "img": "assets/masteries/quick_repair.png",
+    "character": "maximilian",
+    "description": "When obtaining an item, 25% chance to upgrade it automatically.",
+    "skill_level": 1,
+    "unlock_level": 0
+  },
+  {
+    "slug": "handcrafted-traps",
+    "name": "Handcrafted Traps",
+    "img": "assets/masteries/handcrafted_traps.png",
+    "character": "maximilian",
+    "description": "When entering a new Area, all enemies receive physical damage equal to 5 + 5% of their Max Health.",
+    "skill_level": 1,
+    "unlock_level": 0
+  },
+  {
+    "slug": "emotional",
+    "name": "Emotional",
+    "img": "assets/masteries/emotional.png",
+    "character": "maximilian",
+    "description": "When entering a new Area, gain 8 Rage.",
+    "skill_level": 1,
+    "unlock_level": 4
+  },
+  {
+    "slug": "piercing-gaze",
+    "name": "Piercing Gaze",
+    "img": "assets/masteries/piercing_gaze.png",
+    "character": "maximilian",
+    "description": "When entering a new Area, stun a random enemy.",
+    "skill_level": 1,
+    "unlock_level": 6
+  },
+  {
+    "slug": "emergency-healing",
+    "name": "Emergency Healing",
+    "img": "assets/masteries/emergency_healing.png",
+    "character": "maximilian",
+    "description": "The first time you lose health every round, restore 5 health.",
+    "skill_level": 1,
+    "unlock_level": 2
+  },
+  {
+    "slug": "personal-collection",
+    "name": "Personal Collection",
+    "img": "assets/masteries/personal_collection.png",
+    "character": "maximilian",
+    "description": "You have an extra 7% Damage Amplification for every different Rarity in your equipment.",
+    "skill_level": 1,
+    "unlock_level": 3
+  },
+  {
+    "slug": "intimidate",
+    "name": "Intimidate",
+    "img": "assets/masteries/intimidate.png",
+    "character": "maximilian",
+    "description": "When entering a new Area, apply 3 Weakness to all enemies.",
+    "skill_level": 1,
+    "unlock_level": 4
+  },
+  {
+    "slug": "healing-factor",
+    "name": "Healing Factor",
+    "img": "assets/masteries/healing_factor.png",
+    "character": "maximilian",
+    "description": "Gain 3 Regeneration, but lose it if your health is below 50%.",
+    "skill_level": 1,
+    "unlock_level": 5,
+    "stats": {
+      "Regeneration": 3
+    }
+  },
+  {
+    "slug": "poison-traps",
+    "name": "Poison Traps",
+    "img": "assets/masteries/poison_traps.png",
+    "character": "maximilian",
+    "description": "When entering a new Area, apply 10 Poison to all enemies.",
+    "skill_level": 1,
+    "unlock_level": 6
+  },
+  {
+    "slug": "executioner",
+    "name": "Executioner",
+    "img": "assets/masteries/executioner.png",
+    "character": "maximilian",
+    "description": "After killing an enemy, gain an extra attack.",
+    "skill_level": 1,
+    "unlock_level": 7
+  },
+  {
+    "slug": "adrenaline",
+    "name": "Adrenaline",
+    "img": "assets/masteries/adrenaline.png",
+    "character": "maximilian",
+    "description": "Gain 40% Damage Amplification, but lose 8% Damage Amplification at the end of the round.",
+    "skill_level": 2,
+    "unlock_level": 0
+  },
+  {
+    "slug": "diamond-in-the-rough",
+    "name": "Diamond in the Rough",
+    "img": "assets/masteries/diamond_in_the_rough.png",
+    "character": "maximilian",
+    "description": "Upgrading Common, Uncommon, Rare and Epic items at level 1 now upgrades them directly to level 3.",
+    "skill_level": 2,
+    "unlock_level": 0
+  },
+  {
+    "slug": "battle-frenzy",
+    "name": "Battle Frenzy",
+    "img": "assets/masteries/battle_frenzy.png",
+    "character": "maximilian",
+    "description": "While you have 10 Rage or more, your attacks always critically strike.",
+    "skill_level": 2,
+    "unlock_level": 0
+  },
+  {
+    "slug": "exploit-weakness",
+    "name": "Exploit Weakness",
+    "img": "assets/masteries/exploit_weakness.png",
+    "character": "maximilian",
+    "description": "Poisoned enemies deal half damage and stunned enemies receive double damage.",
+    "skill_level": 2,
+    "unlock_level": 0
+  },
+  {
+    "slug": "rough-skin",
+    "name": "Rough Skin",
+    "img": "assets/masteries/rough_skin.png",
+    "character": "maximilian",
+    "description": "When an enemy attacks you, it receives physical damage equal to its damage + 3% of its Max Health.",
+    "skill_level": 2,
+    "unlock_level": 0
+  },
+  {
+    "slug": "impervious",
+    "name": "Impervious",
+    "img": "assets/masteries/impervious.png",
+    "character": "maximilian",
+    "description": "Whenever you lose 15 armor, gain 1 barrier.",
+    "skill_level": 2,
+    "unlock_level": 0
+  },
+  {
+    "slug": "advanced-tactics",
+    "name": "Advanced Tactics",
+    "img": "assets/masteries/advanced_tactics.png",
+    "character": "maximilian",
+    "description": "Enemies receive double damage from non-attack sources.",
+    "skill_level": 2,
+    "unlock_level": 2
+  },
+  {
+    "slug": "creativity",
+    "name": "Creativity",
+    "img": "assets/masteries/creativity.png",
+    "character": "maximilian",
+    "description": "For each different active Set, gain 8% Damage Amplification and 4 Armor.",
+    "skill_level": 2,
+    "unlock_level": 3
+  },
+  {
+    "slug": "iron-will",
+    "name": "Iron Will",
+    "img": "assets/masteries/iron_will.png",
+    "character": "maximilian",
+    "description": "Whenever you restore health, restore 1 extra point of health for every 5 missing points.",
+    "skill_level": 2,
+    "unlock_level": 4
+  },
+  {
+    "slug": "reckless-strike",
+    "name": "Reckless Strike",
+    "img": "assets/masteries/reckless_strike.png",
+    "character": "maximilian",
+    "description": "Counterattack now also triggers when you don't dodge.",
+    "skill_level": 2,
+    "unlock_level": 5
+  },
+  {
+    "slug": "speciality",
+    "name": "Speciality",
+    "img": "assets/masteries/speciality.png",
+    "character": "maximilian",
+    "description": "If you only have one active Set (excluding Mythics), gain a buff to your stats tailored to that Set.",
+    "skill_level": 2,
+    "unlock_level": 6
+  },
+  {
+    "slug": "imposing-presence",
+    "name": "Imposing Presence",
+    "img": "assets/masteries/imposing_presence.png",
+    "character": "maximilian",
+    "description": "At the end of the round, deal 3 magic damage to all enemies. Increases by 3 every turn.",
+    "skill_level": 2,
+    "unlock_level": 7
+  },
+  {
+    "slug": "dual-wielding",
+    "name": "Dual Wielding",
+    "img": "assets/masteries/dual_wielding.png",
+    "character": "maximilian",
+    "description": "If you have two weapons equipped, gain an extra attack at the start of every round.",
+    "skill_level": 3,
+    "unlock_level": 0
+  },
+  {
+    "slug": "superior-quality",
+    "name": "Superior Quality",
+    "img": "assets/masteries/superior_quality.png",
+    "character": "maximilian",
+    "description": "Equipped items at level 3 count double for Set activation.",
+    "skill_level": 3,
+    "unlock_level": 0
+  },
+  {
+    "slug": "shieldmaster",
+    "name": "Shieldmaster",
+    "img": "assets/masteries/shieldmaster.png",
+    "character": "maximilian",
+    "description": "If you have a shield equipped, add your base Armor to your physical damage when attacking.",
+    "skill_level": 3,
+    "unlock_level": 0
+  },
+  {
+    "slug": "wild-warrior",
+    "name": "Wild Warrior",
+    "img": "assets/masteries/wild_warrior.png",
+    "character": "maximilian",
+    "description": "Your Rage and Poison no longer lose stacks.",
+    "skill_level": 3,
+    "unlock_level": 0
+  },
+  {
+    "slug": "chaotic-violence",
+    "name": "Chaotic Violence",
+    "img": "assets/masteries/chaotic_violence.png",
+    "character": "maximilian",
+    "description": "Gain 150% Damage Amplification, but the target of your attacks is chosen randomly.",
+    "skill_level": 3,
+    "unlock_level": 5
+  },
+  {
+    "slug": "life-force",
+    "name": "Life Force",
+    "img": "assets/masteries/life_force.png",
+    "character": "maximilian",
+    "description": "When you restore health while being at full health, gain temporary armor equal to the health that you would have restored. Gain 2 Regeneration.",
+    "skill_level": 3,
+    "unlock_level": 0,
+    "stats": {
+      "Regeneration": 2
+    }
+  },
+  {
+    "slug": "protagonist",
+    "name": "Protagonist",
+    "img": "assets/masteries/protagonist.png",
+    "character": "maximilian",
+    "description": "Gain 80 Armor. Enemies attack an additional time.",
+    "skill_level": 3,
+    "unlock_level": 2,
+    "stats": {
+      "Armor": 80
+    }
+  },
+  {
+    "slug": "war-of-attrition",
+    "name": "War of Attrition",
+    "img": "assets/masteries/war_of_attrition.png",
+    "character": "maximilian",
+    "description": "When entering a new Area and at the end of the round, apply 3 Weak and 3 Wound to all enemies.",
+    "skill_level": 3,
+    "unlock_level": 3
+  },
+  {
+    "slug": "one-dog-army",
+    "name": "One Dog Army",
+    "img": "assets/masteries/one_dog_army.png",
+    "character": "maximilian",
+    "description": "When you attack an enemy that hasn't yet been attacked this combat, gain 1 Barrier, 25% Damage amplification and restore 5 health.",
+    "skill_level": 3,
+    "unlock_level": 4
+  },
+  {
+    "slug": "eternal-blessing",
+    "name": "Eternal Blessing",
+    "img": "assets/masteries/eternal_blessing.png",
+    "character": "maximilian",
+    "description": "Whenever you lose 30 health, gain Barriers equal to your Guard.",
+    "skill_level": 3,
+    "unlock_level": 5
+  },
+  {
+    "slug": "bloodlust",
+    "name": "Bloodlust",
+    "img": "assets/masteries/bloodlust.png",
+    "character": "maximilian",
+    "description": "While you are at full health, all your damage is doubled. Gain 5% Lifesteal.",
+    "skill_level": 3,
+    "unlock_level": 6,
+    "stats": {
+      "Lifesteal": 5
+    }
+  },
+  {
+    "slug": "overwhelming-strength",
+    "name": "Overwhelming Strength",
+    "img": "assets/masteries/overwhelming_strength.png",
+    "character": "maximilian",
+    "description": "Attacks and Mana Burst triggers deal triple damage, but you gain 5 Wounds after attacking and can't gain extra attacks.",
+    "skill_level": 3,
+    "unlock_level": 7
+  },
+  {
+    "slug": "blood-sacrifice",
+    "name": "Blood Sacrifice",
+    "img": "assets/masteries/blood_sacrifice.png",
+    "character": "the-shadow",
+    "description": "When entering a new Area, lose 1 health and gain 30% Damage Amplification.",
+    "skill_level": 1,
+    "unlock_level": 0
+  },
+  {
+    "slug": "tempting-offer",
+    "name": "Tempting Offer",
+    "img": "assets/masteries/tempting_offer.png",
+    "character": "the-shadow",
+    "description": "When skipping chest rewards, restore 50% of your Max Health.",
+    "skill_level": 1,
+    "unlock_level": 0
+  },
+  {
+    "slug": "futility",
+    "name": "Futility",
+    "img": "assets/masteries/futility.png",
+    "character": "the-shadow",
+    "description": "When entering a new Area, apply 5 Weakness to ALL characters.",
+    "skill_level": 1,
+    "unlock_level": 0
+  },
+  {
+    "slug": "public-enemy",
+    "name": "Public Enemy",
+    "img": "assets/masteries/public_enemy.png",
+    "character": "the-shadow",
+    "description": "When entering a new Area, gain 4 armor for every enemy.",
+    "skill_level": 1,
+    "unlock_level": 0
+  },
+  {
+    "slug": "pain",
+    "name": "Pain",
+    "img": "assets/masteries/pain.png",
+    "character": "the-shadow",
+    "description": "Gain 2 Wound and 20 Rage at the end of each round.",
+    "skill_level": 1,
+    "unlock_level": 0
+  },
+  {
+    "slug": "destruction-magic",
+    "name": "Destruction Magic",
+    "img": "assets/masteries/destruction_magic.png",
+    "character": "the-shadow",
+    "description": "Your magic damage can critically strike. Gain 30% Critical Chance.",
+    "skill_level": 1,
+    "unlock_level": 0,
+    "stats": {
+      "Critical Chance": 30
+    }
+  },
+  {
+    "slug": "shadow-guard",
+    "name": "Shadow Guard",
+    "img": "assets/masteries/shadow_guard.png",
+    "character": "the-shadow",
+    "description": "The first time you lose health each combat, gain 1 Barrier.",
+    "skill_level": 1,
+    "unlock_level": 2
+  },
+  {
+    "slug": "rot",
+    "name": "Rot",
+    "img": "assets/masteries/rot.png",
+    "character": "the-shadow",
+    "description": "When attacking, apply five times the Poison you suffer. At the start of combat, gain 3 Poison.",
+    "skill_level": 1,
+    "unlock_level": 3
+  },
+  {
+    "slug": "ceremonial-rite",
+    "name": "Ceremonial Rite",
+    "img": "assets/masteries/ceremonial_rite.png",
+    "character": "the-shadow",
+    "description": "At the end of the round, apply 5 Hex to all enemies.",
+    "skill_level": 1,
+    "unlock_level": 4
+  },
+  {
+    "slug": "sudden-aging",
+    "name": "Sudden Aging",
+    "img": "assets/masteries/sudden_aging.png",
+    "character": "the-shadow",
+    "description": "When entering a new Area, a random enemy loses 20% of its Max Health and you restore 10% of your Max Health.",
+    "skill_level": 1,
+    "unlock_level": 5
+  },
+  {
+    "slug": "hunger",
+    "name": "Hunger",
+    "img": "assets/masteries/hunger.png",
+    "character": "the-shadow",
+    "description": "When entering a new Area, gain an extra attack and 2 Weakness.",
+    "skill_level": 1,
+    "unlock_level": 6
+  },
+  {
+    "slug": "cheat-death",
+    "name": "Cheat Death",
+    "img": "assets/masteries/cheat_death.png",
+    "character": "the-shadow",
+    "description": "The first time you were to die each round, gain Invulnerable and stay at 1 health.",
+    "skill_level": 1,
+    "unlock_level": 7
+  },
+  {
+    "slug": "corrupted-soul",
+    "name": "Corrupted Soul",
+    "img": "assets/masteries/corrupted_soul.png",
+    "character": "the-shadow",
+    "description": "While suffering any negative Status, all damage received is reduced by 30%.",
+    "skill_level": 2,
+    "unlock_level": 0
+  },
+  {
+    "slug": "grow-in-power",
+    "name": "Grow in Power",
+    "img": "assets/masteries/grow_in_power.png",
+    "character": "the-shadow",
+    "description": "Gain 2 Regeneration. At the end of the round, gain 10% Damage Amplification.",
+    "skill_level": 2,
+    "unlock_level": 0,
+    "stats": {
+      "Regeneration": 2
+    }
+  },
+  {
+    "slug": "impervious-warding",
+    "name": "Impervious Warding",
+    "img": "assets/masteries/impervious_warding.png",
+    "character": "the-shadow",
+    "description": "Your Barriers have a 20% chance of not breaking when hit.",
+    "skill_level": 2,
+    "unlock_level": 0
+  },
+  {
+    "slug": "curse-magic",
+    "name": "Curse Magic",
+    "img": "assets/masteries/curse_magic.png",
+    "character": "the-shadow",
+    "description": "Mana Burst triggers apply on-hit effects. Gain 2 Magic damage.",
+    "skill_level": 2,
+    "unlock_level": 0,
+    "stats": {
+      "Magic Damage": 2
+    }
+  },
+  {
+    "slug": "living-in-solitude",
+    "name": "Living in Solitude",
+    "img": "assets/masteries/living_in_solitude.png",
+    "character": "the-shadow",
+    "description": "Gain an extra attack when fighting lone enemies.",
+    "skill_level": 2,
+    "unlock_level": 0
+  },
+  {
+    "slug": "soul-leech",
+    "name": "Soul Leech",
+    "img": "assets/masteries/soul_leech.png",
+    "character": "the-shadow",
+    "description": "After killing an enemy, restore 5 health.",
+    "skill_level": 2,
+    "unlock_level": 0
+  },
+  {
+    "slug": "decaying-touch",
+    "name": "Decaying Touch",
+    "img": "assets/masteries/decaying_touch.png",
+    "character": "the-shadow",
+    "description": "Your attacks always deal 1 physical damage. The rest of the damage you would've dealt is applied as Poison.\nGain 10 Physical Damage.",
+    "skill_level": 2,
+    "unlock_level": 2,
+    "stats": {
+      "Physical Damage": 10
+    }
+  },
+  {
+    "slug": "shared-fate",
+    "name": "Shared Fate",
+    "img": "assets/masteries/shared_fate.png",
+    "character": "the-shadow",
+    "description": "Whenever you lose stacks of a Status in combat, a random enemy gains the same amount of Wound stacks.",
+    "skill_level": 2,
+    "unlock_level": 3
+  },
+  {
+    "slug": "shadow-veil",
+    "name": "Shadow Veil",
+    "img": "assets/masteries/shadow_veil.png",
+    "character": "the-shadow",
+    "description": "At the end of each round, if you don't have armor, gain 10 armor.",
+    "skill_level": 2,
+    "unlock_level": 4
+  },
+  {
+    "slug": "war-magic",
+    "name": "War Magic",
+    "img": "assets/masteries/war_magic.png",
+    "character": "the-shadow",
+    "description": "Now Mana Burst deals damage to all enemies.",
+    "skill_level": 2,
+    "unlock_level": 5
+  },
+  {
+    "slug": "soul-eater",
+    "name": "Soul Eater",
+    "img": "assets/masteries/soul_eater.png",
+    "character": "the-shadow",
+    "description": "After killing an enemy, gain 25% Damage Amplification.",
+    "skill_level": 2,
+    "unlock_level": 6
+  },
+  {
+    "slug": "ethereal-form",
+    "name": "Ethereal Form",
+    "img": "assets/masteries/ethereal_form.png",
+    "character": "the-shadow",
+    "description": "Every 3rd turn, become Invulnerable,",
+    "skill_level": 2,
+    "unlock_level": 7
+  },
+  {
+    "slug": "absolute-power",
+    "name": "Absolute Power",
+    "img": "assets/masteries/absolute_power.png",
+    "character": "the-shadow",
+    "description": "The damage increase from Damage Amplification is doubled.",
+    "skill_level": 3,
+    "unlock_level": 0
+  },
+  {
+    "slug": "solve",
+    "name": "Solve",
+    "img": "assets/masteries/solve.png",
+    "character": "the-shadow",
+    "description": "If every item you have equipped is from a different Category, ALL your stats are buffed.",
+    "skill_level": 3,
+    "unlock_level": 0
+  },
+  {
+    "slug": "corruption-s-call",
+    "name": "Corruption's Call",
+    "img": "assets/masteries/corruptions_call.png",
+    "character": "the-shadow",
+    "description": "When entering a new Area, gain 2 stacks of Poison, Weakness and Wound. Then apply 10 stacks of each to all enemies and stun them.",
+    "skill_level": 3,
+    "unlock_level": 0
+  },
+  {
+    "slug": "inevitable-end",
+    "name": "Inevitable End",
+    "img": "assets/masteries/inevitable_end.png",
+    "character": "the-shadow",
+    "description": "At the end of the round, if you didn't lose health, all enemies lose 10% of their Max Health.",
+    "skill_level": 3,
+    "unlock_level": 0
+  },
+  {
+    "slug": "towards-eternity",
+    "name": "Towards Eternity",
+    "img": "assets/masteries/towards_eternity.png",
+    "character": "the-shadow",
+    "description": "Gain 20 Max Health and restore 20 health.\nAfter receiving damage, if you have armor left, gain 3 Regeneration.",
+    "skill_level": 3,
+    "unlock_level": 0,
+    "stats": {
+      "Max Health": 20
+    }
+  },
+  {
+    "slug": "fear-of-death",
+    "name": "Fear of Death",
+    "img": "assets/masteries/fear_of_death.png",
+    "character": "the-shadow",
+    "description": "Enemies below 50% of their life receive triple damage.",
+    "skill_level": 3,
+    "unlock_level": 0
+  },
+  {
+    "slug": "dark-matter",
+    "name": "Dark Matter",
+    "img": "assets/masteries/dark_matter.png",
+    "character": "the-shadow",
+    "description": "While you have armor, enemies deal 10% less damage and can't apply Statuses.",
+    "skill_level": 3,
+    "unlock_level": 2
+  },
+  {
+    "slug": "coagula",
+    "name": "Coagula",
+    "img": "assets/masteries/coagula.png",
+    "character": "the-shadow",
+    "description": "If the three items equipped in your Armor Slots share Category (for example, Headpiece), gain 30 Armor. If both items equipped in your Hand Slots share Category, gain 25% Damage Amplification and 1 Guard. If both items equipped in your Decoration Slots share Category, gain 5 Regeneration.",
+    "skill_level": 3,
+    "unlock_level": 4
+  },
+  {
+    "slug": "no-escape",
+    "name": "No Escape",
+    "img": "assets/masteries/no_escape.png",
+    "character": "the-shadow",
+    "description": "Enemies suffering from a negative Status have a 50% chance of gaining stacks instead of losing them.",
+    "skill_level": 3,
+    "unlock_level": 3
+  },
+  {
+    "slug": "dark-energy",
+    "name": "Dark Energy",
+    "img": "assets/masteries/dark_energy.png",
+    "character": "the-shadow",
+    "description": "While you don't have armor, all your damage is doubled and you apply 2 extra stacks when applying Statuses.",
+    "skill_level": 3,
+    "unlock_level": 5
+  },
+  {
+    "slug": "ascended-soul",
+    "name": "Ascended Soul",
+    "img": "assets/masteries/ascended_soul.png",
+    "character": "the-shadow",
+    "description": "At the end of the 3rd round, gain 10 Regeneration, 100% Damage Amplification and Invulnerable.",
+    "skill_level": 3,
+    "unlock_level": 6
+  },
+  {
+    "slug": "trinitas",
+    "name": "Trinitas",
+    "img": "assets/masteries/trinitas.png",
+    "character": "the-shadow",
+    "description": "At the start of each round, if you have exactly three stacks of any Status, gain 3 extra attacks.",
+    "skill_level": 3,
+    "unlock_level": 7
+  }
+]

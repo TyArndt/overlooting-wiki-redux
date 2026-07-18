@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="" name="keywords"/>
+<meta content="Overlooting wiki" name="description"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Welcome to the Overlooting wiki!</title>
+<link rel="stylesheet" href="assets/style.css"/>
+<style>
+#wiki-tooltip {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  background: #0a0b10;
+  border: 3px solid #35384d;
+  padding: 10px 14px;
+  min-width: 200px;
+  max-width: 280px;
+  pointer-events: none;
+  font-family: monospace;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.9);
+}
+.wtt-header { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+#wtt-img { width: 28px; height: 28px; image-rendering: pixelated; }
+.wtt-name { font-size: 1rem; font-weight: bold; }
+.wtt-subtext { font-size: 0.8rem; color: #aaa; margin-top: 3px; }
+.wtt-desc { font-size: 0.82rem; color: #ddd; margin-top: 6px; line-height: 1.4; }
+.wtt-stats { margin-top: 6px; }
+.wtt-stat {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 0.82rem;
+  font-weight: bold;
+  color: #fff;
+  padding: 2px 0;
+}
+
+/* ── Category Cards ── */
+.page-intro {
+  color: #888;
+  font-size: 0.9rem;
+  margin: -0.5rem 0 1.75rem;
+}
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+.category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem 1rem 1.4rem;
+  background: #1e2130;
+  border: 2px solid #35384d;
+  text-decoration: none;
+  color: inherit;
+  font-style: normal;
+  gap: 0.75rem;
+  transition: background 0.15s, border-color 0.15s;
+}
+.category-card:hover {
+  background: #242840;
+  border-color: var(--accent);
+  color: inherit;
+  font-style: normal;
+}
+.category-card:hover .card-name {
+  color: #aad8ec;
+  font-style: normal;
+}
+.card-accent-bar {
+  width: calc(100% + 2rem);
+  height: 3px;
+  background: var(--accent);
+  margin: -1.5rem -1rem 0.25rem;
+  flex-shrink: 0;
+}
+.card-sprite {
+  width: 72px;
+  height: 72px;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  object-fit: contain;
+}
+.card-icon {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+  background: #13151e;
+  border: 1px solid #35384d;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+.card-name {
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  color: #e8e4d8;
+  margin: 0;
+  transition: color 0.15s;
+}
+.card-count {
+  font-size: 0.7rem;
+  color: #555;
+  background: #13151e;
+  border: 1px solid #2a2d40;
+  padding: 1px 8px;
+  letter-spacing: 0.05em;
+  min-height: 1.1rem;
+}
+.card-desc {
+  font-size: 0.76rem;
+  color: #666;
+  line-height: 1.4;
+  margin: 0;
+}
+</style>
+</head>
+<body>
+<header class="header">
+<a href="index.html">overlooting.wiki</a>
+</header>
+<div class="container">
+<div id="breadcrumbs">
+<a href="index.html">Home</a>
+</div>
+<main>
+<div id="content">
+<div class="cards-grid">
+
+<a class="category-card" href="characters.html" style="--accent:#7bbfd4">
+<div class="card-accent-bar"></div>
+<img class="card-sprite" src="assets/characters/dog.png" alt=""/>
+<div class="card-name">Characters</div>
+<span class="card-count" style="display:none">3</span>
+<p class="card-desc" style="display:none">Liz, Maximilian, The Shadow</p>
+</a>
+
+<a class="category-card" href="items.html" style="--accent:#d4af37">
+<div class="card-accent-bar"></div>
+<img class="card-sprite" src="assets/items/executioners_scythe.png" alt=""/>
+<div class="card-name">Items</div>
+<span class="card-count" style="display:none">269</span>
+<p class="card-desc" style="display:none">Gear in 6 rarity tiers</p>
+</a>
+
+<a class="category-card" href="sets.html" style="--accent:#3a8832">
+<div class="card-accent-bar"></div>
+<img class="card-sprite" src="assets/sets/ironclad.png" alt=""/>
+<div class="card-name">Sets</div>
+<span class="card-count" style="display:none">41</span>
+<p class="card-desc" style="display:none">Set bonuses including mythic sets</p>
+</a>
+
+<a class="category-card" href="masteries.html" style="--accent:#6e40a3">
+<div class="card-accent-bar"></div>
+<img class="card-sprite" src="assets/masteries/absolute_power.png" alt=""/>
+<div class="card-name">Masteries</div>
+<span class="card-count" style="display:none">109</span>
+<p class="card-desc" style="display:none">Passive upgrades per character</p>
+</a>
+
+<a class="category-card" href="enemies.html" style="--accent:#cf4040">
+<div class="card-accent-bar"></div>
+<img class="card-sprite" src="assets/enemies/corruptions_avatar.png" alt=""/>
+<div class="card-name">Enemies</div>
+<span class="card-count" style="display:none">62</span>
+<p class="card-desc" style="display:none">Every enemy across all three zones</p>
+</a>
+
+<a class="category-card" href="statuses.html" style="--accent:#9966cc">
+<div class="card-accent-bar"></div>
+<img class="card-sprite" src="assets/statuses/poison.png" alt=""/>
+<div class="card-name">Statuses</div>
+<span class="card-count" style="display:none">9</span>
+<p class="card-desc" style="display:none">Combat buffs and debuffs</p>
+</a>
+
+<a class="category-card" href="stats.html" style="--accent:#e67e22">
+<div class="card-accent-bar"></div>
+<div class="card-icon">⚔</div>
+<div class="card-name">Stats</div>
+<span class="card-count" style="display:none">14</span>
+<p class="card-desc" style="display:none">Core stats that define your build</p>
+</a>
+
+<a class="category-card" href="potions.html" style="--accent:#27ae60">
+<div class="card-accent-bar"></div>
+<img class="card-sprite" src="assets/potions/healing_potion.png" alt=""/>
+<div class="card-name">Potions</div>
+<span class="card-count" style="display:none">13</span>
+<p class="card-desc" style="display:none">Consumables found while exploring</p>
+</a>
+
+<a class="category-card" href="styles.html" style="--accent:#34A6E2">
+<div class="card-accent-bar"></div>
+<div class="card-icon">✦</div>
+<div class="card-name">Styles</div>
+<span class="card-count" style="display:none">102</span>
+<p class="card-desc" style="display:none">Combat archetypes to shape your run</p>
+</a>
+
+<a class="category-card" href="rooms.html" style="--accent:#8e9ab4">
+<div class="card-accent-bar"></div>
+<div class="card-icon">⬡</div>
+<div class="card-name">Rooms &amp; Events</div>
+<span class="card-count" style="display:none">&nbsp;</span>
+<p class="card-desc" style="display:none">Zones, shrines, forges, chests, and more</p>
+</a>
+
+<a class="category-card" href="builds.html" style="--accent:#b0b0c0">
+<div class="card-accent-bar"></div>
+<div class="card-icon">⊞</div>
+<div class="card-name">Builds</div>
+<span class="card-count" style="display:none">&nbsp;</span>
+<p class="card-desc" style="display:none">Plan your character and item builds</p>
+</a>
+
+<a class="category-card" href="corruption.html" style="--accent:#7b3fbd">
+<div class="card-accent-bar"></div>
+<img class="card-sprite" src="assets/corruption/corruption.png" alt=""/>
+<div class="card-name">Corruption</div>
+<span class="card-count" style="display:none">6</span>
+<p class="card-desc" style="display:none">Difficulty levels with escalating rewards</p>
+</a>
+
+</div>
+</main>
+</div>
+<div class="spacer"></div>
+<footer class="footer">
+<p>This is a non-commercial fan wiki. All sprites are property of Posing Possums / Overlooting. No copyright infringement is intended.</p>
+</footer>
+<div id="wiki-tooltip">
+  <div class="wtt-header">
+    <img id="wtt-img" src="" alt="" style="display:none"/>
+    <span class="wtt-name" id="wtt-name"></span>
+  </div>
+  <div id="wtt-body"></div>
+</div>
+<!-- Cloudflare Pages Analytics --><script data-cf-beacon='{"token": "c53fb89800e545a681eab9087f42f0e6"}' defer="" src="https://static.cloudflareinsights.com/beacon.min.js"></script><!-- Cloudflare Pages Analytics -->
+<script src="assets/index-tooltip.js"></script>
+</body>
+</html>

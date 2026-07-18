@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "maximilian",
+    "name": "Maximilian",
+    "img": "assets/characters/dog.png",
+    "lore": "\"A beloved hero who gave up fighting to become a blacksmith. The coming of The Corruption forced him to take up arms once more.\"",
+    "passives": [
+      "Start with 10 extra Max Health.",
+      "Forges gain 2 uses. When you forge an item, restore 10% of your health.",
+      "The first time you would die, prevent it and restore all your health."
+    ]
+  },
+  {
+    "slug": "liz",
+    "name": "Liz",
+    "img": "assets/characters/cat.png",
+    "lore": "\"A legendary thief wanted in several countries. Surprisingly, she accepted without hesitation when asked to help fight the Corruption.\"",
+    "passives": [
+      "One time per Area, when you trash an item, obtain another random one.",
+      "The Raccoon gives you an extra potion.",
+      "Items in Boss Chests are upgraded."
+    ]
+  },
+  {
+    "slug": "the-shadow",
+    "name": "The Shadow",
+    "img": "assets/characters/shadow.png",
+    "lore": "\"Once a normal person, they lost all their memories after being transformed by the Corruption. Now, their sole goal is to fight it.\"",
+    "passives": [
+      "Equipment slots can hold items with a larger variety of Categories.",
+      "Golden Chests found in Chest Areas contain rarer items.",
+      "Shrines in the Path to the Core are more powerful."
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "barrier",
+    "name": "Barrier",
+    "img": "assets/statuses/barrier.png",
+    "description": "When damage would be taken, negate it and lose 1 Barrier stack."
+  },
+  {
+    "slug": "confusion",
+    "name": "Confusion",
+    "img": "assets/statuses/confusion.png",
+    "description": "Your attacks have a 33% chance of randomly changing target and another 33% chance of completely missing."
+  },
+  {
+    "slug": "hex",
+    "name": "Hex",
+    "img": "assets/statuses/hex.png",
+    "description": "When receiving damage, receive extra magic damage equal to the number of Hex stacks. Then, lose all the stacks."
+  },
+  {
+    "slug": "invulnerable",
+    "name": "Invulnerable",
+    "img": "assets/statuses/invulnerable.png",
+    "description": "You don't take any damage or receive any negative Status. At the end of the round, lose your invulnerability."
+  },
+  {
+    "slug": "poison",
+    "name": "Poison",
+    "img": "assets/statuses/poison.png",
+    "description": "At the end of the round, take poison damage equal to the number of Poison stacks. Then, lose half the stacks rounded down (minimum 1)."
+  },
+  {
+    "slug": "rage",
+    "name": "Rage",
+    "img": "assets/statuses/rage.png",
+    "description": "Whenever you attack, deal 1 extra physical damage for each Rage stack. Then, lose half the stacks rounded down (minimum 1)."
+  },
+  {
+    "slug": "stun",
+    "name": "Stun",
+    "img": "assets/statuses/stun.png",
+    "description": "Skip your turn. Then, break free from the stun."
+  },
+  {
+    "slug": "weakness",
+    "name": "Weakness",
+    "img": "assets/statuses/weakness.png",
+    "description": "Deal 1 less physical damage when attacking for each Weakness stack. At the end of the round, lose half the stacks rounded down (minimum 1)."
+  },
+  {
+    "slug": "wound",
+    "name": "Wound",
+    "img": "assets/statuses/wound.png",
+    "description": "When receiving damage, receive 1 extra physical damage for every Wound stack. At the end of the round, lose half the stacks rounded down (minimum 1)."
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "corrupted-forest",
+    "name": "Corrupted Forest",
+    "description": "Enemies These enemies can be found: Regular Enemies Beastly Mandrake Warghark-eater Plant Creeping Mandrake Giant Shroomy Humanoid Mandrake Wolbbit-eater Plant Saurian Mandrake Shroomy Shroomy Family Slime-eater Plant Strange Corvid Strange Reptilian Strange Rhino Minions Corrupted Flower Growing Flower Bosses Drake-Eater Plant Drake Mandrake Giant-Eater Plant Strange Dragon Troll-Eater Plant Sprite"
+  },
+  {
+    "slug": "outer-forest",
+    "name": "Outer Forest",
+    "description": "Enemies These enemies can be found: Regular Enemies Amalgam Forest-kin Brute Tortobra Warghark Hummingwasp Forest-kin Warrior Forest-kin Druid Forest-kin Assassin Slime Scornake Wolbbit Minions Sappling Slime Drone Bosses Chimera King of the Forest Manticore Seed of Corruption Slime Mother Sprite"
+  },
+  {
+    "slug": "path-to-the-core",
+    "name": "Path to the Core",
+    "description": "Enemies These enemies can be found: Regular Enemies Coreborn Arcanist Coreborn Beast Coreborn Homunculus Core Fragment Orb of the Core Shield of the Core Spear of the Core Corrupted Berserker Corrupted Hermit Corrupted Priest Corrupted Warden Minions Burning Faithful Corrupted Hero Daughter of The Corruption Son of The Corruption Cursed Faithful Rotten Faithful Weeping Faithful Wounded Faithful Bosses Avatar of The Corruption Prophet of The Corruption The Corruption, Incarnate The Rotten The Wounded Sprite"
+  }
+]
