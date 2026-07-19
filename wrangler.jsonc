@@ -10,5 +10,8 @@
   },
   "compatibility_flags": [
     "nodejs_compat"
+  ],
+  "routes": [
+    { "pattern": "overlooting-wiki-redux.ty-arr.com", "custom_domain": true }
   ]
 }
