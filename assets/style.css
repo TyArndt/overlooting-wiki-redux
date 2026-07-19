@@ -50,21 +50,23 @@ h3 { font-size: 1.05rem; }
 /* ── Container ── */
 
 .container {
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
     margin: 6px auto 1rem auto;
     padding: 2rem;
     background-color: #1a1d2a;
     color: #e0ddd8;
     border: 6px solid #35384d;
     box-shadow: 0 0 0 6px #000, 0 8px 32px rgba(0,0,0,0.7);
+    box-sizing: border-box;
 }
 
 .container--wide {
-    width: 900px;
+    max-width: 900px;
 }
 
 .container--builds {
-    width: 1200px;
+    max-width: 1200px;
 }
 
 /* ── Grid ── */
@@ -161,3 +163,31 @@ tbody tr:hover {
 ::-webkit-scrollbar-track { background: #0f1015; }
 ::-webkit-scrollbar-thumb { background: #35384d; border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: #4a4d66; }
+
+/* ── Mobile ── */
+
+@media (max-width: 640px) {
+    .container,
+    .container--wide,
+    .container--builds {
+        padding: 1rem;
+        border-width: 3px;
+        box-shadow: 0 0 0 3px #000, 0 8px 32px rgba(0,0,0,0.7);
+        margin: 6px auto 1rem auto;
+    }
+
+    .header {
+        font-size: 1.8rem;
+        padding: 1rem 0;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
