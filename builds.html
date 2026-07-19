@@ -283,7 +283,44 @@
   gap: 1.25rem;
   align-items: flex-start;
 }
+
+/* ── Mobile Panel Tabs (Equipment / Stats / Items) ── */
+#mobile-panel-tabs { display: none; }
+
 @media (max-width: 700px) {
+  #build-tabs-bar { flex-wrap: wrap; }
+  #build-tabs { flex: 1 1 100%; }
+  .build-actions { flex: 1 1 100%; justify-content: flex-end; }
+
+  #style-selector { flex-direction: column; }
+
+  #char-selector { gap: 0.5rem; }
+  .char-btn { padding: 0.6rem 0.35rem; gap: 5px; }
+  .char-btn img { width: 44px; height: 44px; }
+  .char-btn .char-name { font-size: 0.8rem; }
+
+  #mobile-panel-tabs {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 0.875rem;
+  }
+  .mobile-tab-btn {
+    flex: 1;
+    padding: 7px 4px;
+    background: #0a0b10;
+    border: 2px solid #2a2d40;
+    color: #7A7885;
+    font-family: 'Cinzel', serif;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+    text-align: center;
+  }
+  .mobile-tab-btn:hover     { border-color: #4a4d66; }
+  .mobile-tab-btn.active    { border-color: #7bbfd4; color: #7bbfd4; background: #1a2535; }
+  .mobile-tab-btn.hidden    { display: none; }
+
   #build-layout { flex-wrap: wrap; }
   #equip-panel { width: 100%; }
   #stats-panel,
@@ -292,6 +329,15 @@
     flex: 1 1 100%;
     width: 100%;
   }
+
+  /* Only the panel matching the active mobile tab is shown */
+  #build-layout > #equip-panel,
+  #build-layout > #stats-panel,
+  #build-layout.picker-open > #item-picker { display: none; }
+
+  #build-layout[data-mobile-view="equip"]  > #equip-panel  { display: block; }
+  #build-layout[data-mobile-view="stats"]  > #stats-panel  { display: block; }
+  #build-layout.picker-open[data-mobile-view="picker"] > #item-picker { display: flex; }
 }
 
 /* ── Equipment Panel ── */
@@ -849,8 +895,15 @@
   </div>
 </div>
 
+<!-- Mobile Panel Tabs -->
+<div id="mobile-panel-tabs">
+  <button class="mobile-tab-btn active" data-view="equip">Equipment</button>
+  <button class="mobile-tab-btn" data-view="stats">Stats</button>
+  <button class="mobile-tab-btn hidden" data-view="picker">Items</button>
+</div>
+
 <!-- Build Layout -->
-<div id="build-layout">
+<div id="build-layout" data-mobile-view="equip">
 
   <!-- Equipment Panel -->
   <div id="equip-panel">

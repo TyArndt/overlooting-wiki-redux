@@ -265,6 +265,24 @@ var container         = document.getElementById('page-container');
 var buildLayout       = document.getElementById('build-layout');
 var itemPickerEl      = document.getElementById('item-picker');
 
+// ── Mobile panel tabs (Equipment / Stats / Items) ───────────────────────────
+
+var mobileTabBtns      = document.querySelectorAll('#mobile-panel-tabs .mobile-tab-btn');
+var mobilePickerTabBtn = document.querySelector('#mobile-panel-tabs .mobile-tab-btn[data-view="picker"]');
+var preOpenMobileView  = 'equip';
+
+function setMobileView(view) {
+  hideTooltip(); // don't let a tooltip from the previous panel linger over the new one
+  buildLayout.setAttribute('data-mobile-view', view);
+  mobileTabBtns.forEach(function (btn) {
+    btn.classList.toggle('active', btn.dataset.view === view);
+  });
+}
+
+mobileTabBtns.forEach(function (btn) {
+  btn.addEventListener('click', function () { setMobileView(btn.dataset.view); });
+});
+
 function openPicker(slotType) {
   activeSlot        = slotType;
   activeMasterySlot = null;
@@ -272,6 +290,11 @@ function openPicker(slotType) {
   container.classList.remove('container--wide');
   container.classList.add('container--builds');
   buildLayout.classList.add('picker-open');
+  if (buildLayout.getAttribute('data-mobile-view') !== 'picker') {
+    preOpenMobileView = buildLayout.getAttribute('data-mobile-view') || 'equip';
+  }
+  mobilePickerTabBtn.classList.remove('hidden');
+  setMobileView('picker');
   renderEquipSlots();
   renderMasterySlots();
   renderPicker(slotType);
@@ -284,6 +307,11 @@ function openMasteryPicker(idx) {
   container.classList.remove('container--wide');
   container.classList.add('container--builds');
   buildLayout.classList.add('picker-open');
+  if (buildLayout.getAttribute('data-mobile-view') !== 'picker') {
+    preOpenMobileView = buildLayout.getAttribute('data-mobile-view') || 'equip';
+  }
+  mobilePickerTabBtn.classList.remove('hidden');
+  setMobileView('picker');
   renderEquipSlots();
   renderMasterySlots();
   renderMasteryPicker(idx);
@@ -296,6 +324,8 @@ function closePicker() {
   container.classList.remove('container--builds');
   container.classList.add('container--wide');
   buildLayout.classList.remove('picker-open');
+  mobilePickerTabBtn.classList.add('hidden');
+  setMobileView(preOpenMobileView);
   renderEquipSlots();
   renderMasterySlots();
 }
@@ -1109,6 +1139,14 @@ function showItemTooltip(item, level, x, y) {
 }
 
 function hideTooltip() { buildTooltip.style.display = 'none'; }
+
+// Touch has no real "hover" — a tap fires a synthetic mouseover with no
+// matching mouseout, so a tooltip shown by one tap would otherwise linger
+// until something happened to hide it. Clear it at the start of every new
+// touch; if that tap lands on a hoverable target, the touch->mouse event
+// sequence re-shows a fresh tooltip right after (mouseover fires after
+// touchstart), so this only ever kills a stale one.
+document.addEventListener('touchstart', hideTooltip, true);
 
 function showMasteryTooltip(mastery, x, y) {
   bttSetIcon.style.display = 'none';
