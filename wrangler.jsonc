@@ -1,8 +1,14 @@
 {
+  "$schema": "node_modules/wrangler/config-schema.json",
   "name": "overlooting-wiki-redux",
-  "compatibility_date": "2026-07-19",
+  "compatibility_date": "2026-07-18",
+  "observability": {
+    "enabled": true
+  },
   "assets": {
-    "directory": ".",
-    "binding": "ASSETS"
-  }
+    "directory": "."
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
 }
